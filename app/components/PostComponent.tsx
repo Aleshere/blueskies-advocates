@@ -22,16 +22,18 @@ const PostComponent = ({post}: Props) => {
             {post.avatar && (<Image src={urlForImage(post.avatar).url()} alt="Post" width={120} height={120} className='rounded-md' />)}
           </Link>
         </div>
-        <div className='col-span-4'>
+        <div className='ml-5 md:ml-0 col-span-4'>
           <Link href={`/posts/${post?.slug?.current}`}>
-            <h2 className={`${font.className} text-2xl dark:text-gray-400`}>{post?.title}</h2>
+            <h2 className={`${font.className} text-base md:text-2xl dark:text-gray-400`}>{post?.title}</h2>
             <p className={`${dateFont.className} my-2 text-blue-800`}>{new Date(post?.publishedAt).toDateString()}</p>
-            <p className='dark:text-gray-400 mb-4 line-clamp-2'>{post?.excerpt}</p>
+            <p className='dark:text-gray-400 mb-4 line-clamp-2 hidden md:block'>{post?.excerpt}</p>
           </Link>
 
-          {post?.tags?.map((tag) => (
-            <span key={tag?._id} className='mr-2 p-1 rounded-sm text-sm lowercase dark:bg-gray-950 border dark:border-gray-900'>#{tag?.name}</span>
-          ))}
+          <div className="flex-col md:flex-row hidden md:flex">
+            {post?.tags?.map((tag) => (
+              <span key={tag?._id} className='mr-2 p-1 rounded-sm text-sm lowercase dark:bg-gray-950 border-0 md:border dark:border-gray-900 underline md:no-underline'>#{tag?.name}</span>
+            ))}
+          </div>
         </div>
     </div>
   )

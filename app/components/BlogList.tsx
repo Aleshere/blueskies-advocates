@@ -18,9 +18,7 @@ const BlogList = ({ posts }: Props) => {
 
   return (
       <>
-        {posts?.length > 0 && posts?.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()).slice(0, loadMore).map((post:any) => {
-          console.log(post._id)
-          
+        {posts?.length > 0 && posts?.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()).slice(0, loadMore).map((post:any) => {       
           return (
             <PostComponent key={post?._id} post={post} />
           );
