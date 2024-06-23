@@ -1,11 +1,7 @@
 "use client"
 
 import { useState } from "react"
-
-import Image from 'next/image'
-import Link from 'next/link'
 import { Post } from '../utils/interface'
-import Header from "./Header"
 import PostComponent from "./PostComponent"
 
 interface Props {
@@ -21,12 +17,12 @@ const BlogList = ({ posts }: Props) => {
   };
 
   return (
-      <div>
+      <>
         {posts?.length > 0 && posts?.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()).slice(0, loadMore).map((post:any) => {
+          console.log(post._id)
+          
           return (
-            <div>
-                <PostComponent key={post?._id} post={post} />
-            </div>
+            <PostComponent key={post?._id} post={post} />
           );
         })}
 
@@ -64,7 +60,7 @@ const BlogList = ({ posts }: Props) => {
             </>
           )}
         </div>
-      </div>
+      </>
       
   )
 }

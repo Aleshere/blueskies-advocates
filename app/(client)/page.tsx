@@ -2,7 +2,6 @@ import { client } from "@/sanity/lib/client"
 import Header from "../components/Header";
 import { Post } from "../utils/interface";
 import BlogList from "../components/BlogList";
-import { hash } from "crypto";
 
 
 async function getPosts() {
