@@ -12,7 +12,7 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  // metadataBase: new URL("/"),
+  metadataBase: new URL("http://www.weareblueskies.com/"),
   title: {
     default: "BlueSkies Advocates | Communities Before Aviation",
     template: '%s | BlueSkies Advocates'
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description: "We care about communities and the environment. We share information and resources about aviation pollution and noise.",
     type: "website",
     locale: "en_US",
-    url: "/",
+    url: "http://www.weareblueskies.com/",
     siteName: "BlueSkies Advocates"
   },
 };
