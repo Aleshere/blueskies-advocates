@@ -1,5 +1,6 @@
+import React from "react";
 import Header from "@/app/components/Header";
-import Toc from "@/app/components/Toc";
+import SocialShare from "@/app/components/SocialShare";
 import { slugify } from "@/app/utils/helpers";
 import { Post } from "@/app/utils/interface";
 import { client } from "@/sanity/lib/client";
@@ -10,8 +11,6 @@ import { VT323 } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import React from "react";
-import { getHeapCodeStatistics } from "v8";
 
 const dateFont = VT323({ weight: "400", subsets: ["latin"] });
 
@@ -109,6 +108,10 @@ const page = async ({params}: Params) => {
                         value={post.body}
                         components={myPortableTextComponents}
                     />
+                </div>
+                
+                <div className='flex align-middle justify-center mt-10 mb-16' >
+                  <SocialShare url={`https://www.weareblueskies.com/posts/${params.slug}`} title={post?.excerpt} />
                 </div>
                 
                 <div className='text-center mt-10 mb-6' >

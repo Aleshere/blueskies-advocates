@@ -7,7 +7,20 @@ const font = Lilita_One({ weight: "400", subsets: ["latin"] });
 const Footer = () => {
   return (
     <footer className="mx-auto max-w-5xl px-6">
-        <div className="container pt-9">
+        
+        {/* <!--Copyright section--> */}
+        <div
+        className="text-center bg-amber-50 text-indigo-950 dark:bg-slate-950 dark:text-amber-50 dark:selection:bg-purple-500 mb-3">
+        © Copyright 2023-{new Date().getFullYear()} - All rights reserved
+            <Link href='/'>
+                <div className={`${font.className} text-3xl dark:text-amber-50 mt-10`}>
+                Blue
+                <span className="text-blue-500">Skies</span>
+                </div>
+            </Link>
+        </div>
+        
+        <div className="container pt-9 mb-20">
             <div className="mb-9 flex justify-center">
                 <a href="https://www.facebook.com/aviationpollutes" className="mr-9 text-neutral-800 dark:text-neutral-200">
                 <svg
@@ -30,18 +43,6 @@ const Footer = () => {
                 </svg>
                 </a>
             </div>
-        </div>
-
-        {/* <!--Copyright section--> */}
-        <div
-        className="text-center bg-amber-50 text-indigo-950 dark:bg-slate-950 dark:text-amber-50 dark:selection:bg-purple-500 mb-20">
-        © Copyright 2023-{new Date().getFullYear()} - All rights reserved
-            <Link href='/'>
-                <div className={`${font.className} text-3xl dark:text-amber-50 mt-10`}>
-                Blue
-                <span className="text-blue-500">Skies</span>
-                </div>
-            </Link>
         </div>
     </footer>
   )

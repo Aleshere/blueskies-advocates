@@ -37,7 +37,7 @@ const BlogList = ({ posts }: Props) => {
                 Load More
               </span>
             </button>
-            <div className="flex justify-center mt-5">
+            <div className="flex justify-center mt-5 mb-16">
                 Showing {loadMore} of {posts?.length} articles
             </div>
             </>
@@ -52,7 +52,7 @@ const BlogList = ({ posts }: Props) => {
               All articles loaded
             </button>
             
-            <div className="flex justify-center mt-5">
+            <div className="flex justify-center mt-5 mb-16">
                 Showing all articles
             </div>
             </>
