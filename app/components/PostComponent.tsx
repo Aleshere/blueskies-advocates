@@ -24,12 +24,12 @@ const PostComponent = ({post}: Props) => {
         </div>
         <div className='ml-5 md:ml-0 col-span-4'>
           <Link href={`/posts/${post?.slug?.current}`}>
-            <h2 className={`${font.className} text-base md:text-2xl dark:text-gray-400`}>{post?.title}</h2>
+            <h2 className={`${font.className} text-base md:text-2xl dark:text-gray-400 line-clamp-2 whitespace-pre-wrap`}>{post?.title}</h2>
             <p className={`${dateFont.className} my-2 text-blue-800`}>{new Date(post?.publishedAt).toDateString()}</p>
             <p className='dark:text-gray-400 mb-4 line-clamp-2 hidden md:block'>{post?.excerpt}</p>
           </Link>
 
-          <div className="flex-col md:flex-row hidden md:flex">
+          <div className="flex-col md:flex-row md:flex">
             {post?.tags?.map((tag) => (
               <span key={tag?._id} className='mr-2 p-1 rounded-sm text-sm lowercase dark:bg-gray-950 border-0 md:border dark:border-gray-900 underline md:no-underline'>#{tag?.name}</span>
             ))}
@@ -51,9 +51,9 @@ border-gray-900
 rounded-md
 shadow-sm
 shadow-blue-950
-hover:shadow-md
-hover:bg-indigo-400
-hover:text-white
-hover:dark:bg-gray-950
+md:hover:shadow-md
+md:hover:bg-indigo-400
+md:hover:text-white
+md:hover:dark:bg-gray-950
 transition-colors
 `
