@@ -24,7 +24,7 @@ async function getPostsByTag(tag: string) {
   return posts;
 }
 
-export const revalidate = 600;
+export const revalidate = 60;
 
 export async function generateMetadata({ params }: Params) {
   return {
