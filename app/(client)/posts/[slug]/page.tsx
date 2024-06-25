@@ -44,7 +44,7 @@ async function getPost(slug: string) {
     return post;
 }
 
-export const revalidate = 600;
+export const revalidate = 60;
 
 export async function generateMetadata({
   params,

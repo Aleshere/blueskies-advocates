@@ -30,12 +30,6 @@ export default async function Home() {
   const posts: Post[] = await getPosts()
   
   return (
-    // <div>
-    //   <Header title="Articles" />
-    //   <div>
-    //     {posts?.length > 0 && posts?.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()).map((post) => <PostComponent key={post?._id} post={post} />)}
-    //   </div>
-    // </div>
     <>    
       <Header title="Articles" />
       <BlogList posts={posts} />

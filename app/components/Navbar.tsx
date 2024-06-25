@@ -16,6 +16,9 @@ const Navbar = () => {
               </div>
             </Link>
             <div className="flex justify-between items-center" >
+              <Link href='/faq' className='mr-10 font-bold'>
+                FAQ
+              </Link>
               <Link href='/tag' className='mr-10 font-bold'>
                 Tags
               </Link>
