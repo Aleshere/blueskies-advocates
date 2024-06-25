@@ -111,6 +111,37 @@ const page = async () => {
             answer: 'For more information, you can consult studies from health and environmental organizations, such as the World Health Organization (WHO), the Environmental Protection Agency (EPA), and local health departments. Additionally, advocacy groups focusing on aviation emissions and community health often provide valuable resources and updates on this issue. We are one those groups and will be happy to answer any doubts you may have about the topic.',
         }
     ]
+    
+    const questionsLivingNearAirport = [
+        {
+            question: "What types of toxic pollutants are emitted by aircraft?",
+            answer: "Aircraft emit a range of toxic pollutants including particulate matter (PM), nitrogen oxides (NOx), volatile organic compounds (VOCs), carbon monoxide (CO), sulfur oxides (SOx), and heavy metals such as lead, barium, and cadmium. These pollutants are released during takeoff, landing, and taxiing, as well as from ground support equipment and airport operations."
+        },
+        {
+            question: 'How does particulate matter (PM) from aircraft affect health?',
+            answer: 'Particulate matter, especially ultrafine particles (UFPs) smaller than 100 nanometers, can penetrate deep into the lungs and enter the bloodstream, causing respiratory and cardiovascular problems. Long-term exposure to PM is associated with chronic respiratory diseases, heart disease, stroke, and even premature death.'
+        },
+        {
+            question: 'What are the health effects of nitrogen oxides (NOx) emitted by aircraft?',
+            answer: "Nitrogen oxides contribute to the formation of ground-level ozone and fine particulate matter, both of which are harmful to respiratory health. Exposure to NOx can lead to inflammation of the airways, reduced lung function, and increased susceptibility to respiratory infections. Chronic exposure can worsen asthma and other chronic respiratory conditions."
+        },
+        {
+            question: 'Are there specific health risks associated with heavy metals from aircraft emissions?',
+            answer: 'Yes, heavy metals such as lead, barium, and cadmium are toxic and can have severe health impacts even at low concentrations. Lead exposure is particularly harmful to children, affecting cognitive development and causing neurological damage. Barium and cadmium can damage the kidneys, liver, and bones, and increase the risk of cancer.',
+        },
+        {
+            question: 'How does living near an airport increase exposure to these pollutants?',
+            answer: 'Proximity to an airport increases exposure to toxic pollutants due to higher concentrations of emissions from aircraft and ground operations. Areas downwind of airports are particularly affected, as prevailing winds can carry pollutants over long distances, impacting air quality in nearby communities.',
+        },
+        {
+            question: 'What are the long-term health impacts of exposure to airport pollution?',
+            answer: "Long-term exposure to airport pollution can lead to chronic health issues such as asthma, bronchitis, cardiovascular diseases, cancer, and neurological disorders. Continuous exposure to high levels of toxic pollutants increases the risk of developing serious health conditions and reduces overall life expectancy."
+        },
+        {
+            question: 'So, is living near an airport the only problem? Why not just move?',
+            answer: 'No, that is just one of the issues citizens face. As discussed above, the impacts of aviation pollution are distributed over a wide radius. Moreover, moving is not necessarily something people can easily do, for a variety of reasons. Reducing the whole discourse to such a diminutive statement is pure gaslighting. ',
+        }
+    ]
 
   return (
     <>    
@@ -128,6 +159,11 @@ const page = async () => {
       <h2 className="pt-6 px-6 md:pt-6 md:px-12 text-xl font-bold text-blue-500" >Flight Paths</h2>
       <div className="bg-img-faq-accordion-mobile md:bg-img-faq-accordion-desktop flex w-full items-center justify-center overflow-hidden bg-faqLightPink bg-[size:100%_auto] bg-no-repeat">
         <FAQ questions={questionsFlightPaths} />
+      </div>
+      
+      <h2 className="pt-6 px-6 md:pt-6 md:px-12 text-xl font-bold text-blue-500" >Living near an Airport</h2>
+      <div className="bg-img-faq-accordion-mobile md:bg-img-faq-accordion-desktop flex w-full items-center justify-center overflow-hidden bg-faqLightPink bg-[size:100%_auto] bg-no-repeat">
+        <FAQ questions={questionsLivingNearAirport} />
       </div>
     </>
   );
