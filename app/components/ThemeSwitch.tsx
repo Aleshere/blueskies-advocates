@@ -19,7 +19,7 @@ const ThemeSwitch = () => {
         
     return (
     <button
-      className="border border-blue-500 rounded-2xl p-1 hover:bg-blue-500 hover:bg-opacity-10 dark:hover:bg-opacity-10 dark:hover:bg-amber-50"
+      className="theme-switch border border-blue-500 rounded-2xl p-1 hover:bg-blue-500 hover:bg-opacity-10 dark:hover:bg-opacity-10 dark:hover:bg-amber-50"
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
       {theme === "dark" ? <SunIcon /> : <MoonIcon />}
