@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description: "We care about communities and the environment. We share information and resources about aviation pollution and noise.",
     type: "website",
     locale: "en_US",
-    url: "http://www.weareblueskies.com/",
+    url: "www.weareblueskies.com/",
     siteName: "BlueSkies Advocates"
   },
 };
@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta property="fb:app_id" content="process.env.FACEBOOK_APP_ID" />
+        <meta property="fb:app_id" content={process.env.FACEBOOK_APP_ID} />
       </head>
       <body className={`${roboto.className} h-full bg-amber-50 text-indigo-950 dark:bg-slate-950 dark:text-amber-50 dark:selection:bg-purple-500`}>
         <Provider>

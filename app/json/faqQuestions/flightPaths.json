@@ -1,0 +1,36 @@
+{
+    "questionsFlightPaths": [
+        {
+            "question": "What are the health impacts of living under flight paths?",
+            "answer": "Living under flight paths can lead to several health issues due to constant exposure to noise pollution and air pollution. These impacts include increased stress levels, sleep disturbances, cardiovascular problems, respiratory issues, and in severe cases, an increased risk of heart disease and stroke."
+        },
+        {
+            "question": "How does aircraft noise affect sleep?",
+            "answer": "Aircraft noise can disrupt sleep patterns by causing frequent awakenings and reducing the quality of sleep. Chronic sleep disruption can lead to fatigue, decreased cognitive function, and long-term health problems such as hypertension and cardiovascular diseases."
+        },
+        {
+            "question": "Can noise pollution from aircraft cause cardiovascular problems?",
+            "answer": "Yes, studies have shown that long-term exposure to high levels of aircraft noise can increase the risk of hypertension (high blood pressure), heart attacks, and other cardiovascular issues. The stress caused by constant noise pollution triggers physiological responses that negatively impact heart health."
+        },
+        {
+            "question": "What respiratory issues are associated with living near flight paths?",
+            "answer": "Aircraft emissions contribute to air pollution, releasing particulate matter (PM), nitrogen oxides (NOx), and volatile organic compounds (VOCs) into the air. These pollutants can exacerbate respiratory conditions such as asthma, bronchitis, and other chronic obstructive pulmonary diseases (COPD)."
+        },
+        {
+            "question": "Are there specific groups more vulnerable to these health impacts?",
+            "answer": "Yes, certain groups such as children, the elderly, and individuals with pre-existing health conditions are more vulnerable to the adverse health impacts of living near flight paths. Children, in particular, can experience developmental and behavioral issues due to prolonged exposure to noise and air pollution."
+        },
+        {
+            "question": "How far from an airport do these health impacts extend?",
+            "answer": "Research indicates that the adverse health impacts of aircraft emissions can extend up to 15 miles from an airport and beyond. Noise pollution and air pollution can spread over a wider area, affecting more distant communities than just those placed directly under a path."
+        },
+        {
+            "question": "Is there a difference in health impacts between daytime and nighttime flights?",
+            "answer": "Yes, nighttime flights can have more severe health impacts due to the disruption of sleep. Chronic sleep deprivation caused by nighttime noise pollution is associated with higher risks of cardiovascular diseases, cognitive impairment, and overall reduced quality of life. It is a striking fact that in the USA, since the introduction of ANCA, there are no examples of airports successfully limiting night operations."
+        },
+        {
+            "question": "Where can I find more information on this topic?",
+            "answer": "For more information, you can consult studies from health and environmental organizations, such as the World Health Organization (WHO), the Environmental Protection Agency (EPA), and local health departments. Additionally, advocacy groups focusing on aviation emissions and community health often provide valuable resources and updates on this issue. We are one those groups and will be happy to answer any doubts you may have about the topic."
+        }
+    ]
+}

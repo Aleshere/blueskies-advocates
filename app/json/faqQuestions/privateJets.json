@@ -1,0 +1,24 @@
+{
+    "questionsPrivateJets": [
+        {
+            "question": "How do private jets contribute to pollution?",
+            "answer": "Private jets emit significantly higher amounts of greenhouse gases per passenger compared to commercial flights. They burn large quantities of fuel, contributing to CO2 emissions, and are often used for short trips, making them less efficient."
+        },
+        {
+            "question": "How much more polluting are private jets compared to commercial flights?",
+            "answer": "On a per passenger basis, private jets can be up to 14 times more polluting than commercial airliners. This is because they often carry fewer passengers, leading to higher emissions per person."
+        },
+        {
+            "question": "What are the environmental impacts of using private jets?",
+            "answer": "The environmental impacts include higher CO2 emissions, increased air pollution from other harmful gases, and greater noise pollution. The luxury of private jet travel comes at a significant environmental cost."
+        },
+        {
+            "question": "How significant is the contribution of private jets to global emissions?",
+            "answer": "While private jets make up a small percentage of total aviation traffic, their contribution to aviation emissions is disproportionately high. They account for about 2% of total aviation emissions, despite representing a tiny fraction of total flights."
+        },
+        {
+            "question": "Can private jet travel be justified environmentally?",
+            "answer": "Justifying private jet travel environmentally is challenging given the high per-passenger emissions. However, for critical business or medical reasons, where time is of the essence, it may be justified. Efforts have to be made to minimize their use to just journeys essential to our society."
+        }
+    ]
+}
