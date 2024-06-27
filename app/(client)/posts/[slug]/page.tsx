@@ -11,6 +11,7 @@ import { VT323 } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { LanguageSwitcher } from "@/app/components/LanguageSwitcher";
 
 const dateFont = VT323({ weight: "400", subsets: ["latin"] });
 
@@ -89,7 +90,10 @@ const page = async ({params}: Params) => {
     return (
         <div>
             <Header title={post?.title} />
-            <div className="text-center">
+            <div className="text-center">  
+                <div className="mb-6">
+                  <LanguageSwitcher />
+                </div>       
                 <span className={`${dateFont?.className} text-blue-500`}>
                     {new Date(post?.publishedAt).toDateString()}
                 </span>

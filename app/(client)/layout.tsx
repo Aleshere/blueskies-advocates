@@ -4,6 +4,7 @@ import Navbar from "./../components/Navbar";
 import "./globals.css";
 import { Provider } from "./../utils/Provider";
 import Footer from "../components/Footer";
+import Script from "next/script";
 
 const roboto = Roboto({
   weight: '400',
@@ -36,6 +37,18 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta property="fb:app_id" content={process.env.FACEBOOK_APP_ID} />
+        <Script
+          src="/assets/scripts/lang-config.js"
+          strategy="beforeInteractive"
+        />
+        <Script
+          src="/assets/scripts/translation.js"
+          strategy="beforeInteractive"
+        />
+        <Script
+          src="//translate.google.com/translate_a/element.js?cb=TranslateInit"
+          strategy="afterInteractive"
+        />
       </head>
       <body className={`${roboto.className} h-full bg-amber-50 text-indigo-950 dark:bg-slate-950 dark:text-amber-50 dark:selection:bg-purple-500`}>
         <Provider>

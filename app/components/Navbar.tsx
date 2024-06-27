@@ -1,26 +1,41 @@
 'use client'
 
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ThemeSwitch from './ThemeSwitch';
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Lilita_One } from "next/font/google";
 
 const font = Lilita_One({ weight: "400", subsets: ["latin"] });
 
-const Navbartest = () => { 
+const Navbar = () => { 
   const [navbar, setNavbar] = useState(false);
-
+  const [color, setColor] = useState('transparent');
+  
   const navHandler = () => {
     setNavbar(!navbar);
   };
+  
+  useEffect(() => {
+
+    const changeColor = () => {
+      if(window.scrollY >= 90)
+       {
+        setColor('rgb(2 6 23 / var(--tw-bg-opacity))')
+      } else {
+        setColor('transparent')
+      }
+    }
+    window.addEventListener('scroll', changeColor)
+  }, [])
+  
 
   return (
-    <div className="fixed left-0 top-0 w-full z-10" >
+    <div style={{ backgroundColor: `${color}` }} className="fixed left-0 top-0 w-full z-10" >
         <div className="mx-auto max-w-5xl m-auto flex justify-between items-center py-2.5 px-6">
             {/* logo */}
             <Link href='/'>
-              <div className={`${font.className} text-3xl dark:text-amber-50`}>
+              <div className={`${font.className} text-3xl text-blue-500 dark:text-amber-50`}>
                 Blue
                 <span className="text-blue-500">Skies</span>
               </div>
@@ -30,13 +45,13 @@ const Navbartest = () => {
             <ul className="hidden sm:flex text-zinc-950">
                 <div className="flex ">
                     <li className="dropdown-link">
-                        <Link className="dark:text-gray-400" href='/'>Home</Link>
+                        <Link className="text-gray-600 dark:text-gray-400" href='/'>Home</Link>
                     </li>
                     <li className="dropdown-link">
-                        <Link className="dark:text-gray-400" href='/faq'>FAQ</Link>
+                        <Link className="text-gray-600 dark:text-gray-400" href='/faq'>FAQ</Link>
                     </li>
                     <li className="dropdown-link">
-                        <Link className="dark:text-gray-400 mr-8" href='/tag'>Tags</Link>
+                        <Link className="text-gray-600 dark:text-gray-400 mr-8" href='/tag'>Tags</Link>
                     </li>
                     <li>
                         <ThemeSwitch />
@@ -81,4 +96,4 @@ const Navbartest = () => {
   );
 };
 
-export default Navbartest;
+export default Navbar;
