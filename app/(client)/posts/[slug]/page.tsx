@@ -43,6 +43,7 @@ async function getPost(slug: string) {
   }
   `;
     const post = await client.fetch(query)
+    console.log(urlForImage(post.avatar).width(1000).height(1000).url())
     return post;
 }
 
@@ -68,13 +69,8 @@ export async function generateMetadata({
       url: `https://weareblueskies.com/posts/${params.slug}`,
       siteName: "BlueSkies Advocates",
       images: [
-        //  {
-        //    url: post.avatar,
-        //  },
         {
-          url: urlForImage(post.avatar).width(1200).height(630).url(),
-          width: 1200,
-          height: 630,
+          url: urlForImage(post.avatar).width(1000).height(1000).url(),
         },
        ],
     },
