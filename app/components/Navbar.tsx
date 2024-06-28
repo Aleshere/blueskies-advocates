@@ -45,13 +45,13 @@ const Navbar = () => {
             <ul className="hidden sm:flex text-zinc-950">
                 <div className="flex ">
                     <li className="dropdown-link">
-                        <Link className="text-gray-600 dark:text-gray-400" href='/'>Home</Link>
+                        <Link className="text-gray-500 dark:text-gray-400" href='/'>Home</Link>
                     </li>
                     <li className="dropdown-link">
-                        <Link className="text-gray-600 dark:text-gray-400" href='/faq'>FAQ</Link>
+                        <Link className="text-gray-500 dark:text-gray-400" href='/faq'>FAQ</Link>
                     </li>
                     <li className="dropdown-link">
-                        <Link className="text-gray-600 dark:text-gray-400 mr-8" href='/tag'>Tags</Link>
+                        <Link className="text-gray-500 dark:text-gray-400 mr-8" href='/tag'>Tags</Link>
                     </li>
                     <li>
                         <ThemeSwitch />

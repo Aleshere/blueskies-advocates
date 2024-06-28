@@ -1,4 +1,5 @@
 export interface Post {
+  find(arg0: (b: any) => boolean): import("@sanity/types").Image;
   sort(arg0: (a: any, b: any) => number): any;
   length: number;
   map(arg0: (post: any) => import("react").JSX.Element): import("react").ReactNode | Iterable<import("react").ReactNode>;

@@ -29,6 +29,7 @@ async function getPost(slug: string) {
   *[_type == "post" && slug.current == "${slug}"][0] {
     title,
     slug,
+    avatar,
     publishedAt,
     excerpt,
     _id,
@@ -67,15 +68,15 @@ export async function generateMetadata({
       url: `http://www.weareblueskies.com/${params.slug}`,
       siteName: "BlueSkies Advocates",
       images: [
-        // {
-        //   url: post.image,
-        // }
-        // {
-        //   url: urlForImage(post?.body?.find((b: any) => b._type === "image")).width(1200).height(630).url(),
-        //   width: 1200,
-        //   height: 630,
-        // },
-      ],
+        //  {
+        //    url: post.avatar,
+        //  },
+        {
+          url: urlForImage(post.avatar).width(1200).height(630).url(),
+          width: 1200,
+          height: 630,
+        },
+       ],
     },
   };
 }
