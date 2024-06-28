@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/*-------------------------------------------
+        Generic link styling
+-------------------------------------------*/
+
 p a {
   text-decoration: none;
   box-shadow:
@@ -17,6 +21,10 @@ p a:hover {
     inset 0 -30px 0 rgba(168, 85, 247, 0.5),
     0 2px 0 rgba(168, 85, 247, 0.5);
 }
+
+/*-------------------------------------------
+        Burger menu styling
+-------------------------------------------*/
 
 .dropdown {
   position: absolute;
@@ -63,6 +71,10 @@ p a:hover {
   margin-top: 5px;
 }
 
+/*-------------------------------------------
+        Hides google translate bar
+-------------------------------------------*/
+
 .goog-te-gadget img {
   display: none !important;
 }
@@ -71,4 +83,27 @@ body > .skiptranslate {
 }
 body {
   top: 0px !important;
+}
+
+/*-------------------------------------------
+        Prevents links in post pages from 
+        overflowing on parent element  
+-------------------------------------------*/
+
+.post-page a {
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }

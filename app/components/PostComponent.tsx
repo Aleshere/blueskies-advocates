@@ -49,10 +49,8 @@ border
 border-gray-900
 rounded-md
 shadow-sm
-shadow-blue-950
 md:hover:shadow-md
-md:hover:bg-indigo-400
-md:hover:text-white
+md:hover:bg-[#fff8dc]
 md:hover:dark:bg-gray-950
 transition-colors
 `

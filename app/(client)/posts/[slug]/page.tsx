@@ -185,6 +185,7 @@ const myPortableTextComponents = {
 };
 
 const richTextStyles = `
+post-page
 mt-14
 text-justify
 max-w-2xl
