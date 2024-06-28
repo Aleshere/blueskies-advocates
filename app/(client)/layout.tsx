@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description: "We care about communities and the environment. We share information and resources about aviation pollution and noise.",
     type: "website",
     locale: "en_US",
-    url: "http://www.weareblueskies.com",
+    url: "http://weareblueskies.com",
     siteName: "BlueSkies Advocates"
   },
 };

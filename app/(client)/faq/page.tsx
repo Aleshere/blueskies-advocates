@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "Find answers to the most frequently asked questions on our comprehensive FAQ page. Get help with common issues, learn more about aviation myths, and find quick solutions to your doubts.",
     type: "website",
     locale: "en_US",
-    url: "http://www.weareblueskies.com/faq",
+    url: "https://www.weareblueskies.com/faq",
     siteName: "BlueSkies Advocates"
   },
 }

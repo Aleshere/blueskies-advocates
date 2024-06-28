@@ -65,7 +65,7 @@ export async function generateMetadata({
       description: post.excerpt,
       type: "article",
       locale: "en_US",
-      url: `http://www.weareblueskies.com/${params.slug}`,
+      url: `https://weareblueskies.com/posts/${params.slug}`,
       siteName: "BlueSkies Advocates",
       images: [
         //  {
@@ -116,7 +116,7 @@ const page = async ({params}: Params) => {
                 </div>
                 
                 <div className='flex align-middle justify-center mt-10 mb-16' >
-                  <SocialShare url={`https://www.weareblueskies.com/posts/${params.slug}`} title={post?.excerpt} />
+                  <SocialShare url={`https://weareblueskies.com/posts/${params.slug}`} title={post?.excerpt} />
                 </div>
                 
                 <div className='text-center mt-10 mb-6' >
