@@ -11,3 +11,7 @@ const imageBuilder = createImageUrlBuilder({
 export const urlForImage = (source: Image) => {
   return imageBuilder?.image(source).auto('format').fit('max')
 }
+
+export const urlForImageDynamicPosts = (source: Image) => {
+  return imageBuilder?.image(source)
+}

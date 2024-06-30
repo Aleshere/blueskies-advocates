@@ -69,6 +69,9 @@ export async function generateMetadata({
       url: `https://weareblueskies.com/posts/${params.slug}`,
       siteName: "BlueSkies Advocates",
       images: [
+        //  {
+        //    url: post.avatar,
+        //  },
         {
           url: urlForImage(post.avatar).width(1000).height(1000).url(),
         },

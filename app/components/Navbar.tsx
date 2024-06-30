@@ -3,7 +3,8 @@
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import ThemeSwitch from './ThemeSwitch';
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { AiOutlineClose } from "react-icons/ai";
+import { TiThMenu } from "react-icons/ti"
 import { Lilita_One } from "next/font/google";
 
 const font = Lilita_One({ weight: "400", subsets: ["latin"] });
@@ -42,7 +43,7 @@ const Navbar = () => {
             </Link>
             
             {/* nav links */}
-            <ul className="hidden sm:flex text-zinc-950">
+            {/* <ul className="hidden sm:flex text-zinc-950">
                 <div className="flex ">
                     <li className="dropdown-link">
                         <Link className="text-gray-500 dark:text-gray-400" href='/'>Home</Link>
@@ -57,23 +58,29 @@ const Navbar = () => {
                         <ThemeSwitch />
                     </li>
                 </div>
-            </ul>
+            </ul> */}
 
             {/* Mobile Button */}
-            <div onClick={navHandler} className="block sm:hidden z-10">
-              {navbar ? (
-                <AiOutlineClose size={30} className="text-white cursor-pointer" />
-              ) : (
-                <AiOutlineMenu size={30} className="dark:text-gray-400 cursor-pointer" />
-              )}
+            <div className="flex" >
+              <div onClick={navHandler} className="block z-10 mt-[7px] mr-2.5">
+                {navbar ? (
+                  <AiOutlineClose size={30} className="text-white cursor-pointer" />
+                ) : (
+                  <TiThMenu size={30} fill="rgb(59 130 246 / var(--tw-text-opacity))" className="dark:text-gray-400 cursor-pointer" />
+                )}
+              </div>
+              
+              <div>
+                <ThemeSwitch />
+              </div>
             </div>
             
             {/* Mobile Menu */}
             <div
               className={
                 navbar
-                  ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex pt-14 pl-6 w-full h-screen bg-black ease-in duration-200 "
-                  : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex pt-14 pl-6  w-full h-screen bg-black ease-in duration-200"
+                  ? "absolute top-0 left-0 right-0 bottom-0 flex pt-14 pl-6 w-full h-screen bg-black ease-in duration-200 "
+                  : "absolute top-0 left-[-100%] right-0 bottom-0 flex pt-14 pl-6  w-full h-screen bg-black ease-in duration-200"
               }
             >
               <ul className="w-full flex flex-col justify-center content-center ">
@@ -87,7 +94,7 @@ const Navbar = () => {
                     <Link className="block" href='/tag' >Tags</Link>
                 </li>
                 <li onClick={navHandler} className="pl-0 pr-4 pt-3 pb-3 text-4xl text-center text-white hover:text-gray-500">
-                    <ThemeSwitch />
+                    <Link className="block" href='/resources' >Resources</Link>
                 </li>
               </ul>
             </div>
