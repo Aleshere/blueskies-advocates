@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { Lilita_One, VT323} from 'next/font/google'
+import { VT323} from 'next/font/google'
 import { Post } from '../utils/interface'
 import Image from "next/image";
 import { urlForImage } from "@/sanity/lib/image";
@@ -9,7 +9,6 @@ interface Props {
   post: Post;
 }
 
-const font = Lilita_One({weight: "400", subsets: ["latin"]})
 const dateFont = VT323({weight: "400", subsets: ["latin"]})
 
 const PostComponent = ({post}: Props) => {
@@ -23,7 +22,7 @@ const PostComponent = ({post}: Props) => {
         </div>
         <div className='ml-5 md:ml-0 col-span-4'>
           <Link href={`/posts/${post?.slug?.current}`}>
-            <h2 className={`${font.className} text-base md:text-2xl dark:text-gray-400 line-clamp-2 whitespace-pre-wrap`}>{post?.title}</h2>
+            <h2 className='text-base md:text-2xl dark:text-gray-400 line-clamp-2 whitespace-pre-wrap'>{post?.title}</h2>
             <p className={`${dateFont.className} my-2 text-blue-800`}>{new Date(post?.publishedAt).toDateString()}</p>
             <p className='dark:text-gray-400 mb-4 line-clamp-2 hidden md:block'>{post?.excerpt}</p>
           </Link>
