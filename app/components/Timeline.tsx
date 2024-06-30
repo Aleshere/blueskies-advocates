@@ -41,7 +41,7 @@ const Timeline = () => {
                     position='left'
                     title='George W Bush Pushes On'
                     date='November 2008'
-                    description={<>'President George W Bush issues Executive Order 13479, emphasizing the importance of implementing NextGen. The order also directs the Secretary of Transportation to establish a support staff for NextGen <a href='https://nextgenrelief.org/how-did-we-get-here-a-backstory/' target='_blank' rel='noopener noreferrer' >(read more about this here)</a>.'</>}
+                    description={<>&apos;President George W Bush issues Executive Order 13479, emphasizing the importance of implementing NextGen. The order also directs the Secretary of Transportation to establish a support staff for NextGen <a href='https://nextgenrelief.org/how-did-we-get-here-a-backstory/' target='_blank' rel='noopener noreferrer' >(read more about this here)</a>.&apos;</>}
                 />
                 <TimelineElement
                     position='right'
@@ -67,7 +67,7 @@ const Timeline = () => {
                     position='left'
                     title='Complaints Skyrocket'
                     date='Spring 2015'
-                    description={<>'O'Hare International Airport receives 2 million noise complaints from 44,500 addresses in the first 8 months of 2015. Santa Cruz County, CA, files over 12,000 noise complaints to San Francisco International Airport in June 2015, compared to just one complaint for the entire year of 2014. <a href='https://nqsc.org/downloads/BRIEFHISTORY.pdf' target='_blank' rel='noopener noreferrer' >(read more about this here)</a>.'</>}
+                    description={<>&apos;O&apos;Hare International Airport receives 2 million noise complaints from 44,500 addresses in the first 8 months of 2015. Santa Cruz County, CA, files over 12,000 noise complaints to San Francisco International Airport in June 2015, compared to just one complaint for the entire year of 2014. <a href='https://nqsc.org/downloads/BRIEFHISTORY.pdf' target='_blank' rel='noopener noreferrer' >(read more about this here)</a>.&apos;</>}
                 />
                 <TimelineElement
                     position='right'
@@ -79,7 +79,7 @@ const Timeline = () => {
                     position='left'
                     title='ADS-B Enters the Scene'
                     date='Summer 2018'
-                    description={<>'ADS-B determines an aircraft position via satellite navigation or other sensors and periodically broadcasts that and other related data, enabling it to be tracked. It will soon become a very important device for communities impacted by aviation noise. <a href='https://globe.adsbexchange.com/' target='_blank' rel='noopener noreferrer' >(check our ADS-B here)</a>.'</>}
+                    description={<>&apos;ADS-B determines an aircraft position via satellite navigation or other sensors and periodically broadcasts that and other related data, enabling it to be tracked. It will soon become a very important device for communities impacted by aviation noise. <a href='https://globe.adsbexchange.com/' target='_blank' rel='noopener noreferrer' >(check our ADS-B here)</a>.&apos;</>}
                 />
                 <TimelineElement
                     position='right'
@@ -97,7 +97,7 @@ const Timeline = () => {
                     position='right'
                     title='DoT Says that NextGen Benefits have not materialized'
                     date='March 2021'
-                    description={<>'NextGen's actual and projected benefits have not kept pace with initial projections due to implementation challenges, optimistic assumptions, and other factors. FAA's most recent business case projects total NextGen benefits to be over $100 billion LESS than the original estimate, and benefits actually achieved to date have been MINIMAL and difficult to measure. FAA's projections were optimistic about traffic growth and did not account for risk factors. <a href='https://www.oig.dot.gov/sites/default/files/FAA%20NextGen%20Delivery%20Study_03.30.2021.pdf' target='_blank' rel='noopener noreferrer' >(read the full report)</a>.'</>}
+                    description={<>&apos;NextGen&apos;s actual and projected benefits have not kept pace with initial projections due to implementation challenges, optimistic assumptions, and other factors. FAA&apos;s most recent business case projects total NextGen benefits to be over $100 billion LESS than the original estimate, and benefits actually achieved to date have been MINIMAL and difficult to measure. FAA&apos;s projections were optimistic about traffic growth and did not account for risk factors. <a href='https://www.oig.dot.gov/sites/default/files/FAA%20NextGen%20Delivery%20Study_03.30.2021.pdf' target='_blank' rel='noopener noreferrer' >(read the full report)</a>.&apos;</>}
                 />
                 <TimelineElement
                     position='left'
@@ -117,14 +117,14 @@ const Timeline = () => {
                     position='left'
                     title='N/E Corridor Coastal Routes Project Completed'
                     date='April 2023'
-                    description={<>'New/amended Q Routes and Y Routes replace the north-south high-altitude route structure along the east coast of the United States. In practice, 133 routes are consolidated, their altitudes changed, waypoints re-shuffled, and overall traffic shifted to cater for airlines fuel savings <a href='https://www.faa.gov/air_traffic/flight_info/aeronav/acf/media/Presentations/22-01-Northeast-Corridor-Atlantic-Coast-Routes-Tinsley.pdf' target='_blank' rel='noopener noreferrer' >(see the official status update here)</a>.'</>}
+                    description={<>&apos;New/amended Q Routes and Y Routes replace the north-south high-altitude route structure along the east coast of the United States. In practice, 133 routes are consolidated, their altitudes changed, waypoints re-shuffled, and overall traffic shifted to cater for airlines fuel savings <a href='https://www.faa.gov/air_traffic/flight_info/aeronav/acf/media/Presentations/22-01-Northeast-Corridor-Atlantic-Coast-Routes-Tinsley.pdf' target='_blank' rel='noopener noreferrer' >(see the official status update here)</a>.&apos;</>}
 
                 />
                 <TimelineElement
                     position='right'
                     title='Noise Policy Review'
                     date='September 2023'
-                    description={<>'Recent neighborhood noise study <a href='https://www.airporttech.tc.faa.gov/Products/Airport-Safety-Papers-Publications/Airport-Safety-Detail/ArtMID/3682/ArticleID/2845/Analysis-of-NES' target='_blank' rel='noopener noreferrer' >(check it here)</a> forces the FAA to set up a review of their outdated noise policy. Thousands of citizens leave comments denouncing the inadequacy of the DNL metric, mentioning failures to account for the changes happened in the last decades (ie NextGen). AICA publishes a paper analyzing the issue in depth <a href='https://aviationimpactedcommunities.org/wp-content/uploads/2024/06/Noise-Policy-Paper_Noise-Con-2024_AICA.pdf' target='_blank' rel='noopener noreferrer' >(read it here)</a>. At the time of writing, results of the noise review are still to be published.'</>}
+                    description={<>&apos;Recent neighborhood noise study <a href='https://www.airporttech.tc.faa.gov/Products/Airport-Safety-Papers-Publications/Airport-Safety-Detail/ArtMID/3682/ArticleID/2845/Analysis-of-NES' target='_blank' rel='noopener noreferrer' >(check it here)</a> forces the FAA to set up a review of their outdated noise policy. Thousands of citizens leave comments denouncing the inadequacy of the DNL metric, mentioning failures to account for the changes happened in the last decades (ie NextGen). AICA publishes a paper analyzing the issue in depth <a href='https://aviationimpactedcommunities.org/wp-content/uploads/2024/06/Noise-Policy-Paper_Noise-Con-2024_AICA.pdf' target='_blank' rel='noopener noreferrer' >(read it here)</a>. At the time of writing, results of the noise review are still to be published.&apos;</>}
                 />
             </VerticalTimeline>
         </div>
