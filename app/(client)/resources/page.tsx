@@ -1,5 +1,4 @@
 import Header from "@/app/components/Header";
-import Timeline from "@/app/components/Timeline";
 import { Metadata } from "next";
 import Link from "next/link";
 
@@ -31,7 +30,10 @@ const page = async () => {
       
       <ul className="w-full flex flex-col justify-start content-center min-h-[50vh]">
         <li>
-            <Link className="block text-center text-xl" href='/resources/timeline' >NextGen Timeline</Link>
+            <Link className="block text-center text-xl py-3" href='/resources/useful-links' >Useful Links</Link>
+        </li>
+        <li>
+            <Link className="block text-center text-xl py-3" href='/resources/timeline' >NextGen Timeline</Link>
         </li>
       </ul>
     </>

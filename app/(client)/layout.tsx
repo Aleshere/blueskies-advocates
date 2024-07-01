@@ -5,6 +5,7 @@ import "./globals.css";
 import { Provider } from "./../utils/Provider";
 import Footer from "../components/Footer";
 import Script from "next/script";
+import OriginTracker from "../components/OriginTracker";
 
 const roboto = Roboto({
   weight: '400',
@@ -51,13 +52,15 @@ export default function RootLayout({
         />
       </head>
       <body className={`${roboto.className} h-full bg-amber-50 text-indigo-950 dark:bg-slate-950 dark:text-amber-50 dark:selection:bg-purple-500`}>
-        <Provider>
-          <Navbar />
-          <main className="mx-auto max-w-5xl px-6" >
-            {children}
-          </main>
-          <Footer />
-        </Provider>
+        <OriginTracker>
+          <Provider>
+            <Navbar />
+            <main className="mx-auto max-w-5xl px-6" >
+              {children}
+            </main>
+            <Footer />
+          </Provider>
+        </OriginTracker>
       </body>
     </html>
   );
