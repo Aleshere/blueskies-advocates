@@ -166,10 +166,10 @@ const page = async () => {
                                 <Favicon id='O Hare Noise favicon.png' alt='O Hare Noise Compatibility Commissions website' />
                             </span>
 
-                            <h2 className="mt-2 font-bold">O'Hare Noise Compatibility Commissions</h2>
+                            <h2 className="mt-2 font-bold">O&apos;Hare Noise Compatibility Commissions</h2>
 
                             <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-                                42 communities and 19 school districts dedicated to reducing aircraft noise in the communities around O'Hare International Airport since 1996.
+                                42 communities and 19 school districts dedicated to reducing aircraft noise in the communities around O&apos;Hare International Airport since 1996.
                             </p>
                         </a>
                         
@@ -235,7 +235,7 @@ const page = async () => {
                             <h2 className="mt-2 font-bold">Uproar LA</h2>
 
                             <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-                                UproarLA fights the FAA's "Nextgen" low altitude airplane flight paths at Hollywood Burbank Airport.
+                                UproarLA fights the FAA&apos;s &quot;Nextgen&quot; low altitude airplane flight paths at Hollywood Burbank Airport.
                             </p>
                         </a>
                         

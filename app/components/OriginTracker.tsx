@@ -9,6 +9,7 @@ export const OriginContext = createContext<boolean>(false);
 export default function OriginTracker({ children }: React.PropsWithChildren) {
   const [isWithinPage, setIsWithinPage] = useState(false);
   const isInitialLoadRef = useRef(true);
+  const pathName = usePathname();
 
   useEffect(() => {
     if (isInitialLoadRef.current) {
@@ -18,7 +19,7 @@ export default function OriginTracker({ children }: React.PropsWithChildren) {
 
     setIsWithinPage(true);
     return () => setIsWithinPage(false);
-  }, [usePathname]);
+  }, [pathName]);
 
   return (
     <OriginContext.Provider value={isWithinPage}>
