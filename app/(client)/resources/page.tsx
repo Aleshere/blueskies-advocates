@@ -30,7 +30,10 @@ const page = async () => {
       
       <ul className="w-full flex flex-col justify-start content-center min-h-[50vh]">
         <li>
-            <Link className="block text-center text-xl py-3" href='/resources/useful-links' >Useful Links</Link>
+            <Link className="block text-center text-xl py-3" href='/resources/useful-websites' >Useful Websites</Link>
+        </li>
+        <li>
+            <Link className="block text-center text-xl py-3" href='/resources/videos' >Useful Videos</Link>
         </li>
         <li>
             <Link className="block text-center text-xl py-3" href='/resources/timeline' >NextGen Timeline</Link>
