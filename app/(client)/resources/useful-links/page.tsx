@@ -27,7 +27,7 @@ interface Props {
     alt: string
 }
 
-export function Favicon({ id, alt }: Props ) {
+function Favicon({ id, alt }: Props ) {
   return <Image src={`/assets/images/${id}`} alt={alt} width="32" height="32" className="rounded-md" />
 }
 
