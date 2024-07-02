@@ -1,7 +1,8 @@
 import Header from "@/app/components/Header";
 import { ScrollToTop } from "@/app/utils/ScrollToTop";
 import { Metadata } from "next";
-import Link from "next/link";
+import BackButton from '@/app/utils/BackButton';
+import Image from 'next/image'
 
 
 export const revalidate = 60;
@@ -28,6 +29,15 @@ export const metadata: Metadata = {
   },
 }
 
+interface Props {
+    id: string,
+    alt: string
+}
+
+function Favicon({ id, alt }: Props ) {
+  return <Image src={`/assets/images/resources-favicons/${id}`} alt={alt} width="32" height="32" className="rounded-md" />
+}
+
 const page = async () => {
     
   return (
@@ -35,17 +45,62 @@ const page = async () => {
       <Header title="Resource Center" />
       <ScrollToTop />
       
-      <ul className="w-full flex flex-col justify-start content-center min-h-[50vh]">
-        <li>
-            <Link className="block text-center text-xl py-3" href='/resources/useful-websites' >Useful Websites</Link>
-        </li>
-        <li>
-            <Link className="block text-center text-xl py-3" href='/resources/videos' >Useful Videos</Link>
-        </li>
-        <li>
-            <Link className="block text-center text-xl py-3" href='/resources/timeline' >NextGen Timeline</Link>
-        </li>
-      </ul>
+      <section>
+        <div className="max-w-screen-xl px-4 pb-12 sm:px-6 lg:px-8" >
+          <div className="grid grid-cols-1 gap-y-8" >
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-3" >
+              
+              <a
+                className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                href='/resources/useful-websites'
+                >
+                    <span className="inline-block rounded-lg">
+                        <Favicon id='Websites.png' alt='Useful websites page icon' />
+                    </span>
+
+                    <h2 className="mt-2 font-bold">Useful Websites</h2>
+
+                    <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                        Connect with organizations and local groups actively working to mitigate the effects of aviation noise and advocate for better policies.
+                    </p>
+                </a>
+                
+                              <a
+                className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                href='/resources/videos'
+                >
+                    <span className="inline-block rounded-lg">
+                        <Favicon id='Videos.png' alt='Videos page icon' />
+                    </span>
+
+                    <h2 className="mt-2 font-bold">Useful Videos</h2>
+
+                    <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                        Explore a curated collection of videos addressing the impacts of aviation pollution and noise.
+                    </p>
+                </a>
+                
+                              <a
+                className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                href='/resources/timeline'
+                >
+                    <span className="inline-block rounded-lg">
+                        <Favicon id='Timeline.png' alt='Timeline page icon' />
+                    </span>
+
+                    <h2 className="mt-2 font-bold">NextGen Timeline</h2>
+
+                    <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                        Timeline of the events that led to the current problems for communities impacted by consolidated flight paths: NextGen from its inception to today.
+                    </p>
+                </a>
+                
+            </div>
+          </div>
+        </div>
+        
+        <BackButton />
+      </section>
     </>
   );
 }

@@ -2,7 +2,7 @@ import Header from "@/app/components/Header";
 import Timeline from "@/app/components/Timeline";
 import { ScrollToTop } from "@/app/utils/ScrollToTop";
 import { Metadata } from "next";
-
+import BackButton from '@/app/utils/BackButton';
 
 
 export const revalidate = 60;
@@ -35,6 +35,7 @@ const page = async () => {
     <>    
       <Header title="Timeline" />
       <ScrollToTop />
+      <BackButton />
 
       <p>
         The origins of NextGen trace back to the &quot;Vision 100 - A Century Of Aviation Reauthorization Act,&quot; passed by Congress in December 2003. This bill aimed to shift from radar-based guidance systems to GPS positioning, allowing for more direct flight routes to save fuel, time, money, and - allegedly - reduce carbon emissions. In practice, NextGen intended to increase airport throughput by guiding aircraft more precisely into airports, benefiting airlines with fuel savings and higher profits.

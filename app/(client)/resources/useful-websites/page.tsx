@@ -470,23 +470,6 @@ const page = async () => {
                         
                         <a
                         className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
-                        href="https://www.aviation-noise.org/"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        >
-                            <span className="inline-block rounded-lg">
-                                <Favicon id='NOISE favicon.png' alt='N.O.I.S.E. website' />
-                            </span>
-
-                            <h2 className="mt-2 font-bold">N.O.I.S.E.</h2>
-
-                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
-                                National Organization to Insure a Sound Controlled Environment: a community-based association composed of local elected officials committed to reducing the impact of aviation noise on local communities.
-                            </p>
-                        </a>
-                        
-                        <a
-                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
                         href="https://oharenoise.org/"
                         target="_blank"
                         rel="noreferrer noopener"
