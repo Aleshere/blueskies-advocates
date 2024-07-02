@@ -8,7 +8,7 @@ export const revalidate = 60;
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.weareblueskies.com/resources/useful-websites"),
   title: {
-    default: "BlueSkies Advocates | Resource Center",
+    default: "BlueSkies Advocates | Useful Websites",
     template: '%s | BlueSkies Advocates'
   },
   description: "Connect with organizations and local groups actively working to mitigate the effects of aviation noise and advocate for better policies.",
@@ -18,7 +18,12 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://www.weareblueskies.com/resources/useful-websites",
-    siteName: "BlueSkies Advocates"
+    siteName: "BlueSkies Advocates",
+    images: [
+    {
+      url: "https://www.weareblueskies.com/api/og?title=BlueSkies Advocates | Useful Websites",
+    },
+  ],
   },
 }
 
@@ -45,6 +50,40 @@ const page = async () => {
                         
                         <a
                         className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://350seattle.org/aviation-team/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='350 Seattle favicon.png' alt='350 Seattle' />
+                            </span>
+
+                            <h2 className="mt-2 font-bold">350 Seattle</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                Working to halt the growth of aviation pollution and support justice for communities near airports.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://www.aef.org.uk/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='AEF favicon.png' alt='Aviation Environment Federation website' />
+                            </span>
+                            
+                            <h2 className="mt-2 font-bold">AEF - Aviation Environment Federation</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                The principal UK NGO campaigning on aviation&apos;s impacts for people and the environment.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
                         href="https://aviationimpactedcommunities.org/"
                         target="_blank"
                         rel="noreferrer noopener"
@@ -56,7 +95,7 @@ const page = async () => {
                             <h2 className="mt-2 font-bold">AICA</h2>
 
                             <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
-                                They produce position papers, advocacy letters and presentations aimed for the both the general public and key-decision makers.
+                                We produce position papers, advocacy letters and presentations aimed for the both the general public and key-decision makers.
                             </p>
                         </a>
                         
@@ -109,12 +148,48 @@ const page = async () => {
                         
                         <a
                         className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://www.airportwatch.org.uk/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='Airport Watch favicon.png' alt='Airport Watch website' />
+                            </span>
+                            
+                            <h2 className="mt-2 font-bold">Airport Watch</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                We are an umbrella movement networking the interested environmental organizations, airport community groups, and individuals opposed to unsustainable aviation expansion, and its damaging environmental effects, including climate change, noise and air pollution.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://anima-project.eu/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='Anima favicon.jpg' alt='Aviation Noise Impact Management through novel Approaches website' />
+                            </span>
+                            
+                            <h2 className="mt-2 font-bold">ANIMA - Aviation Noise Impact Management through novel Approaches</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                ANIMA is a constantly evolving EU-funded project, which deals with a global issue affecting thousands of people living around airports - aviation noise.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
                         href="https://banprivatejets.org/"
                         target="_blank"
                         rel="noreferrer noopener"
                         >
-                            <span className="inline-block rounded-lg bg-blue-500 p-4"></span>
-
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='Ban Private Jets favicon.png' alt='Ban Private Jets website' />
+                            </span>
+                            
                             <h2 className="mt-2 font-bold">Ban Private Jets</h2>
 
                             <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
@@ -129,7 +204,7 @@ const page = async () => {
                         rel="noreferrer noopener"
                         >
                             <span className="inline-block rounded-lg">
-                                <Favicon id='BFPCA favicon.png' alt='Pesky Planes website' />
+                                <Favicon id='BFPCA favicon.png' alt='Brisbane Flight Path Community Alliance website' />
                             </span>
                             
                             <h2 className="mt-2 font-bold">Brisbane Flight Path Community Alliance</h2>
@@ -163,7 +238,7 @@ const page = async () => {
                         rel="noreferrer noopener"
                         >
                             <span className="inline-block rounded-lg">
-                                <Favicon id='CAGNE favicon.png' alt='Pesky Planes website' />
+                                <Favicon id='CAGNE favicon.png' alt='CAGNE website' />
                             </span>
                             
                             <h2 className="mt-2 font-bold">CAGNE</h2>
@@ -224,6 +299,91 @@ const page = async () => {
                         
                         <a
                         className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://flightfree.net.au/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='Flight Free AUS favicon.png' alt='Flight Free Australia website' />
+                            </span>
+
+                            <h2 className="mt-2 font-bold">Flight Free Australia</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                We are in a climate emergency and the timescale of the government&apos;s aviation emissions reduction pathway is too long.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://flightfree.co.uk/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='Flight Free UK favicon.png' alt='Flight Free UK website' />
+                            </span>
+
+                            <h2 className="mt-2 font-bold">Flight Free UK</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                Our mission is to inform people of the climate impact of aviation and inspire people to travel by other means.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://antiaero.org/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='GAAM favicon.jpg' alt='Global Anti Aerotropolis Movement website' />
+                            </span>
+
+                            <h2 className="mt-2 font-bold">GAAM - Global Anti Aerotropolis Movement</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                GAAM aims to support local struggles and strengthen the international &apos;campaign community&apos; against harmful aerotropolis projects.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://www.galba.uk/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='GALBA favicon.png' alt='Group for Action on Leeds Bradford Airport website' />
+                            </span>
+
+                            <h2 className="mt-2 font-bold">GALBA - Group for Action on Leeds Bradford Airport</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                We say no to more planes, more noise and more climate chaos. We say YES to a clean, green, sustainable future.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://www.justplanewrong.org/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='Just Plane Wrong favicon.png' alt='Just Plane Wrong website' />
+                            </span>
+
+                            <h2 className="mt-2 font-bold">Just Plane Wrong</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                We are a non-political coalition of residents and business-owners from the communities of Bream Creek, Marion Bay, Boomer Bay, Dunalley, Murdunna and Connelly&apos;s Marsh, which aims to preserve and promote our peaceful coastal and rural amenity and brand.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
                         href="https://ladacan.org/"
                         target="_blank"
                         rel="noreferrer noopener"
@@ -279,12 +439,31 @@ const page = async () => {
                         target="_blank"
                         rel="noreferrer noopener"
                         >
-                            <span className="inline-block rounded-lg bg-blue-500 p-4"></span>
-
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='NextGen Relief favicon.png' alt='NextGen Relief website' />
+                            </span>
+                            
                             <h2 className="mt-2 font-bold">NextGen Relief</h2>
 
                             <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
                                 Check the history of NextGen, myths about it, community responses, State letters sent to the FAA.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="http://www.no3rdtullarunway.net.au/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='No 3rd Tulla favicon.png' alt='No 3rd Tulla Runway website' />
+                            </span>
+
+                            <h2 className="mt-2 font-bold">No 3rd Tulla Runway</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                The No 3rd Tulla Runway coalition is a grassroots campaign of community volunteers. The coalition respects the diversity of reasons members may have for opposing a third runway at Melbourne Airport.
                             </p>
                         </a>
                         
@@ -454,6 +633,23 @@ const page = async () => {
                         
                         <a
                         className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://www.birdsnotboeings.com/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='RAWSA favicon.jpg' alt='Residents Against Western Sydney Airport website' />
+                            </span>
+                            
+                            <h2 className="mt-2 font-bold">RAWSA - Residents Against Western Sydney Airport</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                Our mission is to create awareness of the community and environmental impacts from the construction of a 24 hour Airport in Western Sydney.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
                         href="https://safe-landing.org/"
                         target="_blank"
                         rel="noreferrer noopener"
@@ -488,6 +684,23 @@ const page = async () => {
                         
                         <a
                         className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://lbsaner.org/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='SANER favicon.jpg' alt='Long Beach Small Plane Noise Reduction Group website' />
+                            </span>
+                            
+                            <h2 className="mt-2 font-bold">SANeR - Long Beach Small Plane Noise Reduction Group</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                 SANeR is a 501 C organization and a community group based in Long Beach, CA, dedicated to addressing the issues caused by the significant increase in general aviation small planes, primarily from flight schools, at Long Beach Airport.
+                            </p>
+                        </a>
+                           
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
                         href="https://www.saveourskiesalliance.org/"
                         target="_blank"
                         rel="noreferrer noopener"
@@ -510,7 +723,7 @@ const page = async () => {
                         rel="noreferrer noopener"
                         >
                             <span className="inline-block rounded-lg">
-                                <Favicon id='SOs Camarillo favicon.png' alt='Pesky Planes website' />
+                                <Favicon id='SOS Camarillo favicon.png' alt='Save Our Skies Camarillo website' />
                             </span>
                             
                             <h2 className="mt-2 font-bold">Save Our Skies Camarillo</h2>
@@ -561,7 +774,7 @@ const page = async () => {
                         rel="noreferrer noopener"
                         >
                             <span className="inline-block rounded-lg">
-                                <Favicon id='SOSLA favicon.png' alt='Save Our Skies LA website' />
+                                <Favicon id='SOS LA favicon.png' alt='Save Our Skies LA website' />
                             </span>
 
                             <h2 className="mt-2 font-bold">Save Our Skies LA</h2>
@@ -585,6 +798,23 @@ const page = async () => {
 
                             <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
                                 Citizens working to restore the quiet and peaceful skies that existed in Scottsdale before the FAA arbitrarily moved flight paths over heavily populated communities.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://schipholwatch.nl/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='Schiphol Watch favicon.png' alt='Schiphol Watch website' />
+                            </span>
+                            
+                            <h2 className="mt-2 font-bold">Schiphol Watch</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                SchipholWatch is a foundation that fights for a better living environment and therefore against the further growth of Schiphol at its current location.
                             </p>
                         </a>
                         
@@ -627,7 +857,7 @@ const page = async () => {
                         rel="noreferrer noopener"
                         >
                             <span className="inline-block rounded-lg">
-                                <Favicon id='Sound Defense Alliance favicon.png' alt='Vliegerplein website' />
+                                <Favicon id='Sound Defense Alliance favicon.png' alt='Sound Defense Alliance website' />
                             </span>
                             
                             <h2 className="mt-2 font-bold">Sound Defense Alliance</h2>
@@ -673,6 +903,40 @@ const page = async () => {
                         
                         <a
                         className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://spon-newportbeach.org/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='SPON favicon.png' alt='Still Protecting Our Newport website' />
+                            </span>
+
+                            <h2 className="mt-2 font-bold">SPON - Still Protecting Our Newport</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                SPON has fought for our community for 40 years to ensure it&apo;s not destroyed by John Wayne Airport airport&apo;s environmental impacts by defending the landmark 1985 Settlement Agreement which limits JWA growth, noise, and operations.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://www.flightpathgc.com/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='Stop the ILS favicon.png' alt='Stop Flight Path Impacts website' />
+                            </span>
+                            
+                            <h2 className="mt-2 font-bold">Stop Flight Path Impacts</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                Stop Flight Path Impacts - formerly known as Stop the ILS Flight Path - remains committed to what we&apos;ve always stood for; keeping the natural beauty of the Gold Coast, and the lifestyle it offers, protected from unnecessary noise and airborne pollution associated with Gold Coast Airport.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
                         href="https://www.stopoakexpansion.org/"
                         target="_blank"
                         rel="noreferrer noopener"
@@ -694,8 +958,10 @@ const page = async () => {
                         target="_blank"
                         rel="noreferrer noopener"
                         >
-                            <span className="inline-block rounded-lg bg-blue-500 p-4"></span>
-
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='Stop Saratoga Airport favicon.png' alt='Stop Saratoga Airport Expansion website' />
+                            </span>
+                            
                             <h2 className="mt-2 font-bold">Stop Saratoga Airport Expansion</h2>
 
                             <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
@@ -744,7 +1010,7 @@ const page = async () => {
                         rel="noreferrer noopener"
                         >
                             <span className="inline-block rounded-lg">
-                                <Favicon id='Studio City for Quiet Skies favicon.jpg' alt='Pesky Planes website' />
+                                <Favicon id='Studio City for Quiet Skies favicon.jpg' alt='Studio City for Quiet Skies website' />
                             </span>
                             
                             <h2 className="mt-2 font-bold">Studio City for Quiet Skies</h2>
@@ -768,6 +1034,40 @@ const page = async () => {
 
                             <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
                                 Trenton-Mercer Airport&apos;s expanded flight schedule, using larger planes and altered flight paths, has suddenly disrupted our quality of life and threatened our health.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://www.uecna.eu/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='UECNA favicon.jpg' alt='UECNA website' />
+                            </span>
+                            
+                            <h2 className="mt-2 font-bold">UECNA - Union Européenne Contre les Nuisances Aériennes</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                We help people who experience nuisances from aviation and worry about the impact of noise and emissions on their health.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://www.uknoiseassociation.com/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='UK Noise Association favicon.jpg' alt='UK Noise Association website' />
+                            </span>
+                            
+                            <h2 className="mt-2 font-bold">UK Noise Association</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                Our focus is on solutions. Generally noise is a problem with solutions. We set out measures governments and local authorities can implement.
                             </p>
                         </a>
                         
@@ -819,6 +1119,23 @@ const page = async () => {
 
                             <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
                                 UproarLA fights the FAA&apos;s &quot;Nextgen&quot; low altitude airplane flight paths at Hollywood Burbank Airport.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://www.worldwildlife.org/initiatives/cutting-aviation-pollution"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='WWF favicon.png' alt='WWF website' />
+                            </span>
+
+                            <h2 className="mt-2 font-bold">WWF - World Wildlife Fund</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                WWF was established in 1961 by a group of passionate and committed individuals who sought to secure the funding necessary to protect places and species that were threatened by human development.
                             </p>
                         </a>
                         

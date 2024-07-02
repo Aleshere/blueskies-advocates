@@ -79,7 +79,7 @@ const Timeline = () => {
                     position='left'
                     title='ADS-B Enters the Scene'
                     date='Summer 2018'
-                    description={<>&apos;ADS-B determines an aircraft position via satellite navigation or other sensors and periodically broadcasts that and other related data, enabling it to be tracked. It will soon become a very important device for communities impacted by aviation noise. <a href='https://globe.adsbexchange.com/' target='_blank' rel='noopener noreferrer' >(check our ADS-B here)</a>.&apos;</>}
+                    description={<>&apos;ADS-B determines an aircraft position via satellite navigation or other sensors and periodically broadcasts that and other related data, enabling it to be tracked. It will soon become a very important device for communities impacted by aviation noise. <a href='https://globe.adsbexchange.com/' target='_blank' rel='noopener noreferrer' >(check out ADS-B here)</a>.&apos;</>}
                 />
                 <TimelineElement
                     position='right'
