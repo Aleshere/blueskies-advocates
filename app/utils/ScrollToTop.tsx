@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { FaRegArrowAltCircleUp } from "react-icons/fa";
-import { classNames } from '@/app/utils/classNames'
+import { classNames } from '@/app/utils/ClassNames'
 
 export const ScrollToTop = () => {
     const [isVisible, setIsVisible] = useState(false)
