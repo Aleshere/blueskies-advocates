@@ -1,4 +1,5 @@
 import Header from "@/app/components/Header";
+import { ScrollToTop } from "@/app/utils/ScrollToTop";
 import { Metadata } from "next";
 import Link from "next/link";
 
@@ -32,6 +33,7 @@ const page = async () => {
   return (
     <>    
       <Header title="Resource Center" />
+      <ScrollToTop />
       
       <ul className="w-full flex flex-col justify-start content-center min-h-[50vh]">
         <li>

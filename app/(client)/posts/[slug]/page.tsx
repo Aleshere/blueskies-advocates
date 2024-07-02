@@ -12,6 +12,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { LanguageSwitcher } from "@/app/components/LanguageSwitcher";
+import { ScrollToTop } from "@/app/utils/ScrollToTop";
 
 const dateFont = VT323({ weight: "400", subsets: ["latin"] });
 
@@ -90,6 +91,8 @@ const page = async ({params}: Params) => {
     return (
         <div>
             <Header title={post?.title} />
+            <ScrollToTop />
+            
             <div className="text-center">  
                 <div className="mb-6">
                   <LanguageSwitcher />

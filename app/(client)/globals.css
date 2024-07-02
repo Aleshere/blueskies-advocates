@@ -3,8 +3,11 @@
 @tailwind utilities;
 
 /*-------------------------------------------
-        Generic link styling
+        Generic styling
 -------------------------------------------*/
+html {
+  scroll-behavior: smooth;
+}
 
 p a {
   text-decoration: none;
@@ -106,4 +109,18 @@ body {
   -moz-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
+}
+
+/*-------------------------------------------
+        Scroll to top Button styles
+-------------------------------------------*/
+
+.scrollToTopButton {
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.scrollToTopButton.visible {
+  opacity: 1;
 }

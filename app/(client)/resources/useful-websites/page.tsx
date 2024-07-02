@@ -2,6 +2,7 @@ import Header from "@/app/components/Header";
 import { Metadata } from "next";
 import BackButton from '@/app/utils/BackButton';
 import Image from 'next/image'
+import { ScrollToTop } from "@/app/utils/ScrollToTop";
 
 export const revalidate = 60;
 
@@ -95,7 +96,7 @@ const page = async () => {
                             <h2 className="mt-2 font-bold">AICA</h2>
 
                             <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
-                                We produce position papers, advocacy letters and presentations aimed for the both the general public and key-decision makers.
+                                We produce position papers, advocacy letters and presentations aimed for both the general public and key-decision makers.
                             </p>
                         </a>
                         
@@ -1145,6 +1146,7 @@ const page = async () => {
         </section>
       
         <BackButton />
+        <ScrollToTop />
     </>
   );
 }

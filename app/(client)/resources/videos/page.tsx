@@ -2,6 +2,7 @@ import Header from "@/app/components/Header";
 import { Metadata } from "next";
 import BackButton from '@/app/utils/BackButton';
 import Image from 'next/image'
+import { ScrollToTop } from "@/app/utils/ScrollToTop";
 
 
 export const revalidate = 60;
@@ -42,6 +43,7 @@ const page = async () => {
   return (
     <>    
       <Header title="Useful Videos" />
+      <ScrollToTop />
       
         <section>
             <div className="max-w-screen-xl px-4 pb-12 sm:px-6 lg:px-8">

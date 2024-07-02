@@ -1,6 +1,7 @@
 import Header from "@/app/components/Header";
 import PostComponent from "@/app/components/PostComponent";
 import { Post } from "@/app/utils/interface";
+import { ScrollToTop } from "@/app/utils/ScrollToTop";
 import { client } from "@/sanity/lib/client";
 import React from "react";
 
@@ -53,6 +54,8 @@ const page = async ({ params }: Params) => {
   return (
     <div>
       <Header title={`#${params?.slug}`} tags />
+      <ScrollToTop />
+      
       <div>
         {posts?.length > 0 && posts?.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()).map((post) => <PostComponent key={post?._id} post={post} />)}
       </div>

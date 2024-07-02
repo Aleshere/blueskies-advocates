@@ -5,6 +5,7 @@ import { questionsClimate} from '@/app/json/faqQuestions/climate.json'
 import { questionsPrivateJets } from '@/app/json/faqQuestions/privateJets.json'
 import { questionsFlightPaths } from '@/app/json/faqQuestions/flightPaths.json'
 import { questionsLivingNearAirport } from '@/app/json/faqQuestions/livingNearAirport.json'
+import { ScrollToTop } from "@/app/utils/ScrollToTop";
 
 export const revalidate = 60;
 
@@ -35,6 +36,8 @@ const page = async () => {
   return (
     <>    
       <Header title="FAQ Section" />
+      <ScrollToTop />
+      
       <h2 className="pt-6 px-6 md:pt-6 md:px-12 text-xl font-bold text-blue-500" >Aviation & Climate</h2>
       <div className="bg-img-faq-accordion-mobile md:bg-img-faq-accordion-desktop flex w-full items-center justify-center overflow-hidden bg-faqLightPink bg-[size:100%_auto] bg-no-repeat">
         <FAQ questions={questionsClimate} />
