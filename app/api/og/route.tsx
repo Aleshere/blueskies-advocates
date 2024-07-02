@@ -20,7 +20,7 @@ export async function GET(request: Request) {
         <div
           tw="h-full w-full flex flex-col align-start justify-center py-10 px-20"
           style={{
-            backgroundImage: 'url(https://weareblueskies.com/social-card-bg.png)',
+            backgroundImage: 'url(https://weareblueskies.com/social-background.png)',
             backgroundSize: '100% 100%',
             fontFamily: 'Inter',
           }}

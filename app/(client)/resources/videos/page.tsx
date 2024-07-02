@@ -14,12 +14,17 @@ export const metadata: Metadata = {
   },
   description: "Explore our collection of informative videos addressing the impacts of aviation pollution and noise. This page features expert talks, community stories, scientific explanations, and practical solutions to help you understand and combat the challenges of aircraft noise and emissions.",
   openGraph: {
-    title: "BlueSkies Advocates | Videos",
+    title: "Video Section",
     description: "Explore our collection of informative videos addressing the impacts of aviation pollution and noise. This page features expert talks, community stories, scientific explanations, and practical solutions to help you understand and combat the challenges of aircraft noise and emissions.",
     type: "website",
     locale: "en_US",
     url: "https://www.weareblueskies.com/resources/videos",
-    siteName: "BlueSkies Advocates"
+    siteName: "BlueSkies Advocates",
+      images: [
+        {
+          url: "https://www.weareblueskies.com/api/og?title=Video Section",
+        },
+      ],
   },
 }
 

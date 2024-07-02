@@ -13,12 +13,17 @@ export const metadata: Metadata = {
   },
   description: "Timeline of the events that led to the current noise and pollution problems for communities around the USA: nextgen from its inception to today.",
   openGraph: {
-    title: "BlueSkies Advocates | NextGen Timeline",
+    title: "NextGen Timeline",
     description: "Timeline of the events that led to the current noise and pollution problems for communities around the USA: nextgen from its inception to today.",
     type: "website",
     locale: "en_US",
     url: "https://www.weareblueskies.com/resources/timeline",
-    siteName: "BlueSkies Advocates"
+    siteName: "BlueSkies Advocates",
+      images: [
+        {
+        url: "https://www.weareblueskies.com/api/og?title=NextGen Timeline",
+        },
+      ],
   },
 }
 

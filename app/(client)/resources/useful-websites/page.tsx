@@ -8,22 +8,22 @@ export const revalidate = 60;
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.weareblueskies.com/resources/useful-websites"),
   title: {
-    default: "BlueSkies Advocates | Useful Websites",
+    default: "Useful Websites",
     template: '%s | BlueSkies Advocates'
   },
   description: "Connect with organizations and local groups actively working to mitigate the effects of aviation noise and advocate for better policies.",
   openGraph: {
-    title: "BlueSkies Advocates | Useful Links",
+    title: "Useful Websites",
     description: "Connect with organizations and local groups actively working to mitigate the effects of aviation noise and advocate for better policies.",
     type: "website",
     locale: "en_US",
     url: "https://www.weareblueskies.com/resources/useful-websites",
     siteName: "BlueSkies Advocates",
     images: [
-    {
-      url: "https://www.weareblueskies.com/api/og?title=BlueSkies Advocates | Useful Websites",
-    },
-  ],
+        {
+            url: "https://www.weareblueskies.com/api/og?title=Useful Websites",
+        },
+    ],
   },
 }
 

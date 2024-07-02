@@ -16,12 +16,17 @@ export const metadata: Metadata = {
   },
   description: "Find answers to the most frequently asked questions on our comprehensive FAQ page. Get help with common issues, learn more about aviation myths, and find quick solutions to your doubts.",
   openGraph: {
-    title: "BlueSkies Advocates | FAQ",
+    title: "FAQ",
     description: "Find answers to the most frequently asked questions on our comprehensive FAQ page. Get help with common issues, learn more about aviation myths, and find quick solutions to your doubts.",
     type: "website",
     locale: "en_US",
     url: "https://www.weareblueskies.com/faq",
-    siteName: "BlueSkies Advocates"
+    siteName: "BlueSkies Advocates",
+      images: [
+        {
+          url: "https://www.weareblueskies.com/api/og?title=FAQ",
+        },
+      ],
   },
 }
 

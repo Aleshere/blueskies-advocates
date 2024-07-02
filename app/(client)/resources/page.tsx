@@ -13,12 +13,17 @@ export const metadata: Metadata = {
   },
   description: "The comprehensive guide for individuals and communities affected by the environmental impacts of aviation.",
   openGraph: {
-    title: "BlueSkies Advocates | Resource Center",
+    title: "Resource Center",
     description: "The comprehensive guide for individuals and communities affected by the environmental impacts of aviation.",
     type: "website",
     locale: "en_US",
     url: "https://www.weareblueskies.com/resources",
-    siteName: "BlueSkies Advocates"
+    siteName: "BlueSkies Advocates",
+      images: [
+        {
+          url: "https://www.weareblueskies.com/api/og?title=Resources",
+        },
+      ],
   },
 }
 
