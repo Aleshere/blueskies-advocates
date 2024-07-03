@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import BackButton from '@/app/utils/BackButton';
 import Image from 'next/image'
 import { ScrollToTop } from "@/app/utils/ScrollToTop";
+import VideoCard from "@/app/components/VideoCard";
 
 
 export const revalidate = 60;
@@ -50,116 +51,114 @@ const page = async () => {
                 <div className="grid grid-cols-1 gap-y-8">
 
                     <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-                        
-                        <a
-                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring relative"
-                        href="https://fb.watch/t54hcrBgrN/"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        >
-                            <span className="inline-block rounded-lg">
-                                <Favicon id='BFPCA favicon.png' alt='BFPCA Facebook Video Link' />
-                            </span>
-
-                            <h2 className="mt-2 font-bold">BFPCA</h2>
-
-                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
-                                This BFPCA-led survey of affected residents in December 2020 to January 2021 is a powerful and insightful summary of the community experience since the new runway and the revised airpath operations have been operating.
-                            </p>
-                            <div className='absolute top-0 right-1.5' >
-                              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 48 48">
-                                <linearGradient id="Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1" x1="9.993" x2="40.615" y1="9.993" y2="40.615" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2aa4f4"></stop><stop offset="1" stop-color="#007ad9"></stop></linearGradient><path fill="url(#Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1)" d="M24,4C12.954,4,4,12.954,4,24s8.954,20,20,20s20-8.954,20-20S35.046,4,24,4z"></path><path fill="#fff" d="M26.707,29.301h5.176l0.813-5.258h-5.989v-2.874c0-2.184,0.714-4.121,2.757-4.121h3.283V12.46 c-0.577-0.078-1.797-0.248-4.102-0.248c-4.814,0-7.636,2.542-7.636,8.334v3.498H16.06v5.258h4.948v14.452 C21.988,43.9,22.981,44,24,44c0.921,0,1.82-0.084,2.707-0.204V29.301z"></path>
-                              </svg>
-                            </div>
-                        </a>
-                        
-                        <a
-                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring relative"
-                        href="https://www.youtube.com/watch?v=Y5ny2TJl3Y8&t=4s"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        >
-                            <span className="inline-block rounded-lg">
-                                <Favicon id='Climate Adam favicon.jpg' alt='Climate Adam Channel YouTube' />
-                            </span>
-
-                            <h2 className="mt-2 font-bold">Climate Adam</h2>
-
-                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
-                                Flying is worse for the climate than you think
-                            </p>
-                            <div className='absolute top-0 right-1.5' >
-                              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 48 48">
-                                <path fill="#FF3D00" d="M43.2,33.9c-0.4,2.1-2.1,3.7-4.2,4c-3.3,0.5-8.8,1.1-15,1.1c-6.1,0-11.6-0.6-15-1.1c-2.1-0.3-3.8-1.9-4.2-4C4.4,31.6,4,28.2,4,24c0-4.2,0.4-7.6,0.8-9.9c0.4-2.1,2.1-3.7,4.2-4C12.3,9.6,17.8,9,24,9c6.2,0,11.6,0.6,15,1.1c2.1,0.3,3.8,1.9,4.2,4c0.4,2.3,0.9,5.7,0.9,9.9C44,28.2,43.6,31.6,43.2,33.9z"></path><path fill="#FFF" d="M20 31L20 17 32 24z"></path>
-                              </svg>
-                            </div>
-                        </a>
-                        
-                        <a
-                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring relative"
-                        href="https://fb.watch/t54vCinAmj/"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        >
-                            <span className="inline-block rounded-lg">
-                                <Favicon id='Eleanor Holmes Norton favicon.jpg' alt='Eleanor Holmes Norton Facebook Video Link' />
-                            </span>
-
-                            <h2 className="mt-2 font-bold">Eleanor Holmes Norton</h2>
-
-                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
-                                As co-chair of the Quiet Skies Caucus representing DC, which is plagued by aircraft noise, I highlighted two provisions I got included in the House-passed FAA reauthorization to combat helicopter noise in today&apos;s Aviation hearing.
-                            </p>
-                            <div className='absolute top-0 right-1.5' >
-                              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 48 48">
-                                <linearGradient id="Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1" x1="9.993" x2="40.615" y1="9.993" y2="40.615" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2aa4f4"></stop><stop offset="1" stop-color="#007ad9"></stop></linearGradient><path fill="url(#Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1)" d="M24,4C12.954,4,4,12.954,4,24s8.954,20,20,20s20-8.954,20-20S35.046,4,24,4z"></path><path fill="#fff" d="M26.707,29.301h5.176l0.813-5.258h-5.989v-2.874c0-2.184,0.714-4.121,2.757-4.121h3.283V12.46 c-0.577-0.078-1.797-0.248-4.102-0.248c-4.814,0-7.636,2.542-7.636,8.334v3.498H16.06v5.258h4.948v14.452 C21.988,43.9,22.981,44,24,44c0.921,0,1.82-0.084,2.707-0.204V29.301z"></path>
-                              </svg>
-                            </div>
-                        </a>
-                        
-                        <a
-                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring relative"
-                        href="https://fb.watch/t54nr6TVZ9/"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        >
-                            <span className="inline-block rounded-lg">
-                                <Favicon id='Jenny Jones favicon.jpg' alt='Jenny Jones Facebook Video Link' />
-                            </span>
-
-                            <h2 className="mt-2 font-bold">Jenny Jones, Green Party Member of the House of Lords</h2>
-
-                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
-                                Aviation expansion really isn&apos;t worth it. I use a NEF report to explain why bigger airports don&apos;t benefit the country economically, or in terms of jobs.
-                            </p>
-                            <div className='absolute top-0 right-1.5' >
-                              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 48 48">
-                                <linearGradient id="Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1" x1="9.993" x2="40.615" y1="9.993" y2="40.615" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2aa4f4"></stop><stop offset="1" stop-color="#007ad9"></stop></linearGradient><path fill="url(#Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1)" d="M24,4C12.954,4,4,12.954,4,24s8.954,20,20,20s20-8.954,20-20S35.046,4,24,4z"></path><path fill="#fff" d="M26.707,29.301h5.176l0.813-5.258h-5.989v-2.874c0-2.184,0.714-4.121,2.757-4.121h3.283V12.46 c-0.577-0.078-1.797-0.248-4.102-0.248c-4.814,0-7.636,2.542-7.636,8.334v3.498H16.06v5.258h4.948v14.452 C21.988,43.9,22.981,44,24,44c0.921,0,1.82-0.084,2.707-0.204V29.301z"></path>
-                              </svg>
-                            </div>
-                        </a>
-                        
-                        <a
-                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring relative"
-                        href="https://fb.watch/t54aYHQxBu/"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        >
-                            <span className="inline-block rounded-lg">
-                                <Favicon id='PBS favicon.png' alt='PBS Facebook Video Link' />
-                            </span>
-
-                            <h2 className="mt-2 font-bold">PBS Digital Studios</h2>
-
-                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
-                                Private jets are mostly the rarified ride of rock stars and pro athletes, but they are also a growing share of air travel. How can such small planes be damaging the environment?
-                            </p>
-                            <div className='absolute top-0 right-1.5' >
-                              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 48 48">
-                                <linearGradient id="Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1" x1="9.993" x2="40.615" y1="9.993" y2="40.615" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2aa4f4"></stop><stop offset="1" stop-color="#007ad9"></stop></linearGradient><path fill="url(#Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1)" d="M24,4C12.954,4,4,12.954,4,24s8.954,20,20,20s20-8.954,20-20S35.046,4,24,4z"></path><path fill="#fff" d="M26.707,29.301h5.176l0.813-5.258h-5.989v-2.874c0-2.184,0.714-4.121,2.757-4.121h3.283V12.46 c-0.577-0.078-1.797-0.248-4.102-0.248c-4.814,0-7.636,2.542-7.636,8.334v3.498H16.06v5.258h4.948v14.452 C21.988,43.9,22.981,44,24,44c0.921,0,1.82-0.084,2.707-0.204V29.301z"></path>
-                              </svg>
-                            </div>
-                        </a>
+                      
+                      <VideoCard 
+                        favicon='APHA favicon.jpg'
+                        altText='APHA YouTube Video Channel'
+                        href='https://www.youtube.com/watch?v=2WM0328Z34I'
+                        title='The Urgent Need to Phase Out Leaded Aviation Fuel'
+                        description='Members of Earth Justice and Quiet Communities make a call to action to urge the government and private sector stakeholders to work together to phase out leaded avgas now.'
+                        source='youtube'
+                      />
+                      
+                      <VideoCard 
+                        favicon='BFPCA favicon.png'
+                        altText='BFPCA Facebook Video Link'
+                        href='https://fb.watch/t54hcrBgrN/'
+                        title='BFPCA'
+                        description='This BFPCA-led survey of affected residents in December 2020 to January 2021 is a powerful and insightful summary of the community experience since the new runway and the revised airpath operations have been operating.'
+                        source='facebook'
+                      />
+                      
+                      <VideoCard 
+                        favicon='CBS Colorado favicon.jpg'
+                        altText='CBS Colorado YouTube Channel'
+                        href='https://www.youtube.com/watch?v=VQjx3sYxgVw'
+                        title='CBS Colorado about leaded fuel'
+                        description='Airplanes have been coming in and out of the Rocky Mountain Metropolitan Airport at an increasing rate and now homes under the paths of these planes are testing for high levels of lead.'
+                        source='youtube'
+                      />
+                      
+                      <VideoCard 
+                        favicon='Climate Adam favicon.jpg'
+                        altText='Climate Adam Channel YouTube'
+                        href='https://fb.watch/t54hcrBgrN/'
+                        title='Climate Adam'
+                        description='Flying is worse for the climate than you think.'
+                        source='youtube'
+                      />
+                      
+                      <VideoCard 
+                        favicon='Eleanor Holmes Norton favicon.jpg'
+                        altText='Eleanor Holmes Norton Facebook Video Link'
+                        href='https://fb.watch/t54vCinAmj/'
+                        title='Eleanor Holmes Norton'
+                        description='As co-chair of the Quiet Skies Caucus representing DC, which is plagued by aircraft noise, I highlighted two provisions I got included in the House-passed FAA reauthorization to combat helicopter noise in today&apos;s Aviation hearing.'
+                        source='facebook'
+                      />
+                      
+                      <VideoCard 
+                        favicon='Gareth Dennis favicon.jpg'
+                        altText='Gareth Dennis YouTube Video Channel'
+                        href='https://www.youtube.com/watch?v=MzglQeMVbvo'
+                        title='#RailNatter | Episode 180: Ban Private Jets, Make The World Better'
+                        description='Guest Hannah Lawrence from Stay Grounded, talking about the legitimacy of flights, the inequality of flying, and campaigning against the worst excesses of aviation (infographics galore!)'
+                        source='youtube'
+                      />
+                      
+                      <VideoCard 
+                        favicon='Jenny Jones favicon.jpg'
+                        altText='Jenny Jones Facebook Video Link'
+                        href='https://fb.watch/t54nr6TVZ9/'
+                        title='Jenny Jones, Green Party Member of the House of Lords'
+                        description='Aviation expansion really isn&apos;t worth it. I use a NEF report to explain why bigger airports don&apos;t benefit the country economically, or in terms of jobs.'
+                        source='facebook'
+                      />
+                      
+                      <VideoCard 
+                        favicon='PBS favicon.png'
+                        altText='PBS Facebook Video Link'
+                        href='https://fb.watch/t54aYHQxBu/'
+                        title='PBS Digital Studios'
+                        description='Private jets are mostly the rarified ride of rock stars and pro athletes, but they are also a growing share of air travel. How can such small planes be damaging the environment?'
+                        source='facebook'
+                      />
+                      
+                      <VideoCard 
+                        favicon='Quiet Communities.png'
+                        altText='Quiet Communities YouTube Video Channel'
+                        href='https://www.youtube.com/watch?v=i7JHi3WqRn8'
+                        title='Scientific Panel from "Aviation Noise, Pollution, and Health": Connecting the Dots'
+                        description='Presentations from leading international researchers describe the scientific rationale for the adverse impacts being experienced by communities affected by excessive aviation operations.'
+                        source='youtube'
+                      />
+                      
+                      <VideoCard 
+                        favicon='UC Davis favicon.jpg'
+                        altText='UC Davis Symposium 2023 YouTube Video Channel'
+                        href='https://www.youtube.com/watch?v=B9NaeKiLBiw'
+                        title='ANE Symposium 2023: Understanding and Addressing Noise Beyond 65 DNL'
+                        description='Session Chairs: Darlene Yaplee, Aviation-Impacted Communities Alliance and Concerned Residents of Palo Alto, Kallie Glover, Delta'
+                        source='youtube'
+                      />
+                      
+                      <VideoCard 
+                        favicon='TE favicon.jpg'
+                        altText='TE Channel YouTube'
+                        href='https://www.youtube.com/watch?v=Y5ny2TJl3Y8&t=4s'
+                        title='Transport &amp; Environment (T&amp;E)'
+                        description='We spoke to residents near some of these airports to see what it&apo;s like living with the noise and pollution from planes every day.'
+                        source='youtube'
+                      />
+                      
+                      <VideoCard 
+                        favicon='The Independent favicon.jpg'
+                        altText='The Independent YouTube Video Channel'
+                        href='https://www.youtube.com/watch?v=GH-db5xhUDI'
+                        title='How airlines greenwash the skies | Behind The Headlines'
+                        description='The Independent&apos;s Travel Editor goes behind the headlines to look at how airlines are greenwashing the skies..'
+                        source='youtube'
+                      />
                         
                     </div>
                 </div>
