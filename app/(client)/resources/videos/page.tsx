@@ -65,7 +65,7 @@ const page = async () => {
                         favicon='BFPCA favicon.png'
                         altText='BFPCA Facebook Video Link'
                         href='https://fb.watch/t54hcrBgrN/'
-                        title='BFPCA'
+                        title='Flight Paths, the BFPCA Survey'
                         description='This BFPCA-led survey of affected residents in December 2020 to January 2021 is a powerful and insightful summary of the community experience since the new runway and the revised airpath operations have been operating.'
                         source='facebook'
                       />
@@ -147,7 +147,7 @@ const page = async () => {
                         altText='TE Channel YouTube'
                         href='https://www.youtube.com/watch?v=Y5ny2TJl3Y8&t=4s'
                         title='Transport &amp; Environment (T&amp;E)'
-                        description='We spoke to residents near some of these airports to see what it&apo;s like living with the noise and pollution from planes every day.'
+                        description='We spoke to residents near some of these airports to see what it is like living with the noise and pollution from planes every day.'
                         source='youtube'
                       />
                       
