@@ -108,7 +108,7 @@ const page = async () => {
                             <h2 className="mt-2 font-bold">Eleanor Holmes Norton</h2>
 
                             <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
-                                As co-chair of the Quiet Skies Caucus representing DC, which is plagued by aircraft noise, I highlighted two provisions I got included in the House-passed FAA reauthorization to combat helicopter noise in today's Aviation hearing.
+                                As co-chair of the Quiet Skies Caucus representing DC, which is plagued by aircraft noise, I highlighted two provisions I got included in the House-passed FAA reauthorization to combat helicopter noise in today&apos;s Aviation hearing.
                             </p>
                             <div className='absolute top-0 right-1.5' >
                               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 48 48">
@@ -130,7 +130,7 @@ const page = async () => {
                             <h2 className="mt-2 font-bold">Jenny Jones, Green Party Member of the House of Lords</h2>
 
                             <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
-                                Aviation expansion really isn't worth it. I use a NEF report to explain why bigger airports don't benefit the country economically, or in terms of jobs.
+                                Aviation expansion really isn&apos;t worth it. I use a NEF report to explain why bigger airports don&apos;t benefit the country economically, or in terms of jobs.
                             </p>
                             <div className='absolute top-0 right-1.5' >
                               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 48 48">
