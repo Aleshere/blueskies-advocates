@@ -385,6 +385,23 @@ const page = async () => {
                         
                         <a
                         className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://helppalpine.org/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='HELPP Over Alpine favicon.png' alt='HELPP Over Alpine website' />
+                            </span>
+                            
+                            <h2 className="mt-2 font-bold">HELPP - Help Eliminate Loud Planes Practicing Over Alpine</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                HELPP Over Alpine is steadfast in its mission to proactively halt the targeted practice of small planes over the Greater Alpine area.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
                         href="https://ladacan.org/"
                         target="_blank"
                         rel="noreferrer noopener"
@@ -926,13 +943,30 @@ const page = async () => {
                         rel="noreferrer noopener"
                         >
                             <span className="inline-block rounded-lg">
-                                <Favicon id='Stop Oak Expansion favicon.jpg' alt='Pesky Planes website' />
+                                <Favicon id='Stop Oak Expansion favicon.jpg' alt='Stop Oakland Expansion Coalition website' />
                             </span>
                             
                             <h2 className="mt-2 font-bold">Stop Oakland Expansion Coalition</h2>
 
                             <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
                                 Oakland Airport is planning an expansion to add up to 16 new gates putting the community and climate at risk. More flights = more global warming, more pollution, more noise. We are organizing for a healthier future.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://www.stopprivatejetexpansion.org/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='Stop Private Jet Expansion favicon.jpg' alt='Stop Private Jet Expansion website' />
+                            </span>
+                            
+                            <h2 className="mt-2 font-bold">Stop Private Jet Expansion</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                We are a coalition of state and local organizations. The name of the coalition reflects our objective: Stop Private Jet Expansion at Hanscom or Anywhere.
                             </p>
                         </a>
                         

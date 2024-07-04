@@ -80,7 +80,7 @@ const page = async () => {
                     </p>
                 </a>
                 
-                              <a
+                <a
                 className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
                 href='/resources/timeline'
                 >

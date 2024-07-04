@@ -30,15 +30,6 @@ export const metadata: Metadata = {
   },
 }
 
-interface Props {
-    id: string,
-    alt: string
-}
-
-function Favicon({ id, alt }: Props ) {
-  return <Image src={`/assets/images/videos-favicons/${id}`} alt={alt} width="32" height="32" className="rounded-md" />
-}
-
 const page = async () => {
     
   return (
@@ -68,6 +59,15 @@ const page = async () => {
                         title='Flight Paths, the BFPCA Survey'
                         description='This BFPCA-led survey of affected residents in December 2020 to January 2021 is a powerful and insightful summary of the community experience since the new runway and the revised airpath operations have been operating.'
                         source='facebook'
+                      />
+                      
+                      <VideoCard 
+                        favicon='Cagelfa favicon.jpg'
+                        altText='Cagelfa YouTube Video Channel'
+                        href='https://www.youtube.com/watch?v=QDdw8dECodE'
+                        title='Propeller planes dump 467 tons of lead into our breathable air every year'
+                        description='In the US, hundreds of millions of gallons of highly toxic tetraethyl lead-formulated gasoline are consumed annually by piston-engine powered propeller airplanes releasing more than one million pounds of airborne lead into our environment each year on average.'
+                        source='youtube'
                       />
                       
                       <VideoCard 

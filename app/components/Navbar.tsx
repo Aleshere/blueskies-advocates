@@ -43,22 +43,19 @@ const Navbar = () => {
             </Link>
             
             {/* nav links */}
-            {/* <ul className="hidden sm:flex text-zinc-950">
+            <ul className="hidden sm:flex text-zinc-950">
                 <div className="flex ">
                     <li className="dropdown-link">
-                        <Link className="text-gray-500 dark:text-gray-400" href='/'>Home</Link>
+                        <Link className="text-gray-500 dark:text-gray-400 mr-8" href='/resources'>Resources</Link>
                     </li>
                     <li className="dropdown-link">
-                        <Link className="text-gray-500 dark:text-gray-400" href='/faq'>FAQ</Link>
+                        <Link className="text-gray-500 dark:text-gray-400 mr-8" href='/take-action'>Take Action</Link>
                     </li>
                     <li className="dropdown-link">
-                        <Link className="text-gray-500 dark:text-gray-400 mr-8" href='/tag'>Tags</Link>
-                    </li>
-                    <li>
-                        <ThemeSwitch />
+                        <Link className="text-gray-500 dark:text-gray-400 mr-8" href='https://www.govtrack.us/congress/members/map'>Find Your Representative</Link>
                     </li>
                 </div>
-            </ul> */}
+            </ul>
 
             {/* Mobile Button */}
             <div className="flex" >
@@ -95,6 +92,9 @@ const Navbar = () => {
                 </li>
                 <li onClick={navHandler} className="pl-0 pr-4 pt-3 pb-3 text-4xl text-center text-white hover:text-gray-500">
                     <Link className="block" href='/resources' >Resources</Link>
+                </li>
+                <li onClick={navHandler} className="pl-0 pr-4 pt-3 pb-3 text-4xl text-center text-white hover:text-gray-500">
+                    <Link className="block" href='/take-action'>Take Action</Link>
                 </li>
               </ul>
             </div>
