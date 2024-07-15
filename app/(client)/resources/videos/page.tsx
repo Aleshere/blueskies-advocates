@@ -98,6 +98,15 @@ const page = async () => {
                       />
                       
                       <VideoCard 
+                        favicon='GALBA favicon.jpg'
+                        altText='GALBA YouTube Video Channel'
+                        href='https://www.youtube.com/watch?v=rPdmGr8WUbY'
+                        title='Say YES to a good night os sleep - say NO to Leeds Bradford Airport expansion'
+                        description='Animation provided by Christopher Harry https://christopheranimation.com/'
+                        source='youtube'
+                      />
+                      
+                      <VideoCard 
                         favicon='Gareth Dennis favicon.jpg'
                         altText='Gareth Dennis YouTube Video Channel'
                         href='https://www.youtube.com/watch?v=MzglQeMVbvo'
@@ -113,6 +122,15 @@ const page = async () => {
                         title='Jenny Jones, Green Party Member of the House of Lords'
                         description='Aviation expansion really isn&apos;t worth it. I use a NEF report to explain why bigger airports don&apos;t benefit the country economically, or in terms of jobs.'
                         source='facebook'
+                      />
+                      
+                      <VideoCard 
+                        favicon='NEF favicon.jpg'
+                        altText='NEF YouTube Video Link'
+                        href='https://www.youtube.com/watch?v=1DFEylc5lu8'
+                        title='Bigger airports and more flights are not good for the economy'
+                        description='Bigger airports and more flights are not good for the economy or ordinary families. The only people they benefit are wealthy executives and shareholders who are wrecking our planet to make a profit.'
+                        source='youtube'
                       />
                       
                       <VideoCard 

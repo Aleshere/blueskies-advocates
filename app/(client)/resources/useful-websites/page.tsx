@@ -385,6 +385,23 @@ const page = async () => {
                         
                         <a
                         className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://www.hacaneast.org.uk/home"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='HE favicon.jpg' alt='Hacan East website' />
+                            </span>
+                            
+                            <h2 className="mt-2 font-bold">Hacan East - Heathrow Association for the Control of Aircraft Noise</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                We are a campaign group made up of concerned residents from east and south-east London, campaigning primarily against the expansion of London City Airport.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
                         href="https://helppalpine.org/"
                         target="_blank"
                         rel="noreferrer noopener"
