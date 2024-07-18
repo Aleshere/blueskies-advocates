@@ -30,10 +30,10 @@ const LeafletPopup = ({
   return (
     <Popup {...props}>
       <div
-        className="absolute bg-white shadow rounded-md"
+        className="absolute bg-white shadow rounded-md popup-modal"
         style={{
-          marginLeft: `calc(-150px + ${AppConfig.ui.markerIconSize + 12}px)`,
-          marginTop: -1,
+          marginLeft: `calc(-170px + ${AppConfig.ui.markerIconSize + 12}px)`,
+          marginTop: `-130px`,
         }}
       >
         <div className="flex flex-row justify-center pt-3" style={{ width: '300px' }}>

@@ -2,6 +2,7 @@ import Map from "@/app/components/Map";
 import { Metadata } from "next";
 
 import 'leaflet/dist/leaflet.css'
+import '@/app/components/map/leaflet-custom.css'
 
 export const revalidate = 60;
 
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "BlueSkies Advocates",
       images: [
         {
-          url: "https://www.weareblueskies.com/api/og?title=MAP",
+          url: "https://www.weareblueskies.com/api/og?title=MAP OF GROUPS",
         },
       ],
   },

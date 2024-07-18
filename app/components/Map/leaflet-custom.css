@@ -19,10 +19,8 @@
   height: 1px !important;
 }
 
-.leaflet-popup-content p,
+/* .leaflet-popup-content p,
 .leaflet-popup-content-wrapper,
-.leaflet-popup-tip-container,
-.leaflet-popup-tip,
 .leaflet-popup-content {
   background: initial;
   color: initial;
@@ -38,4 +36,9 @@
   font-size: initial;
   font-size: initial;
   min-height: initial;
+} */
+
+.leaflet-popup-tip-container,
+.leaflet-popup-tip {
+  display: none;
 }

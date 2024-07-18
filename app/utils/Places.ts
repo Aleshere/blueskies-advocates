@@ -38,7 +38,7 @@ export const Places: PlacesType = [
   },
   {
     id: 3,
-    position: [38.89504, -77.03654],
+    position: [47.28684, -120.21261],
     category: Category.CAT1,
     title: 'aiREFORM',
     information: 'A resource to support and empower citizen activists who seek to reduce aviation impacts and reclaim local control of airports',
@@ -713,7 +713,7 @@ export const Places: PlacesType = [
     title: 'CAGELFA',
     information: "Our goal is to seek out, provide information and ask questions regarding the viability of the airport",
     website: 'www.facebook.com/CAGELFA',
-    favicon: 'CAGELFA favicon.jpg',
+    favicon: 'Cagelfa favicon.jpg',
     altText: 'CAGELFA website'
   },
   {
@@ -885,5 +885,335 @@ export const Places: PlacesType = [
     website: 'www.facebook.com/SloughADAR3',
     favicon: 'Slough District favicon.jpg',
     altText: 'Slough District Against Runway 3 website'
-  }
+  },
+  {
+    id: 88,
+    position: [34.20756, -118.49031],
+    category: Category.CAT1,
+    title: 'FumeFighters VNY',
+    information: "This group is for those concerned about noise & air pollution, health issues & climate change as a result of the proliferation of private & charter jets out of Van Nuys Airport",
+    website: 'www.facebook.com/groups/fumefightersunitedvny',
+    favicon: 'Fumefighters VNY favicon.jpg',
+    altText: 'FumeFighters VNY website'
+  },
+  {
+    id: 89,
+    position: [33.77203, -118.19515],
+    category: Category.CAT1,
+    title: 'Long Beach Neighborhood First',
+    information: "We are a grassroots group founded by residents who are concerned with the increase of small aircraft noise that is consistently circling our neighborhoods everyday at all times of the day impacting the following areas: Signal Hill, California Heights, Bixby Terrace, Bixby Highland, Ridgewood Triangle, Los Altos, and Signal Hill",
+    website: 'www.longbeachneighborhoodsfirst.com',
+    favicon: 'Long Beach Neighborhood First favicon.png',
+    altText: 'Long Beach Neighborhood First website'
+  },
+  {
+    id: 90,
+    position: [29.30049, -81.11251],
+    category: Category.CAT1,
+    title: 'Citizens Against Runway Extensions',
+    information: "Ormond Cares is a grassroots group of citizens who care about the quality of life in our community. Working with C.A.R.E (Citizens against runway extensions) we are against the Proposed Ormond Beach Airport Runway 9-27 West-East Extension",
+    website: 'ormondcares.com',
+    favicon: 'CARE favicon.png',
+    altText: 'Citizens Against Runway Extensions website'
+  },
+  {
+    id: 91,
+    position: [41.06802, -73.70833],
+    category: Category.CAT1,
+    title: 'Coalition to Prevent Westchester Airport Expansion',
+    information: "Our coalition brings together community and environmental organizations, families, individuals, and businesses who all make Westchester County and the surrounding area their home and care about its long-term health and well-being",
+    website: 'www.coalition-to-prevent-westchester-airport-expansion.org',
+    favicon: 'Westchester favicon.png',
+    altText: 'Coalition to Prevent Westchester Airport Expansion website'
+  },
+  {
+    id: 92,
+    position: [26.14220, -81.79429],
+    category: Category.CAT1,
+    title: 'Reduce Jet Noise Naples',
+    information: "The overhead jet noise in our community is overwhelming. Help us keep the Naples community peaceful and safe",
+    website: 'reducejetnoisenaples.org',
+    favicon: 'Reduce Jet Noise Naples favicon.png',
+    altText: 'Reduce Jet Noise Naples website'
+  },
+  {
+    id: 93,
+    position: [20.75806, -156.31052],
+    category: Category.CAT1,
+    title: 'Quiet Skies Maui',
+    information: "We want to save our formerly tranquil communities and quality of life from the new FAA flight paths and regulate helicopter tours that ignore State of Hawaii's DOT mandated noise abatement zones. Returning Maui arrivals/departures to over the ocean",
+    website: 'www.facebook.com/Quietskiesmaui',
+    favicon: 'Quiet Skies Maui favicon.jpg',
+    altText: 'Quiet Skies Maui website'
+  },
+  {
+    id: 94,
+    position: [32.96588, -108.57665],
+    category: Category.CAT1,
+    title: 'Peaceful Gila Skies',
+    information: "Peaceful Gila Skies is a coalition of business owners, community leaders, sportsmen and concerned citizens, united in our opposition to the expansion of Holloman Air Force Base's military training over the Gila region in Southwest New Mexico",
+    website: 'peacefulgilaskies.com',
+    favicon: 'Peaceful Gila Skies favicon.jpg',
+    altText: 'Peaceful Gila Skies website'
+  },
+  {
+    id: 95,
+    position: [37.36883, -122.03635],
+    category: Category.CAT1,
+    title: 'Save My Sunny Sky',
+    information: "This is a Airplane Noise group by Sunnyvale & Cupertino",
+    website: 'www.savemysunnysky.org',
+    favicon: 'Save My Sunny Sky favicon.png',
+    altText: 'Save My Sunny Sky website'
+  },
+  {
+    id: 96,
+    position: [33.90924, -118.17724],
+    category: Category.CAT1,
+    title: 'LAAHNC',
+    information: "Los Angeles Area Helicopter Noise Coalition",
+    website: 'lahelicopternoise.us12.list-manage.com/subscribe?u=2d2a5cfdd0e3ae441a0e09e95&id=a544e56e4d',
+    favicon: 'Default favicon.png',
+    altText: 'Los Angeles Area Helicopter Noise Coalition website'
+  },
+  {
+    id: 97,
+    position: [38.66228, -76.99103],
+    category: Category.CAT1,
+    title: 'South Maryland Fair Skies Coalition',
+    information: "We pursue a timely implementation of a fair and equitable air traffic plan for DCA that minimizes aircraft noise and pollution affecting the residents of Southern Maryland",
+    website: 'www.southernmarylandfairskiescoalition.com',
+    favicon: 'Default favicon.png',
+    altText: 'South Maryland Fair Skies Coalition website'
+  },
+  {
+    id: 98,
+    position: [44.88275, -93.22260],
+    category: Category.CAT1,
+    title: 'SMAAC',
+    information: "South Metro Airport Action Council",
+    website: 'www.smaacmn.org/2024_news_blog',
+    favicon: 'SMAAC.png',
+    altText: 'SMAAC website'
+  },
+  {
+    id: 99,
+    position: [40.96147, -72.24989],
+    category: Category.CAT1,
+    title: 'Coalition to Transform East Hampton Airport',
+    information: "We support closing the East Hampton Airport. Led by full time resident and former local public school teacher Barry Raebeck Ph.D., we are a nonpartisan group of friends and neighbors who care deeply about this issue",
+    website: 'www.transformeasthamptonairport.com',
+    favicon: 'Transform East Hampton favicon.png',
+    altText: 'Coalition to Transform East Hampton Airport website'
+  },
+  {
+    id: 100,
+    position: [43.97928, -120.73726],
+    category: Category.CAT1,
+    title: 'Oregon Aviation Watch',
+    information: "The primary purpose of Oregon Aviation Watch is to research, educate and advocate on behalf of the public interest and public welfare about aviation issues",
+    website: 'www.oregonaviationwatch.org/index.php',
+    favicon: 'Default favicon.png',
+    altText: 'Oregon Aviation Watch website'
+  },
+  {
+    id: 101,
+    position: [40.26641, -74.89173],
+    category: Category.CAT1,
+    title: 'BRAAM - Bucks Residents For Responsible Airport Management',
+    information: "An incorporated, volunteer, non-profit organization formed by a group of Bucks County, PA citizens concerned about past, proposed, and foreseeable future expansion of the Trenton-Mercer Airport (TTN)",
+    website: 'www.transformeasthamptonairport.com',
+    favicon: 'Default favicon.png',
+    altText: 'BRAAM - Bucks Residents For Responsible Airport Management website'
+  },
+  {
+    id: 102,
+    position: [30.67752, -97.67841],
+    category: Category.CAT1,
+    title: 'ACC - Airport Concerned Citizens',
+    information: "A group of friends, neighbors and fellow citizens who believe strongly in the need of a viable, vigorous airport for service to the growing economy of the city, but are opposed to the expansion of our airport's aviation operations in the airport's current location which is the geographic and cultural heart of our growing city and totally atop the Edwards Recharge Zone",
+    website: 'georgetownairportconcernedcitizens.com',
+    favicon: 'Default favicon.png',
+    altText: 'ACC - Airport Concerned Citizens website'
+  },
+  {
+    id: 103,
+    position: [44.59907, -72.50026],
+    category: Category.CAT1,
+    title: 'Save Vermont Airspace',
+    information: "We are a group of citizens and neighbors responding to the dramatic increase in demand for private airstrips and helipads in Vermont",
+    website: 'www.savevtairspace.org',
+    favicon: 'Default favicon.png',
+    altText: 'Save Vermont Airspace website'
+  },
+  {
+    id: 104,
+    position: [38.89504, -77.03654],
+    category: Category.CAT1,
+    title: 'Washington DC Fair Skies Coalition',
+    information: "A group of citizens in Washington, DC working to make sure we all have a say on airplane noise, air pollution, and flight safety in our neighborhoods",
+    website: 'www.facebook.com/dcfairskies',
+    favicon: 'Washington DC Fair Skies favicon.jpg',
+    altText: 'Washington DC Fair Skies Coalition website'
+  },
+  {
+    id: 105,
+    position: [47.46992, -122.34853],
+    category: Category.CAT1,
+    title: 'Quiet Skies Coalition',
+    information: "Our mission is to restore the quiet skies over the greater Burien area",
+    website: 'www.facebook.com/QSCBurien',
+    favicon: 'Quiet Skies Coalition favicon.jpg',
+    altText: 'Quiet Skies Coalition website'
+  },
+  {
+    id: 106,
+    position: [41.85108, -70.68325],
+    category: Category.CAT1,
+    title: 'Community Land and Water Coalition',
+    information: "Our mission is to protect, preserve and steward the land and water resources of Southeastern Massachusetts. We are losing them fast",
+    website: 'communitylandandwater.org',
+    favicon: 'Community Land Water Coalition favicon.png',
+    altText: 'Community Land and Water Coalition website'
+  },
+  {
+    id: 107,
+    position: [42.29121, -71.12450],
+    category: Category.CAT1,
+    title: 'Boston South Fair Skies',
+    information: "This is a discussion group focused on advocating for the health of City of Boston neighborhoods under Runway 27 flight paths over the commercial interests of the airlines. All residents of these neighborhoods are welcome",
+    website: 'www.facebook.com/groups/BostonSouthFairSkies',
+    favicon: 'Boston South Fair Skies favicon.jpg',
+    altText: 'Boston South Fair Skies website'
+  },
+  {
+    id: 108,
+    position: [42.46052, -71.34890],
+    category: Category.CAT1,
+    title: 'Quiet Communities',
+    information: "Quiet Communities, a nonprofit 501(c)(3) organization, promotes quiet as a valuable natural resource and works to reduce harmful noise and related pollution. We take a collaborative, evidence-based, and solutions-driven approach aimed at engaging diverse stakeholders and finding common ground. At the core is a proven model of behavior change",
+    website: 'www.quietcommunities.org',
+    favicon: 'Quiet Communities favicon.png',
+    altText: 'Quiet Communities website'
+  },
+  {
+    id: 109,
+    position: [41.38355, -72.50567],
+    category: Category.CAT1,
+    title: 'Chester Airport Should Be Shut Down',
+    information: "Irresponsible pilots at Chester Airport are going to cause another fatal crash, maybe this time taking innocent life. The FAA needs to be at private airports and ensure pilots follow the fight rules",
+    website: 'www.facebook.com/profile.php?id=100047026513946',
+    favicon: 'Chester Airport favicon.jpg',
+    altText: 'Chester Airport Should Be Shut Down website'
+  },
+  {
+    id: 110,
+    position: [47.60324, 7.52435],
+    category: Category.CAT1,
+    title: 'ADRA - Association for the Defense of Residents around Basel-Mulhouse Airport',
+    information: "Moins d'avions, c'est moins de bruit et de pollution",
+    website: 'www.adra-bale-mulhouse.fr',
+    favicon: 'ADRA favicon.png',
+    altText: 'ADRA website'
+  },
+  {
+    id: 111,
+    position: [48.42985, 6.67933],
+    category: Category.CAT1,
+    title: 'Air Quotas',
+    information: "How to reduce CO2 with social justice? Let's start with the plane. One account with the same plane quota for everyone. Those who do not have enough will buy surplus. Those, more numerous not taking the plane, will be able to cash in their points which will be renewed each year with 6% less: avoiding the plane will be rewarded!",
+    website: 'air-quotas.eu',
+    favicon: 'Air Quotas favicon.png',
+    altText: 'Air Quotas website'
+  },
+  {
+    id: 112,
+    position: [48.10500, 16.58490],
+    category: Category.CAT1,
+    title: 'Aviation Reset',
+    information: "The concept of unbridled growth as a motor for the economy - the credo of aviation for decades, hyped by politicians and the media - has had its day. The dream of cheap flights for everyone is not feasible. It is time for a reset, for a new beginning with a balanced approach that meets the challenges of our time",
+    website: 'aviationreset.at',
+    favicon: 'Aviation Reset favicon.jpg',
+    altText: 'Aviation Reset website'
+  },
+  {
+    id: 113,
+    position: [50.95192, -1.35610],
+    category: Category.CAT1,
+    title: 'AXO - Airport eXpansion Opposition Southampton',
+    information: "Airport eXpansion Opposition accepts the need for a small regional airport at Southampton, whilst acknowledging that the Climate Crisis means we must all fly less",
+    website: 'axosouthampton.wordpress.com',
+    favicon: 'AXO favicon.png',
+    altText: 'AXO website'
+  },
+  {
+    id: 114,
+    position: [45.64909, 12.19668],
+    category: Category.CAT1,
+    title: 'Comitato Aeroporto Treviso',
+    information: "Ognuno di noi è importante, ognuno di noi vale la battaglia che portiamo avanti con la forza della ragione, contro la ragione della forza!",
+    website: 'www.facebook.com/ComitatoAeroportoTv',
+    favicon: 'Comitato Aeroporto Treviso favicon.jpg',
+    altText: 'Comitato Aeroporto Treviso website'
+  },
+  {
+    id: 115,
+    position: [50.90090, 4.48096],
+    category: Category.CAT1,
+    title: 'Free Air Brussels North',
+    information: "Stop au survol excessif de la Région bruxelloise! Stop excessief luchtverkeer boven Brussels Gewest!",
+    website: 'www.facebook.com/FreeAirBrusselsNorth',
+    favicon: 'Free Air Brussels North favicon.jpg',
+    altText: 'Free Air Brussels North website'
+  },
+  {
+    id: 116,
+    position: [45.32204, -75.66726],
+    category: Category.CAT1,
+    title: 'Land over Landings',
+    information: "To persuade Ottawa to preserve the Pickering Federal Lands, long earmarked as the site of a future airport, as a secure source of food and fresh water for Canada’s largest urban centre",
+    website: 'landoverlandings.com',
+    favicon: 'Land over Landings favicon.png',
+    altText: 'Land over Landings website'
+  },
+  {
+    id: 117,
+    position: [43.62806, -79.39800],
+    category: Category.CAT1,
+    title: 'Parks not Planes',
+    information: "Members of Parks not Planes are your neighbors. Join us in the effort to turn the Island Airport lands into a magnificent park",
+    website: 'www.parksnotplanes.com',
+    favicon: 'Parks not Planes favicon.png',
+    altText: 'Parks not Planes website'
+  },
+  {
+    id: 118,
+    position: [51.46774, -0.45878],
+    category: Category.CAT1,
+    title: 'Vote NO To Heathrow',
+    information: "We are a grassroots group campaigning against a third runway at Heathrow; currently pressuring progressive political parties to stand by their morals & oppose June's vote on Heathrow expansion. New runways hasten climate breakdown, killing millions",
+    website: 'www.facebook.com/votenoheathro',
+    favicon: 'Vote No To Heathrow favicon.png',
+    altText: 'Vote NO To Heathrow website'
+  },
+  {
+    id: 119,
+    position: [43.43752, 5.21303],
+    category: Category.CAT1,
+    title: 'Stop Extension Aeroport Marseille-Provence',
+    information: "The airport intends to align itself with the global growth of the sector, and expand to allow more passenger traffic. However, if we look more closely, this headlong rush, claimed by the promoter, will lead to a considerable increase in greenhouse gas emissions and global warming. In total contradiction with the Paris Agreement",
+    website: 'alternatibamarseille.org/stop-extension-aeroport-mp',
+    favicon: 'Stop Marseille Extension favicon.png',
+    altText: 'Stop Extension Aeroport Marseille-Provence website'
+  },
+  {
+    id: 120,
+    position: [41.29694, 2.07905],
+    category: Category.CAT1,
+    title: 'Zero Port',
+    information: "Plataforma pel decreixement del port i l'aeroport de BCN",
+    website: 'twitter.com/zeroportbcn',
+    favicon: 'Zero Port favicon.jpg',
+    altText: 'Zero Port website'
+  },
 ]
