@@ -993,7 +993,7 @@ export const Places: PlacesType = [
     title: 'SMAAC',
     information: "South Metro Airport Action Council",
     website: 'www.smaacmn.org/2024_news_blog',
-    favicon: 'SMAAC.png',
+    favicon: 'SMAAC favicon.png',
     altText: 'SMAAC website'
   },
   {
@@ -1153,7 +1153,7 @@ export const Places: PlacesType = [
     title: 'Comitato Aeroporto Treviso',
     information: "Ognuno di noi è importante, ognuno di noi vale la battaglia che portiamo avanti con la forza della ragione, contro la ragione della forza!",
     website: 'www.facebook.com/ComitatoAeroportoTv',
-    favicon: 'Comitato Aeroporto Treviso favicon.jpg',
+    favicon: 'CAT favicon.jpg',
     altText: 'Comitato Aeroporto Treviso website'
   },
   {

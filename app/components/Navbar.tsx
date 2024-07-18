@@ -32,7 +32,7 @@ const Navbar = () => {
   
 
   return (
-    <div style={{ backgroundColor: `${color}` }} className="fixed left-0 top-0 w-full z-10" >
+    <div style={{ backgroundColor: `${color}` }} className="fixed left-0 top-0 w-full z-[499]" >
         <div className="mx-auto max-w-5xl m-auto flex justify-between items-center py-2.5 px-6">
             {/* logo */}
             <Link href='/'>
@@ -52,10 +52,10 @@ const Navbar = () => {
                         <Link className="text-gray-500 dark:text-gray-400 mr-8" href='/map'>Map</Link>
                     </li>
                     <li className="dropdown-link">
-                        <Link className="text-gray-500 dark:text-gray-400 mr-8" href='https://www.govtrack.us/congress/members/map'>Find Your Representative</Link>
+                        <Link className="text-gray-500 dark:text-gray-400 mr-8" href='/issues'>Issues</Link>
                     </li>
                 </div>
-            </ul>
+            </ul>  
 
             {/* Mobile Button */}
             <div className="flex" >
@@ -85,13 +85,13 @@ const Navbar = () => {
                     <Link className="block" href='/' >Home</Link>
                 </li>
                 <li onClick={navHandler} className="pl-0 pr-4 pt-3 pb-3 text-4xl text-center text-white hover:text-gray-500">
-                    <Link className="block" href='/faq' >FAQ</Link>
-                </li>
-                <li onClick={navHandler} className="pl-0 pr-4 pt-3 pb-3 text-4xl text-center text-white hover:text-gray-500">
-                    <Link className="block" href='/tag' >Tags</Link>
+                    <Link className="block" href='/tag' >Blog Tags</Link>
                 </li>
                 <li onClick={navHandler} className="pl-0 pr-4 pt-3 pb-3 text-4xl text-center text-white hover:text-gray-500">
                     <Link className="block" href='/resources' >Resources</Link>
+                </li>
+                <li onClick={navHandler} className="pl-0 pr-4 pt-3 pb-3 text-4xl text-center text-white hover:text-gray-500">
+                    <Link className="block" href='/issues' >Issues</Link>
                 </li>
                 <li onClick={navHandler} className="pl-0 pr-4 pt-3 pb-3 text-4xl text-center text-white hover:text-gray-500">
                     <Link className="block" href='/take-action'>Take Action</Link>
@@ -99,8 +99,16 @@ const Navbar = () => {
                 <li onClick={navHandler} className="pl-0 pr-4 pt-3 pb-3 text-4xl text-center text-white hover:text-gray-500">
                     <Link className="block" href='/map'>Map</Link>
                 </li>
+                <li onClick={navHandler} className="pl-0 pr-4 pt-3 pb-3 text-4xl text-center text-white hover:text-gray-500">
+                    <Link className="block" href='/faq' >FAQ</Link>
+                </li>
               </ul>
             </div>
+        </div>
+        <div className='mx-auto max-w-5xl m-auto md:flex hidden justify-center items-center' >
+          <Link className="text-gray-500 dark:text-gray-400 mr-6" href='https://www.govtrack.us/congress/members/map'>Find Your Representative (USA)</Link>
+          <Link className="text-gray-500 dark:text-gray-400 mr-6" href='https://members.parliament.uk/FindYourMP'>Find Your MP (UK)</Link>
+          <Link className="text-gray-500 dark:text-gray-400" href='https://electorate.aec.gov.au/'>Find Your Electorate (AUS)</Link>
         </div>
     </div>
   );
