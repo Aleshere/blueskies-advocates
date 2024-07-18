@@ -1,7 +1,6 @@
 import Header from "@/app/components/Header";
 import { Metadata } from "next";
 import BackButton from '@/app/utils/BackButton';
-import Image from 'next/image'
 import { ScrollToTop } from "@/app/utils/ScrollToTop";
 import VideoCard from "@/app/components/VideoCard";
 

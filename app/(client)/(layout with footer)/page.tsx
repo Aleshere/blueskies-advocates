@@ -1,8 +1,8 @@
 import { client } from "@/sanity/lib/client"
-import Header from "../components/Header";
-import { Post } from "../utils/interface";
-import BlogList from "../components/BlogList";
-import { ScrollToTop } from "../utils/ScrollToTop";
+import Header from "../../components/Header";
+import { Post } from "../../utils/interface";
+import BlogList from "../../components/BlogList";
+import { ScrollToTop } from "../../utils/ScrollToTop";
 
 
 async function getPosts() {

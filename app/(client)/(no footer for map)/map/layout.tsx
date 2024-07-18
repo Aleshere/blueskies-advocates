@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
-import Navbar from "./../components/Navbar";
-import "./globals.css";
-import { Provider } from "./../utils/Provider";
-import Footer from "../components/Footer";
+import Navbar from "@/app/components/Navbar";
+import "@/app/(client)/(layout with footer)/globals.css";
+import { Provider } from "@/app/utils/Provider";
 import Script from "next/script";
-import OriginTracker from "../components/OriginTracker";
+import OriginTracker from "@/app/components/OriginTracker";
 
 const roboto = Roboto({
   weight: '400',
@@ -13,19 +12,19 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://www.weareblueskies.com/"),
+  metadataBase: new URL("http://www.weareblueskies.com/map"),
   title: {
     default: "BlueSkies Advocates | Communities Before Aviation",
     template: '%s | BlueSkies Advocates'
   },
-  description: "We care about communities and the environment. We share information and resources about aviation pollution and noise.",
+  description: "Map of current aviation battlegrounds.",
   openGraph: {
     title: "BlueSkies Advocates | Communities Before Aviation",
-    description: "We care about communities and the environment. We share information and resources about aviation pollution and noise.",
+    description: "Map of current aviation battlegrounds.",
     type: "website",
     locale: "en_US",
-    url: "https://weareblueskies.com/",
-    siteName: "BlueSkies Advocates"
+    url: "https://weareblueskies.com/map",
+    siteName: "Map | BlueSkies Advocates"
   },
 };
 
@@ -34,6 +33,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  
   return (
     <html lang="en">
       <head>
@@ -55,10 +55,9 @@ export default function RootLayout({
         <OriginTracker>
           <Provider>
             <Navbar />
-            <main className="mx-auto max-w-5xl px-6" >
+            <main className="" >
               {children}
             </main>
-            <Footer />
           </Provider>
         </OriginTracker>
       </body>

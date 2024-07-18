@@ -49,7 +49,7 @@ const Navbar = () => {
                         <Link className="text-gray-500 dark:text-gray-400 mr-8" href='/resources'>Resources</Link>
                     </li>
                     <li className="dropdown-link">
-                        <Link className="text-gray-500 dark:text-gray-400 mr-8" href='/take-action'>Take Action</Link>
+                        <Link className="text-gray-500 dark:text-gray-400 mr-8" href='/map'>Map</Link>
                     </li>
                     <li className="dropdown-link">
                         <Link className="text-gray-500 dark:text-gray-400 mr-8" href='https://www.govtrack.us/congress/members/map'>Find Your Representative</Link>
@@ -95,6 +95,9 @@ const Navbar = () => {
                 </li>
                 <li onClick={navHandler} className="pl-0 pr-4 pt-3 pb-3 text-4xl text-center text-white hover:text-gray-500">
                     <Link className="block" href='/take-action'>Take Action</Link>
+                </li>
+                <li onClick={navHandler} className="pl-0 pr-4 pt-3 pb-3 text-4xl text-center text-white hover:text-gray-500">
+                    <Link className="block" href='/map'>Map</Link>
                 </li>
               </ul>
             </div>
