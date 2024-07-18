@@ -2,7 +2,7 @@ import Map from "@/app/components/Map";
 import { Metadata } from "next";
 
 import 'leaflet/dist/leaflet.css'
-import '@/app/components/map/leaflet-custom.css'
+import './leaflet-custom.css'
 
 export const revalidate = 60;
 
