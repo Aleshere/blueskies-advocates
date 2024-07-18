@@ -1216,4 +1216,144 @@ export const Places: PlacesType = [
     favicon: 'Zero Port favicon.jpg',
     altText: 'Zero Port website'
   },
+  {
+    id: 121,
+    position: [51.51423, 7.46528],
+    category: Category.CAT1,
+    title: 'Giulio Mattioli X Channel',
+    information: "Transport researcher with views on + than 1 topic - citizen with views on + than 1 country. Used to be in 🇬🇧. Now at @TU_Dortmund. Views my own",
+    website: 'x.com/giulio_mattioli',
+    favicon: 'Giulio Mattioli favicon.jpg',
+    altText: 'Giulio Mattioli X Channel'
+  },
+  {
+    id: 122,
+    position: [36.21011, -115.19605],
+    category: Category.CAT1,
+    title: 'Aviation Disaster',
+    information: "Our neighborhood, peace and tranquility is BEING 'CONFISCATED' and Sold to become aviation playground",
+    website: 'x.com/NutritionBee',
+    favicon: 'Aviation Disaster favicon.jpg',
+    altText: 'Aviation Disaster X Channel'
+  },
+  {   
+    id: 123,
+    position: [36.21011, -115.19605],
+    category: Category.CAT1,
+    title: 'Maria X Channel',
+    information: "News and studies on the health effects of air pollution. Favicon image source: The American Lung Association in California",
+    website: 'x.com/Duin46473580',
+    favicon: 'Maria Twitter favicon.jpg',
+    altText: 'Maria X Channel'
+  },
+  {   
+    id: 124,
+    position: [41.82399, -71.41283],
+    category: Category.CAT1,
+    title: 'Providence Noise Project',
+    information: "Addressing the culture of #noise in one of America's oldest cities. #Noisepollution is a #publichealth & #environmentaljustice issue. Noise is the New Smoking",
+    website: 'x.com/NotSoLoudPVD',
+    favicon: 'Providence Noise Project favicon.jpg',
+    altText: 'Providence Noise Project X Channel'
+  },
+  {   
+    id: 125,
+    position: [36.70146, -118.75600],
+    category: Category.CAT1,
+    title: 'How The West Was Saved',
+    information: "Our current direction isn't left or right, it's forward towards progress. RTs/Likes ≠ endorsement. Blog UC.",
+    website: 'x.com/HowTheWestWS',
+    favicon: 'How The West Was Saved favicon.jpg',
+    altText: 'How The West Was Saved X Channel'
+  },
+  {   
+    id: 126,
+    position: [54.10080, -1.86158],
+    category: Category.CAT1,
+    title: 'No Airport Expansion',
+    information: "More flights mean more emissions, more noise pollution, and more air pollution. In response to the climate crisis, we should be reducing flight levels, for the health of local residents, the wider UK and global community, and for planetary health",
+    website: 'www.noairportexpansion.org',
+    favicon: 'No Airport Expansion favicon.jpg',
+    altText: 'No Airport Expansion website'
+  },
+  {   
+    id: 127,
+    position: [51.34653, 1.34747],
+    category: Category.CAT1,
+    title: "Don't Save Manston Airport",
+    information: "This group has been set up for the primary reason. We don't want an airport back at Manston. We do not wish to talk about supporting the former airfield, it failed numerous times",
+    website: 'www.facebook.com/groups/1513910555578401',
+    favicon: 'No Manston Airport favicon.jpg',
+    altText: "Don't Save Manston Airport website"
+  },
+  {   
+    id: 128,
+    position: [43.65348, -79.38393],
+    category: Category.CAT1,
+    title: 'No Jets T.O.',
+    information: "Save Toronto's waterfront. Say no to jets and an expanded Island Airport. Mission accomplished, let's keep it that way!",
+    website: 'x.com/NoJetsTO',
+    favicon: 'No Jets TO favicon.png',
+    altText: 'No Jets TO X Channel'
+  },
+  {   
+    id: 129,
+    position: [51.47064, -0.47010],
+    category: Category.CAT1,
+    title: 'HACAN - Heathrow Association for the Control of Aircraft Noise',
+    information: "HACAN is a campaigning organization. We were formed in the 1970s to give a voice to residents under the Heathrow flight paths. We are a regional body covering London and part of the Home Counties with several thousand members",
+    website: 'hacan.org.uk',
+    favicon: 'Hacan favicon.png',
+    altText: 'HACAN website'
+  },
+  {   
+    id: 130,
+    position: [43.63042, 1.35981],
+    category: Category.CAT1,
+    title: 'Aeroport de Toulouse STOP Pollutions Aériennes',
+    information: "Ci-gisent la vie & la santé des victimes de l'aeroport de #Toulouse NOT PROUD OF @Airbus",
+    website: 'x.com/Airport_Tlse',
+    favicon: 'Stop Toulouse Airport favicon.jpg',
+    altText: 'Aeroport de Toulouse STOP Pollutions Aériennes X Channel'
+  },
+  {   
+    id: 131,
+    position: [43.60967, 1.40104],
+    category: Category.CAT1,
+    title: "Pas d'Avions à l'Hôpital Purpan #BRUIT",
+    information: "Association pour que cesse la honte du passage des avions d'@aeroport_tls sur le @CHUdeToulouse #Purpan",
+    website: 'x.com/Stop_Avions_CHU',
+    favicon: 'Hospital Toulouse favicon.jpg',
+    altText: "Pas d'Avions à l'Hôpital Purpan #BRUIT X Channel"
+  },
+  {   
+    id: 132,
+    position: [43.44744, -79.66667],
+    category: Category.CAT1,
+    title: "Quiet Skies Oakville",
+    information: "1 of many communities blindsided by NavCanada/GTAA/TC in 2012 w/low,loud,concentrated noise sewers any time of day &night stealing away quality of life & health",
+    website: 'x.com/Whyuflylow_loud',
+    favicon: 'Quiet Skies Oakville favicon.jpg',
+    altText: "Quiet Skies Oakville X Channel"
+  },
+  {   
+    id: 133,
+    position: [38.88756, -77.09880],
+    category: Category.CAT1,
+    title: "Unsuck DCA Noise",
+    information: "DCA is a great airport but a bad neighbor. This feed is dedicated to fixing the increasing noise problem that is plaguing surrounding communities in DC, VA",
+    website: 'x.com/UnsuckDCAnoise',
+    favicon: 'Unsuck DCA Noise favicon.jpg',
+    altText: "Unsuck DCA Noise X Channel"
+  },
+  {   
+    id: 134,
+    position: [41.31005, -72.90080],
+    category: Category.CAT1,
+    title: "SOS Connecticut",
+    information: "Save Our Shoreline, Connecticut",
+    website: 'www.facebook.com/profile.php?id=100086399211567',
+    favicon: 'SOS Connecticut favicon.jpg',
+    altText: "SOS Connecticut website"
+  },
 ]
