@@ -43,9 +43,12 @@ export const LocateButton = () => {
           place={{
             id: 0,
             title: 'Your location',
-            address: 'You are here',
+            information: 'You are here',
             position: userPosition,
             category: Category.LOCATE,
+            website: '#',
+            favicon: '',
+            altText: ''
           }}
         />
       )}
