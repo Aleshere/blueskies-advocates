@@ -35,7 +35,7 @@ const page = async () => {
       <Header title="General Aviation" />
       <ScrollToTop />
       
-        <section>
+        <section id="general-aviation" >
             <div className="max-w-screen-xl px-4 pb-12 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 gap-y-8">
                         <div className='' >General aviation is non-commercial flight <a href="https://en.wikipedia.org/wiki/General_aviation" target="_blank" rel="noopener">as per ICAO</a>. This includes personal flight, flight training, aerobatics, private jets, helicopter flight, gliders, etc.. See detailed definition <a href="https://skybrary.aero/articles/general-aviation-ga"target="_blank" rel="noopener" >here</a>. FAA&apos;s airport categories can be found <a href="https://www.faa.gov/airports/planning_capacity/categories"target="_blank" rel="noopener" >here</a>.</div>                    
@@ -50,7 +50,7 @@ const page = async () => {
                           <li>Look up FAA grants paid to airports: <a href="https://aspm.faa.gov/opsnet/sys/airport.asp"target="_blank" rel="noopener" >https://aspm.faa.gov/opsnet/sys/airport.asp</a></li>
 
                           <li>FAA&apos;s LADD program that allows pilots to block tracking: <a href="https://www.faa.gov/pilots/ladd" target="_blank" rel="noopener" >https://www.faa.gov/pilots/ladd</a></li>
-                          <li>FAA&apo;s PIS program for ADS-B privacy: <a href="https://www.faa.gov/air_traffic/technology/equipadsb/privacy" target="_blank" rel="noopener" >https://www.faa.gov/air_traffic/technology/equipadsb/privacy</a></li>
+                          <li>FAA&apos;s PIS program for ADS-B privacy: <a href="https://www.faa.gov/air_traffic/technology/equipadsb/privacy" target="_blank" rel="noopener" >https://www.faa.gov/air_traffic/technology/equipadsb/privacy</a></li>
                           <li>File a FOIA with FAA: <a href="https://www.faa.gov/foia" target="_blank" rel="noopener" >https://www.faa.gov/foia</a></li>
                           <li>Airport Data: <a href="https://airnav.com" target="_blank" rel="noopener" >https://airnav.com</a></li>
                           <li>Waypoints for navigation - used by visual and instrument flyers: <a href="https://opennav.com" target="_blank" rel="noopener" >https://opennav.com</a></li>
