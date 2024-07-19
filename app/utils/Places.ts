@@ -803,7 +803,7 @@ export const Places: PlacesType = [
     title: "Stop aux nuisances de l'aéroport de Charleroi",
     information: "MONTRÉAL-dB a été créé pour aider les Montréalais à lutter contre la POLLUTION PAR LE BRUIT DES AÉRONEFS provenant de l'Aéroports de Montréal",
     website: 'www.facebook.com/profile.php?id=100063497045275',
-    favicon: "Stop aux nuisances de l'aéroport de Charleroi favicon.png",
+    favicon: "Stop Charleroi favicon.png",
     altText: "Stop aux nuisances de l'aéroport de Charleroi website"
   },
   {
@@ -1355,5 +1355,115 @@ export const Places: PlacesType = [
     website: 'www.facebook.com/profile.php?id=100086399211567',
     favicon: 'SOS Connecticut favicon.jpg',
     altText: "SOS Connecticut website"
+  },
+  {   
+    id: 135,
+    position: [-37.10418, 174.92521],
+    category: Category.CAT1,
+    title: "Fly Less Kiwis",
+    information: "Fly-less Kiwis is a New Zealand based forum for groups and individuals committed to reducing air travel in response to the threat posed by climate change. Like our native Kiwi bird, we too are endangered unless we better protect our environment",
+    website: 'www.facebook.com/groups/352684145282681',
+    favicon: 'Fly Less Kiwis favicon.jpg',
+    altText: "Fly Less Kiwis website"
+  },
+  {   
+    id: 136,
+    position: [51.57023, 0.69661],
+    category: Category.CAT1,
+    title: "Southend Airport Group against Expansion",
+    information: "A FB group of like minded residents who are worried by the pollution and sleep deprivation caused by Southend Airport operations",
+    website: 'www.facebook.com/groups/70888463942',
+    favicon: 'Default favicon.png',
+    altText: "Southend Airport Group against Expansion website"
+  },
+    {   
+    id: 137,
+    position: [50.64489, 5.46056],
+    category: Category.CAT1,
+    title: "CLAP - Comité Liège Air Propre",
+    information: "Le CLAP est un comité de citoyens subissant les nuisances sonores ou environnementales générées par le développement anarchique de l'aéroport de Liège",
+    website: 'www.facebook.com/groups/602631233740799',
+    favicon: 'CLAP favicon.jpg',
+    altText: "CLAP - Comité Liège Air Propre website"
+  },
+  {   
+    id: 138,
+    position: [-33.97121, 150.69155],
+    category: Category.CAT1,
+    title: "Silverdale & Warragamba Residents against SEPP Aerotropolis",
+    information: "We as residents are seeking consultation of SEPP and the reversal thereon until proper community consultation and community input",
+    website: 'www.facebook.com/groups/346724037269702',
+    favicon: 'SEPP favicon.jpg',
+    altText: "Silverdale & Warragamba Residents against SEPP Aerotropolis website"
+  },
+  {   
+    id: 139,
+    position: [32.73336, -117.19225],
+    category: Category.CAT1,
+    title: "San Diego Air Route Forum",
+    information: "This is a neighborhood where residents can post and discuss ideas and information regarding airplane flights San Diego",
+    website: 'www.facebook.com/groups/plairroute',
+    favicon: 'San Diego Air Route Forum favicon.jpg',
+    altText: "San Diego Air Route Forum website"
+  },
+  {   
+    id: 140,
+    position: [41.27161, -72.85669],
+    category: Category.CAT1,
+    title: "Keep Tweed Small",
+    information: "Residents against Tweed Airport Expansion through East Haven",
+    website: 'www.facebook.com/groups/367366328087334',
+    favicon: 'Keep Tweed Small favicon.jpg',
+    altText: "Keep Tweed Small website"
+  },
+  {   
+    id: 141,
+    position: [51.87983, -0.37689],
+    category: Category.CAT1,
+    title: "SLAE - Stop Luton Airport Expansion",
+    information: "Stop Luton Airport Expansion (SLAE) has been formed by members of the steering committee of local campaign group, Friends Of Wigmore Park",
+    website: 'stoplae.org',
+    favicon: 'SLAE favicon.jpg',
+    altText: "SLAE - Stop Luton Airport Expansion website"
+  },
+  {   
+    id: 142,
+    position: [38.37295, -81.59422],
+    category: Category.CAT1,
+    title: "Save Coonskin Park",
+    information: "Yeager Airport in Charleston has proposed a runway extension that would destroy over 400 acres of Coonskin park, including all the upper shelters and hiking trails",
+    website: 'www.facebook.com/groups/1780457215659935',
+    favicon: 'Save Coonskin Park favicon.jpg',
+    altText: "Save Coonskin Park website"
+  },
+  {   
+    id: 143,
+    position: [55.95013, -3.35951],
+    category: Category.CAT1,
+    title: "Edinburgh Airport Watch",
+    information: "Monitoring developments at Edinburgh Airport",
+    website: 'www.facebook.com/groups/1104147722941069',
+    favicon: 'Edinburgh Airport Watch favicon.jpg',
+    altText: "Edinburgh Airport Watch website"
+  },
+  {   
+    id: 144,
+    position: [55.88257, -3.51439],
+    category: Category.CAT1,
+    title: "Livi Quiet Skies",
+    information: "",
+    website: 'www.facebook.com/profile.php?id=61560466064591',
+    favicon: 'Livi Quiet Skies favicon.jpg',
+    altText: "Livi Quiet Skies website"
+  },
+  {   
+    id: 145,
+    position: [53.42736, -6.24833],
+    category: Category.CAT1,
+    title: "FORUM - Fingal Organised Residents United Movement",
+    information: "Our goal is to raise awareness about the devastating affects of the unapproved flight paths from the North Runway at Dublin Airport and the affects the roaring jets are having on our health",
+    website: 'www.wrongwaydaa.com',
+    favicon: 'Fingal favicon.jpg',
+    altText: "Fingal Organised Residents United Movement website"
   },
 ]

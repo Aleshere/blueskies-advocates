@@ -7,22 +7,22 @@ import BackButton from '@/app/utils/BackButton';
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://www.weareblueskies.com/take-action/legislation"),
+  metadataBase: new URL("http://www.weareblueskies.com/issues/private-jets"),
   title: {
-    default: "BlueSkies Advocates | Legislation",
+    default: "BlueSkies Advocates | Private Jets",
     template: '%s | BlueSkies Advocates'
   },
-  description: "A page that lists relevant legislation essential for combating aviation pollution and noise.",
+  description: "How the wealthy manage to have such a gigantic carbon footprint. Private flying is the worst means of transportation out there.",
   openGraph: {
-    title: "Legislation",
-    description: "A page that lists relevant legislation essential for combating aviation pollution and noise.",
+    title: "Private Jets",
+    description: "How the wealthy manage to have such a gigantic carbon footprint. Private flying is the worst means of transportation out there.",
     type: "website",
     locale: "en_US",
-    url: "https://www.weareblueskies.com/take-action/legislation",
+    url: "https://www.weareblueskies.com/issues/private-jets",
     siteName: "BlueSkies Advocates",
       images: [
         {
-          url: "https://www.weareblueskies.com/api/og?title=legislation",
+          url: "https://www.weareblueskies.com/api/og?title=Private Jets",
         },
       ],
   },
@@ -32,7 +32,7 @@ const page = async () => {
     
   return (
     <>    
-      <Header title="Legislation" />
+      <Header title="Private Jets" />
       <ScrollToTop />
       
         <section>

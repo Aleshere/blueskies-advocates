@@ -7,22 +7,22 @@ import BackButton from '@/app/utils/BackButton';
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://www.weareblueskies.com/take-action/legislation"),
+  metadataBase: new URL("http://www.weareblueskies.com/issues/economy-and-airports"),
   title: {
-    default: "BlueSkies Advocates | Legislation",
+    default: "BlueSkies Advocates | Airports and Economy",
     template: '%s | BlueSkies Advocates'
   },
-  description: "A page that lists relevant legislation essential for combating aviation pollution and noise.",
+  description: "Airports do not always provide economic benefits to communities as they can impose significant costs in terms of pollution, lost tourism, infrastructure and maintenance.",
   openGraph: {
-    title: "Legislation",
-    description: "A page that lists relevant legislation essential for combating aviation pollution and noise.",
+    title: "Economic Impacts",
+    description: "Airports do not always provide economic benefits to communities as they can impose significant costs in terms of pollution, lost tourism, infrastructure and maintenance.",
     type: "website",
     locale: "en_US",
-    url: "https://www.weareblueskies.com/take-action/legislation",
+    url: "https://www.weareblueskies.com/issues/economy-and-airports",
     siteName: "BlueSkies Advocates",
       images: [
         {
-          url: "https://www.weareblueskies.com/api/og?title=legislation",
+          url: "https://www.weareblueskies.com/api/og?title=Airports and Economy",
         },
       ],
   },
@@ -32,7 +32,7 @@ const page = async () => {
     
   return (
     <>    
-      <Header title="Legislation" />
+      <Header title="Airports and Economy" />
       <ScrollToTop />
       
         <section>

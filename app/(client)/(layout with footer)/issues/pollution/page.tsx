@@ -7,22 +7,22 @@ import BackButton from '@/app/utils/BackButton';
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://www.weareblueskies.com/take-action/legislation"),
+  metadataBase: new URL("http://www.weareblueskies.com/issues/pollution"),
   title: {
-    default: "BlueSkies Advocates | Legislation",
+    default: "BlueSkies Advocates | Pollution",
     template: '%s | BlueSkies Advocates'
   },
-  description: "A page that lists relevant legislation essential for combating aviation pollution and noise.",
+  description: "Aviation is one of the fastest growing polluters out there. Let's find out why and how. CO2 and GHG. Greenhouse gases. Climate impacts and targets.",
   openGraph: {
-    title: "Legislation",
-    description: "A page that lists relevant legislation essential for combating aviation pollution and noise.",
+    title: "Pollution",
+    description: "Aviation is one of the fastest growing polluters out there. Let's find out why and how. CO2 and GHG. Greenhouse gases. Climate impacts and targets.",
     type: "website",
     locale: "en_US",
-    url: "https://www.weareblueskies.com/take-action/legislation",
+    url: "https://www.weareblueskies.com/issues/pollution",
     siteName: "BlueSkies Advocates",
       images: [
         {
-          url: "https://www.weareblueskies.com/api/og?title=legislation",
+          url: "https://www.weareblueskies.com/api/og?title=Pollution",
         },
       ],
   },
@@ -32,7 +32,7 @@ const page = async () => {
     
   return (
     <>    
-      <Header title="Legislation" />
+      <Header title="Pollution" />
       <ScrollToTop />
       
         <section>
