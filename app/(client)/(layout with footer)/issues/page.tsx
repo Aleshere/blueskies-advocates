@@ -105,7 +105,7 @@ const page = async () => {
                     <h2 className="mt-2 font-bold">Pollution</h2>
 
                     <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
-                        Aviation is one of the fastest growing polluters out there. Let's find out why and how.
+                        Aviation is one of the fastest growing polluters out there. Let&apos;s find out why and how.
                     </p>
                 </a>
                 
