@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "BlueSkies Advocates",
       images: [
         {
-        url: "https://www.weareblueskies.com/api/og?title=NextGen Timeline",
+        url: "https://www.weareblueskies.com/api/og?title=NEXTGEN TIMELINE",
         },
       ],
   },

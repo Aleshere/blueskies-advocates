@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "BlueSkies Advocates",
       images: [
         {
-          url: "https://www.weareblueskies.com/api/og?title=Pollution",
+          url: "https://www.weareblueskies.com/api/og?title=POLLUTION",
         },
       ],
   },

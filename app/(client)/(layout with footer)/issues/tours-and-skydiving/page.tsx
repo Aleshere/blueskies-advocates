@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "BlueSkies Advocates",
       images: [
         {
-          url: "https://www.weareblueskies.com/api/og?title=Tours and Skydiving",
+          url: "https://www.weareblueskies.com/api/og?title=TOURS & SKYDIVING",
         },
       ],
   },

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "BlueSkies Advocates",
     images: [
         {
-            url: "https://www.weareblueskies.com/api/og?title=Useful Websites",
+            url: "https://www.weareblueskies.com/api/og?title=USEFUL WEBSITES",
         },
     ],
   },
@@ -565,6 +565,23 @@ const page = async () => {
 
                             <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
                                 Flying Schools are taking over regional airports in Australia, and destroying the amenity of the local residents.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://planesoverlondon.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='Planes Over London favicon.png' alt='Planes Over London website' />
+                            </span>
+
+                            <h2 className="mt-2 font-bold">Planes Over London</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                Planes Over London provides a 14-day forecast as to whether Heathrow arrivals will be flying their approach over London. It gives visitors a 14 day forecast and a live view of what's happening now. It shows the runway currently in use and it carefully tracks the number of daily landing including delayed arrivals.
                             </p>
                         </a>
                         

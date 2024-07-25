@@ -1238,7 +1238,7 @@ export const Places: PlacesType = [
   },
   {   
     id: 123,
-    position: [36.21011, -115.19605],
+    position: [52.132633, 5.291266],
     category: Category.CAT1,
     title: 'Maria X Channel',
     information: "News and studies on the health effects of air pollution. Favicon image source: The American Lung Association in California",
@@ -1465,5 +1465,355 @@ export const Places: PlacesType = [
     website: 'www.wrongwaydaa.com',
     favicon: 'Fingal favicon.jpg',
     altText: "Fingal Organised Residents United Movement website"
+  },
+  {   
+    id: 146,
+    position: [36.58706, -121.84194],
+    category: Category.CAT1,
+    title: "Monterey Fly Safe Coalition",
+    information: "A group of residents concerned about airplane noise",
+    website: 'www.facebook.com/profile.php?id=61557077052162',
+    favicon: 'Monterey Coalition favicon.jpg',
+    altText: "Monterey Fly Safe Coalition website"
+  },
+  {   
+    id: 147,
+    position: [40.64659, -73.79303],
+    category: Category.CAT1,
+    title: "JFK Noise Watch",
+    information: "Account to keep a record of possible noise abatement missed opportunities by the JFK Tower and N90 on the disproportionately used ILS 22L",
+    website: 'x.com/JFKNoiseWatch',
+    favicon: 'JFK Noise Watch favicon.jpg',
+    altText: "JFK Noise Watch X channel"
+  },
+  {   
+    id: 148,
+    position: [48.73006, 2.36783],
+    category: Category.CAT1,
+    title: "DRAPO - Défense Riverains Aéroport Paris Orly",
+    information: "Défense Riverains Aéroport Paris Orly. 40 communes et 30 associations rassemblées contre les pollutions de l'aéroport de Paris-Orly",
+    website: 'x.com/DRAPOORLY',
+    favicon: 'DRAPO favicon.jpg',
+    altText: "DRAPO X channel"
+  },
+  {   
+    id: 149,
+    position: [51.49661, -0.36938],
+    category: Category.CAT1,
+    title: "Brentford Noise",
+    information: "Norwood Green, Osterley Park, Isleworth,  Southall and Ealing (N.O.I.S.E.) will be RIGHT under the  screaming approach paths to Heathrow's third runway. HAPPY?",
+    website: 'x.com/BrentfordI',
+    favicon: 'Brentford Noise favicon.jpg',
+    altText: "Brentford Noise X channel"
+  },
+  {   
+    id: 150,
+    position: [51.50745, -0.12777],
+    category: Category.CAT1,
+    title: "John Stewart",
+    information: "Transport and Noise campaigner. Tweets in a personal capacity. johnstewart2@btconnect.com",
+    website: 'x.com/JohnJohnStewart',
+    favicon: 'John Stewart favicon.jpg',
+    altText: "John Stewart X channel"
+  },
+  {   
+    id: 151,
+    position: [52.30914, 4.63695],
+    category: Category.CAT1,
+    title: "FloriandeTegenGeluid",
+    information: "A Vinex district sacrificed by the government to limit air traffic disruption. Half of the 18,000 residents are not included and the measure has not limited any nuisance",
+    website: 'x.com/Fl_TegenGeluid',
+    favicon: 'Tegen favicon.png',
+    altText: "FloriandeTegenGeluid X channel"
+  },
+  {   
+    id: 152,
+    position: [52.45489, 5.52051],
+    category: Category.CAT1,
+    title: "SATL-Lelystad",
+    information: "Collaborating Action Groups Against Low Flying (SATL) unites 24 action groups of concerned citizens against harmful low-level flight routes over large parts of the Netherlands",
+    website: 'satl-lelystad.nl',
+    favicon: 'SATL-Lelystad favicon.jpg',
+    altText: "SATL-Lelystad X channel"
+  },
+  {   
+    id: 153,
+    position: [52.45329, 5.49521],
+    category: Category.CAT1,
+    title: "Lelystad Airport NEE",
+    information: "Article 21 of the Constitution: The government's concern is aimed at the habitability of the country and the protection and improvement of the environment",
+    website: 'x.com/NeeAirportLEY',
+    favicon: 'Lelystad Airport NEE favicon.jpg',
+    altText: "Lelystad Airport NEE X channel"
+  },
+  {   
+    id: 154,
+    position: [52.72128, 4.82067],
+    category: Category.CAT1,
+    title: "Vlieghinder",
+    information: "Against low flight routes throughout the Netherlands. Against night flights. You are more likely to die under a noise trough. #Schiphol250k is healthy size. donderdorp.nl eldwekker.nl",
+    website: 'x.com/Vlieghindernl',
+    favicon: 'Vlieghinder favicon.jpg',
+    altText: "Vlieghinder X channel"
+  },
+  {   
+    id: 155,
+    position: [52.31098, 4.74472],
+    category: Category.CAT1,
+    title: "Vondelparkbaan favicon",
+    information: "We have been experiencing nuisance from the megalomaniac Schiphol since the 1970s",
+    website: 'x.com/vondelparkbaan',
+    favicon: 'Vondelparkbaan favicon.jpg',
+    altText: "Vondelparkbaan X channel"
+  },
+  {   
+    id: 156,
+    position: [52.15625, 5.38969],
+    category: Category.CAT1,
+    title: "Stop4deroute",
+    information: "Say no to the fourth route across the provinces of Gelderland, Utrecht and North Holland; do not enable the growth of aviation",
+    website: 'www.stop4deroute.nl',
+    favicon: 'Stop4deroute favicon.jpg',
+    altText: "Stop4deroute X channel"
+  },
+  {   
+    id: 157,
+    position: [49.01885, 2.53972],
+    category: Category.CAT1,
+    title: "Collectif NON AU T4",
+    information: "Collectif contre le Terminal 4 et pour la réduction du trafic aérien à Roissy pour protéger le climat et la santé. For air traffic reduction at Roissy airport",
+    website: 'x.com/NonAuTerminal4',
+    favicon: 'Collectif NON AU T4 favicon.png',
+    altText: "Collectif NON AU T4 X channel"
+  },
+  {   
+    id: 158,
+    position: [48.86098, 2.34618],
+    category: Category.CAT1,
+    title: "Taxis-Volants Non Merci",
+    information: "Collectif de lutte contre les taxis-volants : expérimentation prévue à partir de l'été 2024 à Paris",
+    website: 'x.com/Taxis_Volants',
+    favicon: 'Taxis-Volants Non Merci favicon.jpg',
+    altText: "Taxis-Volants Non Merci X channel"
+  },
+  {   
+    id: 159,
+    position: [48.82144, 2.62530],
+    category: Category.CAT1,
+    title: "ARALE - Association Des Riverains De L'Aerodrome De Lognes-Emerainville",
+    information: "Compte officiel de l'#ARALE (Association des Riverains de l'Aérodrome de Lognes-Emerainville) qui rassemble les riverains victimes de ces #nuisances aériennes",
+    website: 'arale.fr',
+    favicon: 'ARALE favicon.jpg',
+    altText: "ARALE X channel"
+  },
+  {   
+    id: 160,
+    position: [46.54515, 6.61735],
+    category: Category.CAT1,
+    title: "ADRB - Association de Défense des Riverains de la Blécherette",
+    information: "L'Association de Défense des Riverains de la Blécherette lutte contre les nuisances de l'aéroport de Lausanne",
+    website: 'adrb.ch/home',
+    favicon: 'ADRB Lausanne favicon.jpg',
+    altText: "ADRB Lausanne X channel"
+  },
+  {   
+    id: 161,
+    position: [50.00123, 8.27625],
+    category: Category.CAT1,
+    title: "Flight-Shame",
+    information: "Initiative for climate, environmental and noise protection in air traffic",
+    website: 'x.com/KlimaUmweltLuft',
+    favicon: 'Flight-Shame favicon.png',
+    altText: "Flight-Shame X channel"
+  },
+  {   
+    id: 162,
+    position: [42.63843, 12.67430],
+    category: Category.CAT1,
+    title: "Jet Dei Ricchi",
+    information: "Stimiamo l'impatto ambientale dei jet privati. Tassi elevati d'ingiustizia e greenwashing",
+    website: 'x.com/jetdeiricchi',
+    favicon: 'Jet Dei Ricchi favicon.jpg',
+    altText: "Jet Dei Ricchi X channel"
+  },
+  {   
+    id: 163,
+    position: [51.15800, -1.14851],
+    category: Category.CAT1,
+    title: "StopFlying",
+    information: "Advocating a world of less air travel and lower emissions",
+    website: 'x.com/stopflying',
+    favicon: 'StopFlying favicon.jpg',
+    altText: "StopFlying X channel"
+  },
+  {   
+    id: 164,
+    position: [47.21864, -1.55414],
+    category: Category.CAT1,
+    title: "COCETA - COllectif des Citoyens Exposés au Trafic Aérien",
+    information: "Laïque et transpartisane, l'association mobilise des citoyens comme les autres engagés pour l'intérêt général",
+    website: 'coceta.org',
+    favicon: 'COCETA favicon.jpg',
+    altText: "COCETA X channel"
+  },
+  {   
+    id: 165,
+    position: [48.77113, 2.52213],
+    category: Category.CAT1,
+    title: "OYE 349",
+    information: "Association de protection des riverains de l'aéroport d'Orly contre les nuisances sonores et chimiques du transport aérien",
+    website: 'oye349.com',
+    favicon: 'OYE 349 favicon.png',
+    altText: "OYE 349 X channel"
+  },
+  {   
+    id: 166,
+    position: [55.03842, -1.69640],
+    category: Category.CAT1,
+    title: "Aircraft noise - Newcastle Airport ",
+    information: "A campaign to make Newcastle Airport @NCLairport a better neighbour",
+    website: 'www.aircraftnoiseaction.com',
+    favicon: 'Aircraft noise - Newcastle Airport favicon.jpg',
+    altText: "Aircraft noise - Newcastle Airport X channel"
+  },
+  {   
+    id: 167,
+    position: [37.60903, -121.89914],
+    category: Category.CAT1,
+    title: "NOMBY - Not Over My Back Yard",
+    information: "Alameda County Against Drones (ACAD) coalition says NO to drones in our skies. Our allies fight for privacy",
+    website: 'x.com/nomby',
+    favicon: 'NOMBY favicon.png',
+    altText: "NOMBY X channel"
+  },
+  {   
+    id: 168,
+    position: [51.45349, -1.03187],
+    category: Category.CAT1,
+    title: "RAAN - Residents Against Aircraft Noise",
+    information: "Berks, Surrey, North Hants etc. Bliss until June 2014 when LHR & their aviational accomplices decided2 change Flight Ops for ££",
+    website: 'x.com/RAAN_BERKS',
+    favicon: 'RAAN favicon.png',
+    altText: "RAAN X channel"
+  },
+  {   
+    id: 169,
+    position: [32.71436, 35.09548],
+    category: Category.CAT1,
+    title: "No Izrael Airport",
+    information: "No to INTL airport in Jezreel Valley",
+    website: 'x.com/noizraelairport',
+    favicon: 'No Izrael Airport favicon.jpg',
+    altText: "No Izrael Airport X channel"
+  },
+  {   
+    id: 170,
+    position: [42.83221, 0.61959],
+    category: Category.CAT1,
+    title: "Les Braises - Non a l'Aéroport du St-Emilionnais",
+    information: "Lutte pour le vivant, contre aéroport de jets privés aux Artigues et contre méga plateforme logistique à Coutras",
+    website: 'les-braises.fr',
+    favicon: "Les Braises - Non a l'Aéroport du St-Emilionnais favicon.jpg",
+    altText: "Les Braises - Non a l'Aéroport du St-Emilionnais X channel"
+  },
+  {   
+    id: 171,
+    position: [48.86619, 2.34284],
+    category: Category.CAT1,
+    title: "Laviondebernard",
+    information: "Suivi de jets privés par @memoirevive_ Estimation des émissions de CO2. Données publiques",
+    website: 'linktr.ee/laviondebernard_sources',
+    favicon: "laviondebernard favicon.png",
+    altText: "Laviondebernard X channel"
+  },
+  {   
+    id: 172,
+    position: [43.65982, 7.21375],
+    category: Category.CAT1,
+    title: "Stop Extension Aéroport Nice",
+    information: "Collectif d'organisations et de citoyens luttant contre l'extension de l'aéroport de Nice et ses impacts environnementaux, sanitaires et sociaux désastreux",
+    website: 'x.com/StopExtAeroNICE',
+    favicon: "Stop Extension Aéroport Nice favicon.jpg",
+    altText: "Stop Extension Aéroport Nice X channel"
+  },
+  {   
+    id: 173,
+    position: [43.60446, 1.44425],
+    category: Category.CAT1,
+    title: "Virons Airbus et soyons heureux Toulouse",
+    information: "Toulouse sans @Airbus, ce serait tellement chouette",
+    website: 'x.com/Stop_Airbus',
+    favicon: "Virons Airbus et soyons heureux Toulouse favicon.jpg",
+    altText: "Virons Airbus et soyons heureux Toulouse X channel"
+  },
+  {   
+    id: 174,
+    position: [52.53032, 4.70904],
+    category: Category.CAT1,
+    title: "ir B van Marlen",
+    information: "Critical Citizen Scientist, MSc. TU-Delft, Analysis of aircraft noise using own developed models. Blog 'Schiphollen-liegenenbedriegen'. Father and grandfather",
+    website: 'x.com/BobVanmarlen',
+    favicon: "ir B van Marlen favicon.jpg",
+    altText: "ir B van Marlen X channel"
+  },
+  {   
+    id: 175,
+    position: [52.14059, 4.78670],
+    category: Category.CAT1,
+    title: "SOS Groene Hart",
+    information: "Stop Nuisance Schiphol, Residents of the Green Heart who are more than fed up with the enormous nuisance caused by air traffic over their villages and the Natura 2000 area",
+    website: 'x.com/NieuwkoopSos',
+    favicon: "SOS Groene Hart favicon.jpg",
+    altText: "SOS Groene Hart X channel"
+  },
+  {   
+    id: 176,
+    position: [43.54456, 6.95313],
+    category: Category.CAT1,
+    title: "ADNA06_STOP Nuisances Aéroport Cannes",
+    information: "L'association ADNA regroupe 1600 adhérents et a pour objectif de lutter contre les nuisances générées par l'aéroport de Cannes Mandelieu",
+    website: 'x.com/Adna06C',
+    favicon: "ADNA06_STOP Nuisances Aéroport Cannes favicon.jpg",
+    altText: "ADNA06_STOP Nuisances Aéroport Cannes X channel"
+  },
+  {   
+    id: 177,
+    position: [52.50898, 6.09438],
+    category: Category.CAT1,
+    title: "HoogOverijssel",
+    information: "Against low flying over Zwolle, the Vechtdal, Salland, the Lemelerberg, the Holterberg and the Weerribben",
+    website: 'x.com/HoogOverijssel',
+    favicon: "HoogOverijssel favicon.jpg",
+    altText: "HoogOverijssel X channel"
+  },
+  {   
+    id: 178,
+    position: [51.51243, -0.10522],
+    category: Category.CAT1,
+    title: "Planes Over London",
+    information: "Planes Over London/Windsor is a free service provided to anyone impacted by or interested in air traffic heading for Heathrow over the capital",
+    website: 'x.com/planeslondon',
+    favicon: "Planes Over London favicon.png",
+    altText: "Planes Over London X channel"
+  },
+  {   
+    id: 179,
+    position: [53.63636, 9.99455],
+    category: Category.CAT1,
+    title: "BIG-Fluglarm Hamburg",
+    information: "As a non-profit organization, we want to work towards sustainable protection from aircraft noise and the legal anchoring of undisturbed nighttime rest",
+    website: 'x.com/BIGFluglaermHH',
+    favicon: "BIG-Fluglarm Hamburg favicon.png",
+    altText: "BIG-Fluglarm Hamburg X channel"
+  },
+  {   
+    id: 180,
+    position: [51.38297, -2.71862],
+    category: Category.CAT1,
+    title: "Eyes On Bristol Airport",
+    information: "Community Watch Bristol Airport. Watching BAL don't exceed planning conditions. Tweet noise/early or late flights/pollution/traffic/parking",
+    website: 'x.com/EyesOnBAL',
+    favicon: "Eyes On Bristol Airport favicon.jpg",
+    altText: "Eyes On Bristol Airport X channel"
   },
 ]

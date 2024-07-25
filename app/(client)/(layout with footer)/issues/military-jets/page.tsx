@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "BlueSkies Advocates",
       images: [
         {
-          url: "https://www.weareblueskies.com/api/og?title=Military Jets",
+          url: "https://www.weareblueskies.com/api/og?title=MILITARY JETS",
         },
       ],
   },

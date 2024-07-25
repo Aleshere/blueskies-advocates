@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "BlueSkies Advocates",
       images: [
         {
-          url: "https://www.weareblueskies.com/api/og?title=General Aviation",
+          url: "https://www.weareblueskies.com/api/og?title=GENERAL AVIATION",
         },
       ],
   },
@@ -94,6 +94,28 @@ const page = async () => {
                         <div className='' >An “airport community” is generally within 5 miles of an airport. Communities impacted by aviation outside of 5 miles is often called an “overflight community.”</div>
                         <div className='' >National Parks on Noise: <a href="https://www.nps.gov/subjects/sound/overflights.htm" target="_blank" rel="noopener" >https://www.nps.gov/subjects/sound/overflights.htm</a>.</div>
                         
+                        <h2 className='text-lg font-bold' >Points of Information:</h2>
+                        <div className='' ><a href="https://en.wikipedia.org/wiki/Touch-and-go_landing" target="_blank" rel="noopener" >Touch and Go landings</a> are not required for a PPL (private pilot&apos;s license). <a href="https://www.law.cornell.edu/cfr/text/14/61.109" target="_blank" rel="noopener" >Take-offs and landings</a> are required (10 of each). Touch and gos are an industry practice used by flight schools or by pilots maintaining their flight certificate or building hours.</div>
+                        
+                        <div className='' >FAA does not police the piloting community. FAA has a <a href="https://www.faa.gov/about/initiatives/cp" target="_blank" rel="noopener" >compliance</a> program based on a “<a href="https://www.faa.gov/sites/faa.gov/files/Compliance%20Program%20Brochure.pdf" target="_blank" rel="noopener" >just culture</a>” that favors pilot education over penalties and enforcement. There is heavy reliance on the piloting community to self-report to FAA.</div>
+                        
+                        <div>FAA considers itself a “service provider” managing industry demand of the NAS (national airspace). Operators determine number of operations, not FAA. A touch and go landing session consisting of passes is counted as ONE operation.</div>
+                        
+                        <div className='' >Part 135/Charter Cos. “<a href="https://www.faa.gov/hazmat/air_carriers/operations/part_121" target="_blank" rel="noopener" >Scheduled Service</a>” generally refers to commercial airport operations, whereas private jet charter companies may offer a “<a href="https://www.nata.aero/data/files/gia/0707nata_interp.pdf" target="_blank" rel="noopener" >scheduled flight</a>”. Commercial operators (Part 120) have different requirements than charter operations (Part 135). Airports capitalize on the public&apos;s understanding of the term schedule vs. the FAA&apos;s use of the term schedule:</div>
+                        <div>
+                          <a href="https://www.stratosjets.com/blog/what-you-need-to-know-about-part-135" target="_blank" rel="noopener" >https://www.stratosjets.com/blog/what-you-need-to-know-about-part-135</a>
+                        </div>
+                        <div>
+                          <a href="https://www.faa.gov/about/officeorg/headquartersoffices/avs/faa-certificated-aircraft-operators-legal-part-135-holders" target="_blank" rel="noopener" >https://www.faa.gov/about/officeorg/headquartersoffices/avs/faa-certificated-aircraft-operators-legal-part-135-holders</a>
+                        </div> 
+                        
+                        <div className='' >Student Pilot drop out rate in 2010 (the most recent released data) was <a href="https://download.aopa.org/epilot/2011/AOPA_Research-The_Flight_Training_Experience.pdf" target="_blank" rel="noopener" >70-80%</a></div>
+                        
+                        <div className='' >The <a href="https://www.lawa.org/-/media/lawa-web/noise-management/files/airport_noise_and_capacity_act_of_1990.ashx" target="_blank" rel="noopener" >Airport Noise and Capacity Act</a> of 1990 applies to aircraft weighing 12,500lbs or more, not to lighter aircraft such as single engine piston aircraft. Although airports often point to ANCA as the reason airports cannot impose restrictions on aircraft operations such a touch and go landings, it is FAAs grant assurance program (namely #22) that governs an airport&apos;s ability to impose these types of “access” restrictions. Only grandfathered airports (ones with noise policies and access policies in place before ANCA) can levy fines such as nighttime landing fees, or limit touch and go landings. There is a strong need to de-couple aviation funding for local control at general aviation airports that mainly serve private aviation.</div>
+                        
+                        <div className='' >No <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-I/part-161" target="_blank" rel="noopener" >Part 161</a> requests, also known as waivers, have been approved by FAA since ANCA of 1990. Ex. Curfews or caps. </div>
+                        
+                                       
                 </div>
             </div>
         </section>
