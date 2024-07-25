@@ -581,7 +581,7 @@ const page = async () => {
                             <h2 className="mt-2 font-bold">Planes Over London</h2>
 
                             <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
-                                Planes Over London provides a 14-day forecast as to whether Heathrow arrivals will be flying their approach over London. It gives visitors a 14 day forecast and a live view of what's happening now. It shows the runway currently in use and it carefully tracks the number of daily landing including delayed arrivals.
+                                Planes Over London provides a 14-day forecast as to whether Heathrow arrivals will be flying their approach over London. It gives visitors a 14 day forecast and a live view of what&apos;s happening now. It shows the runway currently in use and it carefully tracks the number of daily landing including delayed arrivals.
                             </p>
                         </a>
                         
