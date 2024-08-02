@@ -66,7 +66,7 @@ const page = async () => {
                         </p>
                         
                         <div className="flex justify-center py-4" >
-                          <Image src="/assets/images/images/Navaids vs PBN.png" width={500} height={500} alt="NAVAIDS vs PBN"/>
+                          <Image src="/assets/images/images/Navaids-vs-PBN.png" width={500} height={500} alt="NAVAIDS vs PBN"/>
                         </div>
                         
                         <hr className="my-4 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
@@ -111,7 +111,7 @@ const page = async () => {
                         </p>
                         
                         <div className="flex justify-center py-4" >
-                          <Image src="/assets/images/images/DNL metric issues.png" width={500} height={500} alt="DNL metric FAA"/>
+                          <Image src="/assets/images/images/DNL-metric-issues.png" width={500} height={500} alt="DNL metric FAA"/>
                         </div>
                         
                         <p>
@@ -159,7 +159,7 @@ const page = async () => {
                         </p>
                         
                         <div className="flex justify-center py-4" >
-                          <Image src="/assets/images/images/Richter Scale.png" width={500} height={500} alt="Richter scale"/>
+                          <Image src="/assets/images/images/Richter-scale.png" width={500} height={500} alt="Richter scale"/>
                         </div>
                         
                         <p>
