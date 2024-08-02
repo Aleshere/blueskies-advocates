@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   },
   description: "A webpage featuring a map lists all groups fighting aviation pollution and noise.",
   openGraph: {
-    title: "MAP",
+    title: "Map of Groups",
     description: "A webpage featuring a map lists all groups fighting aviation pollution and noise.",
     type: "website",
     locale: "en_US",

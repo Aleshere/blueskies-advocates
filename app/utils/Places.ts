@@ -653,7 +653,7 @@ export const Places: PlacesType = [
     title: 'Parafield Airport Noise',
     information: "Welcome. Are you affected by aircraft noise caused by pilots training at Parafield Airport? Do you need info on how to make an aircraft noise complaint? New members are welcome. Please answer the few questions to join. No blank profiles.",
     website: 'www.facebook.com/groups/parafieldairportnoise',
-    favicon: 'Parafield favicon.jpg',
+    favicon: 'Parafield favicon.png',
     altText: 'Parafield Airport Noise website'
   },
   {
@@ -1803,7 +1803,7 @@ export const Places: PlacesType = [
     title: "BIG-Fluglarm Hamburg",
     information: "As a non-profit organization, we want to work towards sustainable protection from aircraft noise and the legal anchoring of undisturbed nighttime rest",
     website: 'x.com/BIGFluglaermHH',
-    favicon: "BIG-Fluglarm Hamburg favicon.png",
+    favicon: "BIG-Fluglarm Hamburg favicon.jpg",
     altText: "BIG-Fluglarm Hamburg X channel"
   },
   {   
@@ -1816,4 +1816,25 @@ export const Places: PlacesType = [
     favicon: "Eyes On Bristol Airport favicon.jpg",
     altText: "Eyes On Bristol Airport X channel"
   },
+  {   
+    id: 181,
+    position: [38.78095, -9.13190],
+    category: Category.CAT1,
+    title: "ZERO - Associação Sistema Terrestre Sustentável",
+    information: "Intervimos na sociedade pela defesa da sustentabilidade para construir um mundo mais coeso, em respeito pelos limites do planeta",
+    website: 'zero.ong',
+    favicon: "ZERO favicon.jpg",
+    altText: "ZERO website"
+  },
+  {   
+    id: 182,
+    position: [-41.32710, 174.80797],
+    category: Category.CAT1,
+    title: "Plane Sense Wellington",
+    information: "A group for residents experiencing increased aircraft noise from Wellington Airport, following the flight path change over Johnsonville, Broadmeadows and Khandallah",
+    website: 'www.planesensewellington.com/home',
+    favicon: "Plane Sense Wellington favicon.jpg",
+    altText: "Plane Sense Wellington website"
+  },
 ]
+
