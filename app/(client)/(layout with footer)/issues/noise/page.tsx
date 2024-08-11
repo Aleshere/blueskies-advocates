@@ -514,7 +514,7 @@ const page = async () => {
                         </p>
                         
                         <p>
-                          <strong>Amsterdam</strong> is home to one of Europe&apos;s largest airports, hub of Dutch national airline KLM. It is also arguably Eu&apos;s focal point where discussions about the airport's noise and pollution have intensified in recent years.
+                          <strong>Amsterdam</strong> is home to one of Europe&apos;s largest airports, hub of Dutch national airline KLM. It is also arguably Eu&apos;s focal point where discussions about the airport&apos;s noise and pollution have intensified in recent years.
                         </p>
                         <p>
                           Daytime noise has been contentious, as relentless aircrafts move all day along the flight paths leading to the airport. <a href="https://schipholwatch.nl/" target="_blank" rel="noopener" >Communities</a> have been fighting consolidated flight paths for years, to no avail so far. Noise limits are set by the Government and apply to areas adjacent airports. There have been <a href="https://nltimes.nl/2024/03/03/schiphol-exceeded-sound-limit-last-year-near-uithoorn" target="_blank" rel="noopener" >instances</a> of airlines exceeding them. Until now, the airport solutions to noise have been ineffective ones such as preferential runway usages and path shifts on approaches. Nothing we haven&apos;t already seen in the US, with no noticeable effects.
