@@ -66,7 +66,7 @@ const page = async () => {
                         </div>
                         
                         <p>
-                          If you are interested in delving into the details of each step, you can refer to <a href="https://www.faa.gov/sites/faa.gov/files/space/legislation_regulation_guidance/Guidelines_Compliance_EPA_AST.pdf" target="_blank" rel="noopener" >this</a> document produced by the FAA. It's crucial to recognize that each step comes with <span className="underline" >strict timeframes</span>, often just a few weeks long. This tight schedule has, in the past - particularly during NextGen implementations - resulted in states, cities, and local communities missing the opportunity to challenge FAA decisions. The first issue to highlight in this process is the significant financial and organizational resources required to mount a challenge against most FAA decision-making efforts. This is a major barrier that needs to be addressed, either by removing it or by significantly extending the timeframes.
+                          If you are interested in delving into the details of each step, you can refer to <a href="https://www.faa.gov/sites/faa.gov/files/space/legislation_regulation_guidance/Guidelines_Compliance_EPA_AST.pdf" target="_blank" rel="noopener" >this</a> document produced by the FAA. It&apos;s crucial to recognize that each step comes with <span className="underline" >strict timeframes</span>, often just a few weeks long. This tight schedule has, in the past - particularly during NextGen implementations - resulted in states, cities, and local communities missing the opportunity to challenge FAA decisions. The first issue to highlight in this process is the significant financial and organizational resources required to mount a challenge against most FAA decision-making efforts. This is a major barrier that needs to be addressed, either by removing it or by significantly extending the timeframes.
                         </p>
                         <p>
                            Now let&apos;s go back to the image above. You can see three there are three possibilities at the top: Categorical Exclusion (CE or also CatEx) Environmental Assessment (EA), and Environmental Impact Statement (EIS). Let&apos;s explain each one of them in detail. 
@@ -313,7 +313,7 @@ const page = async () => {
                         
                         <h2 className='text-lg font-bold'>Shift in Economic Focus</h2>  
                         <p>
-                          Shifting a region's economic focus due to improper aviation assessments can be a complex and costly endeavor. When aviation assessments fail to accurately predict or account for the long-term impacts of airport development, flight path changes, or other aviation-related activities, regions may need to pivot their economic strategies. This shift can lead to significant financial costs, including lost investments, job displacement, and the need for new infrastructure or industry development. Below are a few examples highlighting these economic impacts:
+                          Shifting a region&apos;s economic focus due to improper aviation assessments can be a complex and costly endeavor. When aviation assessments fail to accurately predict or account for the long-term impacts of airport development, flight path changes, or other aviation-related activities, regions may need to pivot their economic strategies. This shift can lead to significant financial costs, including lost investments, job displacement, and the need for new infrastructure or industry development. Below are a few examples highlighting these economic impacts:
                         </p>
                         
                         <p className='underline'>Example 1: Impact on Tourism in Hawaii</p> 
@@ -333,7 +333,7 @@ const page = async () => {
                         
                         <p className='underline'>Example 4: Urban Development in Expanding Airport Zones</p> 
                         <p>
-                          As airports expand, improper assessments can lead to the encroachment of urban development into previously residential or rural areas. This can disrupt local housing markets and force a shift in the region's economic focus from residential to commercial or industrial activities. The costs of such a shift include the displacement of residents, decreased property values, and the need for new housing developments in less impacted areas. Additionally, local governments may need to invest in new infrastructure, such as roads, schools, and utilities, to support the shift in economic focus.
+                          As airports expand, improper assessments can lead to the encroachment of urban development into previously residential or rural areas. This can disrupt local housing markets and force a shift in the region&apos;s economic focus from residential to commercial or industrial activities. The costs of such a shift include the displacement of residents, decreased property values, and the need for new housing developments in less impacted areas. Additionally, local governments may need to invest in new infrastructure, such as roads, schools, and utilities, to support the shift in economic focus.
                         </p>
                         
                         <div className="flex justify-center py-4" >
@@ -344,7 +344,7 @@ const page = async () => {
                         
                         <h2 className='text-lg font-bold'>Community Erosion</h2>  
                         <p>
-                          Shifting a region's economic focus due to improper aviation assessments can be a complex and costly endeavor. When aviation assessments fail to accurately predict or account for the long-term impacts of airport development, flight path changes, or other aviation-related activities, regions may need to pivot their economic strategies. This shift can lead to significant financial costs, including lost investments, job displacement, and the need for new infrastructure or industry development. Below are a few examples highlighting these economic impacts:
+                          Shifting a region&apos;s economic focus due to improper aviation assessments can be a complex and costly endeavor. When aviation assessments fail to accurately predict or account for the long-term impacts of airport development, flight path changes, or other aviation-related activities, regions may need to pivot their economic strategies. This shift can lead to significant financial costs, including lost investments, job displacement, and the need for new infrastructure or industry development. Below are a few examples highlighting these economic impacts:
                         </p>
                         
                         <p className='underline'>Example 1: Communities Near Los Angeles International Airport</p> 
