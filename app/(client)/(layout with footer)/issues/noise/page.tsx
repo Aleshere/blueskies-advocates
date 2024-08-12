@@ -78,6 +78,12 @@ const page = async () => {
                           <Image src="/assets/images/images/Navaids-vs-PBN.png" width={500} height={500} alt="NAVAIDS vs PBN"/>
                         </div>
                         
+                        <div className="flex justify-center py-4" >
+                          <Image src="/assets/images/images/Consolidated_paths_example.png" width={500} height={500} alt="Consolidated Paths Example Phoenix"/>
+                        </div>
+                        
+                        
+                        
                         <hr className="my-4 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
                         
                         <p>
@@ -88,6 +94,10 @@ const page = async () => {
                         
                         <p>
                           &quot;FAA officials stated that, while predicted DNL levels did not change much as a result of PBN implementation, an increase in the number of flights across the national airspace may have contributed to community concerns about noise. However, while a general increase in the demand for air travel may be a compounding factor affecting community noise concerns, the effects of PBN mean that any increase in air traffic will be concentrated along narrower flight paths, effectively increasing the noise impact on some communities&quot; (<a href="https://www.gao.gov/assets/d21103933.pdf" target="_blank" rel="noopener" >source</a>, at page 20).
+                        </p>
+                        
+                        <p>
+                          But there is more: <a href="/assets/files/MQSC_NextGen.pdf" target="_blank" rel="noopener" >this</a> is a NextGen review prepared by advocacy group <a href="https://www.mocoquietskies.org/" target="_blank" rel="noopener" >Montgomery County Quiet Skies Coalition</a>. It underlines how the whole project went rogue at one point, pressed by airlines demands and the FAA inability to stay on track with the original mandate that was approved in Congress at the very beginning of the project. We highly recommend to read through it.
                         </p>
                         
                         <hr className="my-4 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
@@ -119,9 +129,10 @@ const page = async () => {
                         <p><a href="https://www.gao.gov/assets/gao-21-103933.pdf" target="_blank" rel="noopener" >Here</a> you can see how 1 single flight a day at 114.4dB counts the same as 100 flights per day at 94.4dB. Both equal 65dB DNL average. You will also notice a new acronym, SEL. The Sound Exposure Level (SEL) metric represents all the acoustic energy (aka sound pressure) of an individual noise event as if that event had occurred within a one-second time period. SEL captures both the level (magnitude) and the duration of a sound event in a single numerical quantity, by &quot;squeezing&quot; all the noise energy from an event into one second. This provides a uniform way to make comparisons among noise events of various durations.
                         </p>
                         
-                        <div className="flex justify-center py-4" >
+                        <div className="flex justify-center pt-4" >
                           <Image src="/assets/images/images/DNL-metric-issues.png" width={500} height={500} alt="DNL metric FAA"/>
                         </div>
+                        <caption className="italic text-sm font-light" >Image by <a href="https://aviationimpactedcommunities.org/wp-content/uploads/2023/05/ANE-2023-Dr.-Cindy-Christiansen-Presentation-5-15-23.pdf" target="_blank" rel="noopener" >Cindy Christiansen</a></caption>
                         
                         <p>
                           Clearly this is not working.
@@ -295,6 +306,14 @@ const page = async () => {
                           <li><strong>Aviation Noise Complaint Portals</strong>: Airports and aviation authorities often provide online platforms where residents can submit noise complaints. These platforms sometimes include tools for monitoring noise and tracking the impact of specific flights or times of day.</li>
                         </ul>
                         
+                        <h2 className='font-bold'>Bonus Tip</h2>
+                        <p>
+                          Advocacy group <a href="https://safeskiesutah.com/" target="_blank" rel="noopener" >Safe Skies Utah</a> recommends the following noise reading options. They deal with military jet noise, with decibel readings that most often top 100-110 dB.
+                        </p>
+                        <div className="flex justify-center py-4" >
+                          <Image src="/assets/images/images/Sound_meters_options.jpg" width={500} height={500} alt="Military Jets Sound Meters Options"/>
+                        </div>
+
                         <h2 className='font-bold'>Custom Sound Measuring Systems</h2>
                         <p>
                           A more accurate method of measuring noise is employed by the advocacy group Safe Skies Clean Water Wisconsin. This approach involves setting up physical sound monitoring systems, which require a little more preparation. The collected sound data is then cross-referenced with publicly available aircraft information in the area to ensure precision.
