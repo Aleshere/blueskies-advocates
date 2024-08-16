@@ -127,7 +127,7 @@ const page = async () => {
                           Needless to say, there are many. First one that comes to mind is the very nature of a cumulative metric that just adds up day and night levels, without counting ambient noise or frequency.
                         </p>
                         <p><a href="https://www.gao.gov/assets/gao-21-103933.pdf" target="_blank" rel="noopener" >Here</a> you can see how 1 single flight a day at 114.4dB counts the same as 100 flights per day at 94.4dB. Both equal 65dB DNL average. You will also notice a new acronym, SEL. The Sound Exposure Level (SEL) metric represents all the acoustic energy (aka sound pressure) of an individual noise event as if that event had occurred within a one-second time period. SEL captures both the level (magnitude) and the duration of a sound event in a single numerical quantity, by &quot;squeezing&quot; all the noise energy from an event into one second. This provides a uniform way to make comparisons among noise events of various durations.
-                        </p>
+                        </p>    
                         
                         <div className="flex justify-center pt-4" >
                           <Image src="/assets/images/images/DNL-metric-issues.png" width={500} height={500} alt="DNL metric FAA"/>
@@ -474,6 +474,10 @@ const page = async () => {
                           <li><strong>Brisbane Airport (BNE)</strong>: No formal curfew.</li>
                           <li><strong>Melbourne Airport (MEL)</strong>: No formal curfew.</li>
                         </ul>
+                        
+                        <p>
+                          We recommend reading <a href="https://bfpca.org.au/14-noise/" target="_blank" rel="noopener" >this</a> webpage, by advocacy group Brisbane Flight Path COmmunity Alliance, to understand more about the way Australian noise is assessed.
+                        </p>
                         
                         <hr className="my-4 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
                         
