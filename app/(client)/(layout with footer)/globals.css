@@ -99,7 +99,9 @@ body {
         overflowing on parent element  
 -------------------------------------------*/
 
-.post-page a {
+.post-page a,
+#general-aviation li a,
+#general-aviation .link-wrap {
   /* These are technically the same, but use both */
   overflow-wrap: break-word;
   word-wrap: break-word;

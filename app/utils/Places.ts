@@ -1560,7 +1560,7 @@ export const Places: PlacesType = [
     id: 155,
     position: [52.31098, 4.74472],
     category: Category.CAT1,
-    title: "Vondelparkbaan favicon",
+    title: "Vondelparkbaan",
     information: "We have been experiencing nuisance from the megalomaniac Schiphol since the 1970s",
     website: 'x.com/vondelparkbaan',
     favicon: 'Vondelparkbaan favicon.jpg',
@@ -1836,5 +1836,437 @@ export const Places: PlacesType = [
     favicon: "Plane Sense Wellington favicon.jpg",
     altText: "Plane Sense Wellington website"
   },
+  {   
+    id: 183,
+    position: [42.22162, -83.74572],
+    category: Category.CAT1,
+    title: "Stop A2 Airport",
+    information: "Join the Movement to Stop THE UNsafe Ann Arbor Airport runway extension!!",
+    website: 'stopa2airport.com',
+    favicon: "StopA2 favicon.png",
+    altText: "Stop A2 Airport website"
+  },
+  {   
+    id: 184,
+    position: [38.92511, -77.10137],
+    category: Category.CAT1,
+    title: "Palisades Airplane Noise",
+    information: "Standing against airplane noise over DC. Ward 3 rep on MWAA Community Workgroup. CWG",
+    website: 'twitter.com/PalisadesN',
+    favicon: "Palisades favicon.jpg",
+    altText: "Palisades Airplane Noise X account"
+  },
+  {   
+    id: 185,
+    position: [47.44591, -122.30152],
+    category: Category.CAT1,
+    title: "SeaTac Noise Info",
+    information: "Since 2016, we have been working to reduce the noise. Reduce the pollution. Improve public health. Obtain compensation. Strengthen our communities",
+    website: 'twitter.com/SeaTacNoiseInfo',
+    favicon: "SeaTac Noise favicon.jpg",
+    altText: "SeaTac Noise Info X account"
+  },
+  {   
+    id: 186,
+    position: [37.69344, -121.81872],
+    category: Category.CAT1,
+    title: "No LVK Expansion",
+    information: "Help us reduce airplane noise and increase safety in our communities by joining us against the Airport and Livermore City Expansion plan",
+    website: 'www.livermoreairportnoise.org',
+    favicon: "Livermore favicon.jpg",
+    altText: "No LVK Expansion website"
+  },
+  {   
+    id: 187,
+    position: [38.03552, -84.60623],
+    category: Category.CAT1,
+    title: "Citizens for Bourbon County",
+    information: "No to Bluegrass Station Airport expansion: learn more about the state's secret land grab of 2000-4000 acres using eminent domain under the false guise of 'National Security'",
+    website: 'citizensforbourboncounty.org',
+    favicon: "Citizens Bourbon County favicon.jpg",
+    altText: "Citizens for Bourbon County website"
+  },
+  {   
+    id: 188,
+    position: [51.15642, -0.16771],
+    category: Category.CAT1,
+    title: "APCAG - Association of Parish Councils Aviation Group",
+    information: "We want a constructive engagement with Gatwick Airport and all those with an interest that allows Gatwick to be a sustainable business, crucially one that protects those who live close to the airport. Most importantly our aim is to minimise the burden of noise on all of our communities by sharing it fairly.",
+    website: 'www.apcag.org',
+    favicon: "APCAG.png",
+    altText: "APCAG website"
+  },
+  {   
+    id: 189,
+    position: [54.62033, -5.86982],
+    category: Category.CAT1,
+    title: "Belfast City Airport Watch",
+    information: "We are an umbrella residents' group fighting for robust and properly enforced controls on aircraft noise.",
+    website: 'www.belfastcityairportwatch.co.uk',
+    favicon: "Belfast City Airport Watch favicon.png",
+    altText: "Belfast City Airport Watch website"
+  },
+  {   
+    id: 190,
+    position: [54.62033, -5.86982],
+    category: Category.CAT1,
+    title: "Belfast City Airport Watch",
+    information: "We are an umbrella residents' group fighting for robust and properly enforced controls on aircraft noise.",
+    website: 'www.belfastcityairportwatch.co.uk',
+    favicon: "Belfast City Airport Watch favicon.jpg",
+    altText: "Belfast City Airport Watch website"
+  },
+  {   
+    id: 191,
+    position: [53.33605, -2.84943],
+    category: Category.CAT1,
+    title: "Save Oglet Shore Greenbelt",
+    information: "We are a group campaigning to save Oglet, its surrounding greenbelt land and access to the shore in Speke from being destroyed by the proposed development of Liverpool Airport.",
+    website: 'speke8.wixsite.com/oglet',
+    favicon: "Save Oglet Shore Greenbelt favicon.jpg",
+    altText: "Save Oglet Shore Greenbelt website"
+  },
+  {   
+    id: 192,
+    position: [51.15480, -0.16393],
+    category: Category.CAT1,
+    title: "GACC - Gatwick Area Conservation Campaign",
+    information: "The Gatwick Area Conservation Campaign seeks to protect and improve the environment in the area affected by Gatwick Airport's operations with particular regard to noise, congestion, air quality and light pollution.",
+    website: 'www.gacc.org.uk',
+    favicon: "GACC.jpg",
+    altText: "GACC website"
+  },
+  {   
+    id: 193,
+    position: [51.16105, -0.18316],
+    category: Category.CAT1,
+    title: "Gatwick Obviously Not",
+    information: "New flightpaths implemented by Gatwick Airport in 2013/14 are destroying lives in Kent, Sussex & Surrey as we know it. Make your voices heard #OneVoice.",
+    website: 'gatwickobviouslynot.org/index.html',
+    favicon: "Gatwick Obviously Not favicon.png",
+    altText: "Gatwick Obviously Not website"
+  },
+  {   
+    id: 194,
+    position: [51.75305, -0.33797],
+    category: Category.CAT1,
+    title: "STAND - St Albans Aircraft Noise Defense",
+    information: "Representing residents of historic St Albans and surrounding areas who are concerned about London Heathrow and London Luton flight operations over the area.",
+    website: 'stand.city',
+    favicon: "STAND favicon.jpg",
+    altText: "STAND website"
+  },
+  {   
+    id: 195,
+    position: [51.33050, 0.03236],
+    category: Category.CAT1,
+    title: "Flight Path Watch",
+    information: "Flightpath Watch was formed 25 years ago by a group of residents to represent the many thousands affected by operations at Biggin Hill Airport.",
+    website: 'www.flightpathwatch.co.uk',
+    favicon: "Flight Path Watch favicon.png",
+    altText: "Flight Path Watch website"
+  },
+  {   
+    id: 196,
+    position: [40.49523, -3.57337],
+    category: Category.CAT1,
+    title: "Ecologistas en accion",
+    information: "Ecologists in Action is a confederation of environmental groups distributed across towns and cities. We are part of social environmentalism, which understands that environmental problems have their origin in an increasingly globalised model of production and consumption.",
+    website: 'www.ecologistasenaccion.org/areas-de-accion/transporte/avion',
+    favicon: "Ecologistas en accion favicon.jpg",
+    altText: "Ecologistas en accion website"
+  },
+  {   
+    id: 197,
+    position: [-8.52281, 179.19785],
+    category: Category.CAT1,
+    title: "Alofa Tuvalu",
+    information: "Because we are all Tuvaluans, since 2005 Alofa Tuvalu contributes to an active global movement against climate change.",
+    website: 'www.facebook.com/alofatuvaluofficial',
+    favicon: "Alofa Tuvalu favicon.jpg",
+    altText: "Alofa Tuvalu facebook group"
+  },
+  {   
+    id: 198,
+    position: [46.52183, 6.63270],
+    category: Category.CAT1,
+    title: "Grandparents pour le climat",
+    information: "Our movement was launched to give a voice to grandparents, parents, aunts, uncles, and others concerned about the climate that our descendants will inherit.",
+    website: 'www.gpclimat.ch/',
+    favicon: "Grandparents pour le climat favicon.png",
+    altText: "Grandparents pour le climat facebook group"
+  },
+  {   
+    id: 199,
+    position: [47.19039, 1.95438],
+    category: Category.CAT1,
+    title: "Alternatiba",
+    information: "Mouvement citoyen pour le climat et la justice sociale.",
+    website: 'alternatiba.eu',
+    favicon: "Alternatiba favicon.jpg",
+    altText: "Alternatiba website"
+  },
+  {   
+    id: 200,
+    position: [47.15047, -1.61055],
+    category: Category.CAT1,
+    title: "GIGNV - Alternatiba Nantes ",
+    information: "Groupe d'intervention des grenouilles non violentes, organisateur d'actions et de formations.",
+    website: 'www.facebook.com/GIGNV',
+    favicon: "GIGNV favicon.png",
+    altText: "GIGNV facebook page"
+  },
+  {   
+    id: 201,
+    position: [43.62375, 1.37325],
+    category: Category.CAT1,
+    title: "CNAAT ",
+    information: "Collective Against Air Nuisances in the Toulouse Urban Area.",
+    website: 'www.ccnaat.fr',
+    favicon: "CNAAT favicon.png",
+    altText: "CNAAT website"
+  },
+  {   
+    id: 202,
+    position: [49.00676, 2.55182],
+    category: Category.CAT1,
+    title: "Non au T4",
+    information: "Après avoir obtenu l'abandon du Terminal 4 à Roissy, nous demandons la réduction du trafic aérien pour préserver la santé et le climat.",
+    website: 'www.facebook.com/NonAuTerminal4',
+    favicon: "Non au T4 favicon.jpg",
+    altText: "Non au T4 facebook page"
+  },
+  {   
+    id: 203,
+    position: [44.82678, -0.71552],
+    category: Category.CAT1,
+    title: "EPBE - Environnement, Patrimoine Bourg Eysines",
+    information: "The association was created  by residents of the town centre who are attached to the heritage of old Eysines and today brings together around a hundred members. All of them wish to preserve the soul and character of the old village.",
+    website: 'www.sauvonslebourg.fr',
+    favicon: "EPBE favicon.jpg",
+    altText: "EPBE website"
+  },
+  {   
+    id: 204,
+    position: [50.56688, 3.10464],
+    category: Category.CAT1,
+    title: "NADA - Non a l'agrandissement de l'aéroport de Lille-Lesquin",
+    information: "Association apartisane en lutte contre le projet climaticide d'agrandissement de l'aéroport de Lille.",
+    website: 'nadalille.fr',
+    favicon: "NADA favicon.png",
+    altText: "NADA website"
+  },
+  {   
+    id: 205,
+    position: [50.03201, 8.55420],
+    category: Category.CAT1,
+    title: "BBI - BBI Bündnis der Bürgerinitiativen gegen Flughafenausbau",
+    information: "The Alliance of Citizens' Initiatives No Airport Expansion Ban on Night Flights between 10pm and 6am is an alliance of more than 80 citizens' initiatives. The alliance aims to regain and maintain the quality of life of the people living in the Rhine-Main area.",
+    website: 'www.flughafen-bi.de/unsereziele.htm',
+    favicon: "BBI favicon.jpg",
+    altText: "BBI website"
+  },
+  {   
+    id: 206,
+    position: [50.21852, 8.55557],
+    category: Category.CAT1,
+    title: "Initiative gegen Fluglärm im Vordertaunus",
+    information: "The citizens' initiatives of Bad Soden, Eschborn, Kelkheim, Liederbach, Schwalbach and Sulzbach have joined forces in the initiative against aircraft noise in the Vordertaunus region.",
+    website: 'www.fluglaerm-vordertaunus.de',
+    favicon: "Vordertaunus favicon.png",
+    altText: "Vordertaunus website"
+  },
+  {   
+    id: 207,
+    position: [53.63283, 9.99310],
+    category: Category.CAT1,
+    title: "BAW Hamburg und Schleswig-Holstein",
+    information: "Citizens for the reduction of air traffic burdens in Hamburg and Schleswig-Holstein.",
+    website: 'www.baw-fluglaerm.de/ueber-baw.html',
+    favicon: "BAW favicon.jpg",
+    altText: "BAW website"
+  },
+  {   
+    id: 208,
+    position: [50.13288, 8.91698],
+    category: Category.CAT1,
+    title: "IGF - Against aircraft noise and pollutants",
+    information: "Our interest group wants to represent all citizens of the Main-Kinzig district and the city of Hanau who are exposed to aircraft noise and suffer health damage as a result, but also due to the effects of fine dust.",
+    website: 'www.igfluglaerm.de',
+    favicon: "IGF favicon.jpg",
+    altText: "IGF website"
+  },
+  {   
+    id: 209,
+    position: [50.00123, 8.27625],
+    category: Category.CAT1,
+    title: "BISF - Initiative against aircraft noise Mainz",
+    information: "Seit der Mitglieder Versammlung vom 15.08.2012 heisst der Verein Initiative gegen Fluglärm Mainz e.",
+    website: 'www.fluglaerm-mainz.info',
+    favicon: "BISF favicon.png",
+    altText: "BISF website"
+  },
+  {   
+    id: 210,
+    position: [50.01393, 8.54061],
+    category: Category.CAT1,
+    title: "BIS - Burgerinitiative Sachsenhausen",
+    information: "Burgerinitiative Sachsenhausen",
+    website: 'ausbaugegner.info',
+    favicon: "BIS Burgerinitiative Sachsenhausen favicon.png",
+    altText: "BIS Burgerinitiative Sachsenhausen website"
+  },
+  {   
+    id: 211,
+    position: [49.30356, 6.83686],
+    category: Category.CAT1,
+    title: "BI gegen Flug - Bodenlarm und Umweltverschmutzung",
+    information: "The main focus of the BI is the concentration of noise, pollution and risks in Saarland and neighboring Rhineland-Palatinate caused by military training flights.",
+    website: 'bifluglaerm.de',
+    favicon: "BI gegen Flug favicon.jpg",
+    altText: "BI gegen Flug website"
+  },
+  {   
+    id: 212,
+    position: [51.41596, 12.22846],
+    category: Category.CAT1,
+    title: "Bundnis gegen Ausbau Lej",
+    information: "We are jointly planning actions and public relations work for climate and health protection at Leipzig/Halle Cargo Airport.",
+    website: 'www.buendnislej.com',
+    favicon: "Bundnis gegen Ausbau Lej favicon.jpg",
+    altText: "Bundnis gegen Ausbau Lej website"
+  },
+  {   
+    id: 213,
+    position: [49.49498, 11.07897],
+    category: Category.CAT1,
+    title: "Fluglarmschutzgemeinschaft Nurnberg und Umgebung",
+    information: "We believe that the interests of the airport are currently being given too much consideration and that our needs for a healthy life and housing with an adequate quality of life are not being given enough consideration.",
+    website: 'www.fluglaerm-nuernberg.de',
+    favicon: "Default favicon.png",
+    altText: "Fluglarmschutzgemeinschaft Nurnberg und Umgebung website"
+  },
+  {   
+    id: 214,
+    position: [52.28644, 7.96883],
+    category: Category.CAT1,
+    title: "Flughafen Munster-Osnabruck Ausstieg jetzt",
+    information: "We are calling for Münster-Osnabrück Airport (FMO) to be closed down promptly. The airport is a financial bottomless pit.",
+    website: 'fmo-ausstieg.jetzt',
+    favicon: "Default favicon.png",
+    altText: "Flughafen Munster-Osnabruck Ausstieg jetzt website"
+  },
+  {   
+    id: 215,
+    position: [51.28413, 6.76135],
+    category: Category.CAT1,
+    title: "Burger gegen Fluglarm Dusseldorf",
+    information: "There is an effective remedy against the hellish noise above the heads of the residents of Düsseldorf Airport.",
+    website: 'bgf-ev.de',
+    favicon: "Burger gegen Fluglarm Dusseldorf favicon.png",
+    altText: "Burger gegen Fluglarm Dusseldorf website"
+  },
+  {   
+    id: 216,
+    position: [43.43113, 5.22941],
+    category: Category.CAT1,
+    title: "Collectif Mistral",
+    information: "L'association MISTRAL est une federation d'associations et CIQ qui luttent contre le bruit des avions.",
+    website: 'www.facebook.com/collectifmistral',
+    favicon: "Collectif Mistral favicon.jpg",
+    altText: "Collectif Mistral facebook page"
+  },
+  {   
+    id: 217,
+    position: [43.43163, 5.20949],
+    category: Category.CAT1,
+    title: "CNSAAMP",
+    information: "Association Contre les Nuisances Sonores de l'Aeroport Marseille-Provence.",
+    website: 'www.facebook.com/groups/cnsaamp2023',
+    favicon: "CNSAAMP favicon.jpg",
+    altText: "CNSAAMP facebook group"
+  },
+  {   
+    id: 218,
+    position: [43.54481, 6.95295],
+    category: Category.CAT1,
+    title: "Stop aux nuisances sonores et écologiques de l'aeroport Cannes Mandelieu",
+    information: "Ce groupe a pour objectif de lutter contre les nuisances sonores et ecologiques crees par les avions qui se posent a l'aeroport de Cannes Mandelieu.",
+    website: 'www.facebook.com/groups/290922506947701',
+    favicon: "Cannes Mandelieu favicon favicon.jpg",
+    altText: "Cannes Mandelieu facebook group"
+  },
+  {   
+    id: 219,
+    position: [50.90102, 4.48109],
+    category: Category.CAT1,
+    title: "VZW Milieusteunpunt Huldenberg",
+    information: "VZW Milieusteunpunt Huldenberg heeft tot doel de bescherming van het leefmilieu.",
+    website: 'www.facebook.com/VZWmilieusteunpunt',
+    favicon: "Milieusteunpunt Huldenberg favicon.png",
+    altText: "Milieusteunpunt Huldenberg facebook page"
+  },
+  {   
+    id: 220,
+    position: [50.89834, 4.48237],
+    category: Category.CAT1,
+    title: "Burgerforum Luchthavenregio",
+    information: "The Airport Region Citizen Forum advocates for a stable and legally secure framework which leads to sustainable development of the airport, without expansion.",
+    website: 'www.facebook.com/burgerforumluchthavenregio',
+    favicon: "Burgerforum Luchthavenregio favicon.jpg",
+    altText: "Burgerforum Luchthavenregio facebook page"
+  },
+  {   
+    id: 221,
+    position: [50.89372, 4.48981],
+    category: Category.CAT1,
+    title: "AWACSS - Association of Wezembeek-Oppem against Aircraft Contraventions to Silence and Security",
+    information: "To restore the quality of life that the inhabitants of Wezembeek-Oppem had before.",
+    website: 'www.awacss.be',
+    favicon: "AWACSS favicon.jpg",
+    altText: "AWACSS website"
+  },
+  {   
+    id: 222,
+    position: [50.87358, 4.49203],
+    category: Category.CAT1,
+    title: "Wake Up Kraainem",
+    information: "Against air pollution and the concentration of flights in Kraainem and the east of Brussels.",
+    website: 'wakeupkraainem.be',
+    favicon: "Wake Up Kraainem favicon.png",
+    altText: "Wake Up Kraainem website"
+  },
+  {   
+    id: 223,
+    position: [52.32072, 4.73984],
+    category: Category.CAT1,
+    title: "Recht Op Bescherming Tegen Vliegtuighinder",
+    information: "Residents of an airport have the right to a healthy living environment. With your help, we can put an end to the aircraft noise at Schiphol. Support our lawsuit.",
+    website: 'www.beschermingtegenvliegtuighinder.nl',
+    favicon: "Recht Op Bescherming Tegen Vliegtuighinder favicon.jpg",
+    altText: "Recht Op Bescherming Tegen Vliegtuighinder website"
+  },
+  {   
+    id: 224,
+    position: [51.95441, 4.43980],
+    category: Category.CAT1,
+    title: "BTV Rotterdam",
+    information: "The BTV-Rotterdam association is committed to combating the nuisance caused by Rotterdam The Hague Airport.",
+    website: 'btv-rotterdam.nl',
+    favicon: "BTV Rotterdam favicon.png",
+    altText: "BTV Rotterdam website"
+  },
+  {   
+    id: 225,
+    position: [50.91261, 5.77129],
+    category: Category.CAT1,
+    title: "Alliantie Tegen Uitbreiding MAA",
+    information: "Union of action groups against the expansion of Maastricht Aachen Airport.",
+    website: 'stopgroeimaa.nl',
+    favicon: "Alliantie Tegen Uitbreiding MAA favicon.jpg",
+    altText: "Alliantie Tegen Uitbreiding MAA website"
+  },
 ]
+
+
 

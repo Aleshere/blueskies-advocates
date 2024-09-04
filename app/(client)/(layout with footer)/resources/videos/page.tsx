@@ -61,6 +61,15 @@ const page = async () => {
                       />
                       
                       <VideoCard 
+                        favicon='Burien favicon.jpg'
+                        altText='Burien B-Town YouTube Video Channel'
+                        href='https://www.youtube.com/watch?v=yzbHNHteP9w'
+                        title='The Briefing #1: The Briefing You Should Have Had'
+                        description='Steve Edmiston is taking on the Port of Seattle, one public comment at a time. This is Episode 1: The Briefing You Should Have Had, from Jan. 30, 2018.'
+                        source='youtube'
+                      />
+                      
+                      <VideoCard 
                         favicon='Cagelfa favicon.jpg'
                         altText='Cagelfa YouTube Video Channel'
                         href='https://www.youtube.com/watch?v=QDdw8dECodE'

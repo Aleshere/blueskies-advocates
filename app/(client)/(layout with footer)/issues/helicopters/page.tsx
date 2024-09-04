@@ -47,7 +47,10 @@ const page = async () => {
                         
                         <h2 className='text-lg font-bold'>Non-essential Flights</h2>
                         <p>
-                          Non-essential helicopter flights are the ones that often contribute the most to noise pollution, and community disturbance, particularly in densely populated or environmentally sensitive areas. They are those that do not serve a critical or urgent need. Because they are not critical to public safety or essential services, these flights are often the focus of some sort of regulatory efforts aimed at reducing noise and minimizing environmental impact. In some areas such as New York City, New Jersey and Los Angeles, local communities are advocating for stricter regulations on non-essential helicopter flights to mitigate their negative effects. For example, a good example of robust and successful advocacy is the group <a href="https://stopthechopnynj.org/" target="_blank" rel="noopener" >Stop the Chop</a>. Non-essential flights are typically recreational, commercial, or convenience-based and do not serve an immediate or necessary function. Examples of non-essential helicopter flights include:
+                          Non-essential helicopter flights are the ones that often contribute the most to noise pollution, and community disturbance, particularly in densely populated or environmentally sensitive areas. They are those that do not serve a critical or urgent need.
+                        <p>
+                        </p>
+                          Because they are not critical to public safety or essential services, these flights are often the focus of some sort of regulatory efforts aimed at reducing noise and minimizing environmental impact. In some areas such as New York City, New Jersey and Los Angeles, local communities are advocating for stricter regulations on non-essential helicopter flights to mitigate their negative effects. For example, a good example of robust and successful advocacy is the group <a href="https://stopthechopnynj.org/" target="_blank" rel="noopener" >Stop the Chop</a>. Non-essential flights are typically recreational, commercial, or convenience-based and do not serve an immediate or necessary function. Examples of non-essential helicopter flights include:
                         </p>
                         
                         <h3 className='underline'>Sightseeing and Tourist Flights</h3>
@@ -132,6 +135,29 @@ const page = async () => {
                         
                         
                         <hr className="my-4 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
+                        
+                        <h2 className='text-lg font-bold'>How are Helicopters Producing Noise</h2>
+                        <p>
+                          They produce noise primarily due to the interaction between their rotor blades and the air, which creates various types of sounds.
+                        </p>
+                        <p>
+                          The primary source of noise in helicopters comes from the main rotor blades. As these blades spin rapidly, they slice through the air, causing turbulence and generating noise. The faster the rotor spins, the louder the noise. Additionally, when a blade tip exceeds the speed of sound, it creates a shock wave, leading to a phenomenon known as &quot;blade slap,&quot; which is a distinctive, loud noise.
+                        </p>
+                        <p>
+                          The tail rotor, which stabilizes the helicopter by counteracting the torque produced by the main rotor, also contributes to noise. The interaction of the tail rotor blades with the air generates a high-pitched whine or buzzing sound.
+                        </p>
+                        <p>
+                          Helicopters are powered by engines, usually <a href="https://en.wikipedia.org/wiki/Turboshaft" target="_blank" rel="noopener" >turboshaft</a> engines, which produce noise as they burn fuel and exhaust gases. The noise from the engine is less significant than that from the rotors but still contributes to the overall sound level.
+                        </p>
+                        <p>
+                          <a href="https://en.wikipedia.org/wiki/Blade-vortex_interaction" target="_blank" rel="noopener" >Blade Vortex Interaction</a>: this occurs when a rotor blade passes through the vortex created by the preceding blade. BVI can lead to a sharp, repetitive noise, especially during certain maneuvers like descending or hovering.
+                        </p>
+                        <p>
+                          Lastly, when a helicopter is flying close to the ground, the rotor wash interacts with the ground, reflecting noise back up and potentially increasing the perceived noise level.
+                        </p>
+                        <p>
+                          <a href="https://www.youtube.com/watch?v=lwLFz6WxGII" target="_blank" rel="noopener" >This video</a> is a good resource to understand how helicopter noise is produced.
+                        </p>
 
                         <div className="flex justify-center pt-4" >
                           <Image src="/assets/images/images/DNL-metric-issues.png" width={500} height={500} alt="DNL metric FAA"/>
@@ -150,6 +176,7 @@ const page = async () => {
         
         
         
+        <a href="https://www.youtube.com/watch?v=lwLFz6WxGII" target="_blank" rel="noopener" >this report</a>
         <a href="assets/files/NEF_Losing_altitude.pdf" target="_blank" rel="noopener" >this report</a>
         <BackButton />
     </>
