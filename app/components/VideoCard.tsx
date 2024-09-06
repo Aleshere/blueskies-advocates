@@ -30,6 +30,38 @@ const Facebook = () => {
   )
 }
 
+const Podcast = () => {
+  return (
+    <div className='absolute top-0 right-1.5' >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="32"
+      height="32"
+      fill="#000"
+      className="icon flat-color"
+      data-name="Flat Color"
+      viewBox="0 0 24 24"
+    >
+      <g>
+        <path
+          fill="#2ca9bc"
+          d="M14 22h-4a1 1 0 010-2h1v-7a1 1 0 012 0v7h1a1 1 0 010 2z"
+        ></path>
+        <path
+          fill="#000"
+          d="M20.29 11.58l-7.51-5.74A5 5 0 007 2.09 5 5 0 003.78 4.2a5 5 0 001.35 7 5 5 0 003.53.78h.19l8 4.75a1.93 1.93 0 001 .28 2 2 0 001.7-1.01l1.18-1.75a2 2 0 00-.44-2.67z"
+        ></path>
+        <path
+          fill="#2ca9bc"
+          d="M8 12.77a1 1 0 01-.56-.17 1 1 0 01-.27-1.39l4.43-6.63a1 1 0 111.66 1.12l-4.47 6.63a1 1 0 01-.79.44z"
+          data-name="secondary"
+        ></path>
+      </g>
+    </svg>
+    </div>
+  )
+}
+
 const Default = () => {
   return (
     <div className='absolute top-0 right-1.5' >
@@ -61,6 +93,8 @@ const VideoCard = ({ favicon, altText, href, title, description, source  }: Prop
               return <YouTube />
             case 'facebook':
               return <Facebook />
+              case 'podcast':
+              return <Podcast />
             default:
               return < Default />
           }

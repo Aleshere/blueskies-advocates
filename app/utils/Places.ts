@@ -1897,16 +1897,6 @@ export const Places: PlacesType = [
     altText: "APCAG website"
   },
   {   
-    id: 189,
-    position: [54.62033, -5.86982],
-    category: Category.CAT1,
-    title: "Belfast City Airport Watch",
-    information: "We are an umbrella residents' group fighting for robust and properly enforced controls on aircraft noise.",
-    website: 'www.belfastcityairportwatch.co.uk',
-    favicon: "Belfast City Airport Watch favicon.png",
-    altText: "Belfast City Airport Watch website"
-  },
-  {   
     id: 190,
     position: [54.62033, -5.86982],
     category: Category.CAT1,
@@ -2265,6 +2255,96 @@ export const Places: PlacesType = [
     website: 'stopgroeimaa.nl',
     favicon: "Alliantie Tegen Uitbreiding MAA favicon.jpg",
     altText: "Alliantie Tegen Uitbreiding MAA website"
+  },
+  {   
+    id: 226,
+    position: [51.09836, 10.50643],
+    category: Category.CAT1,
+    title: "Parents 4 Future Germany",
+    information: "We are committed to limiting global warming in order to preserve the planet's foundations for life.",
+    website: 'linktr.ee/parents4future',
+    favicon: "Parents 4 Future Germany favicon.jpg",
+    altText: "Parents 4 Future Germany linktree"
+  },
+  {   
+    id: 227,
+    position: [52.51043, 4.67235],
+    category: Category.CAT1,
+    title: "SOS Heemskerk  X Channel",
+    information: "Stop Nuisance Schiphol.",
+    website: 'twitter.com/SOS_Heemskerk',
+    favicon: "SOS Heemskerk favicon.jpg",
+    altText: "SOS Heemskerk X Channel"
+  },
+  {   
+    id: 228,
+    position: [52.30139, 4.67945],
+    category: Category.CAT1,
+    title: "HoofddorpZuidTegenGeluid  X Channel",
+    information: "Stop overlast en vervuiling door Schiphol.",
+    website: 'twitter.com/HFDZuidGeluid',
+    favicon: "HoofddorpZuidTegenGeluid favicon.jpg",
+    altText: "HoofddorpZuidTegenGeluid X Channel"
+  },
+  {   
+    id: 229,
+    position: [52.45489, 5.52051],
+    category: Category.CAT1,
+    title: "KarinSteenwijkerland X Channel",
+    information: "No expansion of Lelystad airport. Shrink aviation (less noise, less fine dust, bluer skies, more silence).",
+    website: 'twitter.com/KarinSteenwijk1',
+    favicon: "KarinSteenwijkerland favicon.jpg",
+    altText: "KarinSteenwijkerland X Channel"
+  },
+  {   
+    id: 230,
+    position: [40.69731, -73.70793],
+    category: Category.CAT1,
+    title: "Nassau Resident X Channel",
+    information: "",
+    website: 'twitter.com/NassauResident',
+    favicon: "Nassau Resident favicon.jpg",
+    altText: "Nassau Resident X Channel"
+  },
+  {   
+    id: 231,
+    position: [53.34117, -6.26768],
+    category: Category.CAT1,
+    title: "Childrens Rights Over Flights",
+    information: "A campaign by parents, grandparents and other concerned people, demanding children's rights to climate action are prioritised over endless flights.",
+    website: 'twitter.com/RightOverFlight',
+    favicon: "Childrens Rights Over Flights favicon.jpg",
+    altText: "Childrens Rights Over Flights X Channel"
+  },
+  {   
+    id: 232,
+    position: [56.09867, -4.02003],
+    category: Category.CAT1,
+    title: "Stop Climate Chaos Scotland",
+    information: "We are a diverse coalition of over 70 civil society organisations campaigning together on climate change in Scotland.",
+    website: 'www.stopclimatechaos.scot',
+    favicon: "Stop Climate Chaos Scotland favicon.png",
+    altText: "Stop Climate Chaos Scotland website"
+  },
+  {   
+    id: 233,
+    position: [43.69423, 1.26894],
+    category: Category.CAT1,
+    title: "Daux Environnement",
+    information: "Lutter contre les nouvelles nuisances aériennes.",
+    website: 'www.dauxenvironnement.fr',
+    favicon: "Daux favicon.jpg",
+    altText: "Daux Environnement website"
+  },
+  {   
+    id: 234,
+    position: [43.42958, 5.22874],
+    category: Category.CAT1,
+    title: "Stop extension Aéroport Marseille-Provence!",
+    information: "On lutte depuis septembre 2020 contre le projet d'extension de l'aeroport Marseille-Provence qui genererait une hausse des emissions de gaz a effet de serre incompatible avec la préservation du climat.",
+    website: 'www.facebook.com/groups/852152065459048',
+    favicon: "Stop Extension AMP favicon.png",
+    altText: "Stop Extension AMP facebook group"
   },
 ]
 

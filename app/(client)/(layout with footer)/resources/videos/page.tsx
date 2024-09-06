@@ -52,6 +52,15 @@ const page = async () => {
                       />
                       
                       <VideoCard 
+                        favicon='Arline Bronzaft favicon.jpg'
+                        altText='Arline Bronzaft podcast Video Link'
+                        href='https://www.apa.org/news/podcasts/speaking-of-psychology/noise-pollution'
+                        title='Speaking of Psychology: How noise pollution harms our health'
+                        description='Arline Bronzaft, PhD, talks about how noise affects health and well-being, how it can harm kids&apos; learning and why it&apos;s not just a problem in big cities in her 5 decades of advocacy combating noise pollution.'
+                        source='podcast'
+                      />
+                      
+                      <VideoCard 
                         favicon='BFPCA favicon.png'
                         altText='BFPCA Facebook Video Link'
                         href='https://fb.watch/t54hcrBgrN/'

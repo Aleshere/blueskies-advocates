@@ -681,6 +681,14 @@ const page = async () => {
                         <p>
                           Instead of expanding airport capacity, funds could be invested in enhancing public transportation systems, such as high-speed rail networks, bus rapid transit (BRT) systems, and electric vehicle infrastructure. Efficient public transport reduces the need for short-haul flights, which are particularly carbon-intensive, and can alleviate traffic congestion and air pollution in urban areas. Example: In Europe, countries like France and Spain have developed extensive high-speed rail networks that connect major cities, reducing the need for domestic flights. This has led to a decrease in carbon emissions and has made travel more accessible and sustainable for residents and tourists alike. In <a href="https://www.stopoakexpansion.org/trains-v-oak-departures-study" target="_blank" rel="noopener" >this report</a> you can find a great example from Oakland CA: they analyze the proposed airport expansion and juxtapose it with existing low emission modes of transportation. The results clearly highlight how unnecessary the expansion is.
                         </p>
+                        <p>
+                          In <a href="https://www.sustainabilitybynumbers.com/p/travel-prices" target="_blank" rel="noopener" >another report</a>, produced to assess the different means of transportation in the UK, the author concluded that if you&apos;re booking a trip from London to Edinburgh in advance, there is no cost advantage to taking the climate-friendly train compared to the plane. If you are booking last minute, it is actually much more expensive to fly.
+                        </p>
+                        
+                        <div className="flex justify-center py-4" >
+                          <Image src="/assets/images/images/UK_trains_planes_comparison_pollution.png" width={500} height={500} alt="Rail vs Planes UK Study"/>
+                        </div> 
+                        <caption className="italic text-sm font-light" >Image by <a href="https://www.sustainabilitybynumbers.com/p/travel-prices" target="_blank" rel="noopener" >Hannah Ritchie</a></caption>
                         
                         <p className='underline'>Sustainable Urban Development</p> 
                         <p>
