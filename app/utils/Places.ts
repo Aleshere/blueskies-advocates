@@ -2486,6 +2486,16 @@ export const Places: PlacesType = [
     favicon: "RMMA airport favicon.png",
     altText: "Rocky Mountain Municipal Airport"
   },
+  {   
+    id: 249,
+    position: [33.81882, -118.15393],
+    category: Category.CAT2,
+    title: "Long Beach Airport",
+    information: "While the airport has an important past, surrounding communities are pushing back against its pollution, noise and efforts to expand operations.",
+    website: 'www.weareblueskies.com/posts/long-beach-airport',
+    favicon: "Long Beach Airport favicon.png",
+    altText: "Long Beach Airport"
+  },
 ]
 
 

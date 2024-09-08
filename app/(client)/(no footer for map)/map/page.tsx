@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   },
   description: "A webpage featuring a map lists all groups fighting aviation pollution and noise.",
   openGraph: {
-    title: "Map of Groups",
+    title: "Informational Map",
     description: "A webpage featuring a map lists all groups fighting aviation pollution and noise.",
     type: "website",
     locale: "en_US",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "BlueSkies Advocates",
       images: [
         {
-          url: "https://www.weareblueskies.com/api/og?title=MAP OF GROUPS",
+          url: "https://www.weareblueskies.com/api/og?title=INFO MAP",
         },
       ],
   },

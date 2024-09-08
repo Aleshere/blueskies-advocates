@@ -38,9 +38,15 @@ export async function generateMetadata({ params }: Params) {
       locale: "en_US",
       url: `http://www.weareblueskies.com/${params.slug}`,
       siteName: "BlueSkies Advocates",
+      images: [
+        {
+          url: "https://www.weareblueskies.com/api/og?title=BLOG TAGS",
+        },
+      ],
     },
   };
 }
+
 
 interface Params {
   params: {

@@ -172,3 +172,11 @@ body {
     stroke-dashoffset 0.3s ease-out,
     stroke-opacity 0.3s ease-in;
 }
+
+/*-------------------------------------------
+        Custom adjustments for Airport Blog Posts
+-------------------------------------------*/
+.post-page h6 {
+  margin-bottom: 0 !important;
+  font-size: 1rem !important;
+}
