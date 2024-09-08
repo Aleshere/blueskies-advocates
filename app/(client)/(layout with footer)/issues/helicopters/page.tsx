@@ -158,6 +158,13 @@ const page = async () => {
                         <p>
                           <a href="https://www.youtube.com/watch?v=lwLFz6WxGII" target="_blank" rel="noopener" >This video</a> is a good resource to understand how helicopter noise is produced.
                         </p>
+                        
+                        <hr className="my-4 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
+                        
+                        <h2 className='text-lg font-bold'>How do helicopters impact those on the ground?</h2>
+                        <p>
+                          They produce noise primarily due to the interaction between their rotor blades and the air, which creates various types of sounds.
+                        </p>
 
                         <div className="flex justify-center pt-4" >
                           <Image src="/assets/images/images/DNL-metric-issues.png" width={500} height={500} alt="DNL metric FAA"/>

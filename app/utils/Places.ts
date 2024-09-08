@@ -568,7 +568,7 @@ export const Places: PlacesType = [
   },
   {
     id: 56,
-    position: [39.90779, -105.11331],
+    position: [39.92977, -105.14329],
     category: Category.CAT1,
     title: 'RMMA JeffCO',
     information: "This group is for residents of the 80027(6) zip code, i.e. Louisville, Superior and Lafayette, who are interested in issues related to Rocky Mountain Municipal Airport and associated noise and pollution issues. It is also open to residents of Broomfield and Westminster who are impacted by RMMA flights and concerned about its future growth",
@@ -1490,8 +1490,8 @@ export const Places: PlacesType = [
     id: 148,
     position: [48.73006, 2.36783],
     category: Category.CAT1,
-    title: "DRAPO - Défense Riverains Aéroport Paris Orly",
-    information: "Défense Riverains Aéroport Paris Orly. 40 communes et 30 associations rassemblées contre les pollutions de l'aéroport de Paris-Orly",
+    title: "DRAPO - Defense Riverains Aéroport Paris Orly",
+    information: "Defense Riverains Aéroport Paris Orly. 40 communes et 30 associations rassemblees contre les pollutions de l'aéroport de Paris-Orly",
     website: 'x.com/DRAPOORLY',
     favicon: 'DRAPO favicon.jpg',
     altText: "DRAPO X channel"
@@ -1893,7 +1893,7 @@ export const Places: PlacesType = [
     title: "APCAG - Association of Parish Councils Aviation Group",
     information: "We want a constructive engagement with Gatwick Airport and all those with an interest that allows Gatwick to be a sustainable business, crucially one that protects those who live close to the airport. Most importantly our aim is to minimise the burden of noise on all of our communities by sharing it fairly.",
     website: 'www.apcag.org',
-    favicon: "APCAG.png",
+    favicon: "APCAG favicon.png",
     altText: "APCAG website"
   },
   {   
@@ -1933,7 +1933,7 @@ export const Places: PlacesType = [
     title: "Gatwick Obviously Not",
     information: "New flightpaths implemented by Gatwick Airport in 2013/14 are destroying lives in Kent, Sussex & Surrey as we know it. Make your voices heard #OneVoice.",
     website: 'gatwickobviouslynot.org/index.html',
-    favicon: "Gatwick Obviously Not favicon.png",
+    favicon: "Gatwick Obviosuly Not favicon.png",
     altText: "Gatwick Obviously Not website"
   },
   {   
@@ -2345,6 +2345,146 @@ export const Places: PlacesType = [
     website: 'www.facebook.com/groups/852152065459048',
     favicon: "Stop Extension AMP favicon.png",
     altText: "Stop Extension AMP facebook group"
+  },
+  {   
+    id: 235,
+    position: [53.63076, 9.97407],
+    category: Category.CAT1,
+    title: "Arbeitsgruppe Luftverkehr",
+    information: "Emergency Association of Airport Residents; Jersbek Aircraft Noise Protection Working Group; Elmenhorst Municipality Affected by Aircraft Noise; BAW Hamburg | Schleswig-Holstein",
+    website: 'twitter.com/AG_Luftverkehr',
+    favicon: "Arbeitsgruppe Luftverkehr favicon.jpg",
+    altText: "Arbeitsgruppe Luftverkehr X Channel"
+  },
+  {   
+    id: 236,
+    position: [52.26546, 4.72941],
+    category: Category.CAT1,
+    title: "Krimp Luchtvaart",
+    information: "Let's make a fist against the pollution and nuisance of aviation. The shrinkage starts in the Netherlands.",
+    website: 'krimpluchtvaart.nl',
+    favicon: "Krimp Luchtvaart favicon.jpg",
+    altText: "Krimp Luchtvaart website"
+  },
+  {   
+    id: 237,
+    position: [53.42438, -6.26008],
+    category: Category.CAT1,
+    title: "ToxicAer0",
+    information: "Passengers and crew being poisoned by toxic fumes on aer lingus aircraft. Aer Lingus more concerned with stifling the truth.",
+    website: 'twitter.com/ToxicAer0',
+    favicon: "ToxicAer0 favicon.jpg",
+    altText: "ToxicAer0 X Channel"
+  },
+  {   
+    id: 238,
+    position: [47.42783, 8.68784],
+    category: Category.CAT1,
+    title: "FAIR in AIR",
+    information: "For the protection of the climate and health and for a high quality of life for the resident population around Zurich airport.",
+    website: 'fair-in-air.ch',
+    favicon: "FAIR in AIR favicon.jpg",
+    altText: "FAIR in AIR website"
+  },
+  {   
+    id: 239,
+    position: [47.45218, 8.56179],
+    category: Category.CAT1,
+    title: "NEIN zum Pistenausbau",
+    information: "",
+    website: 'twitter.com/pisten_NEIN',
+    favicon: "NEIN zum Pistenausbau favicon.jpg",
+    altText: "NEIN zum Pistenausbau X Channel"
+  },
+  {   
+    id: 240,
+    position: [52.52791, 4.71073],
+    category: Category.CAT1,
+    title: "MRS Polderbaan",
+    information: "Cluster representative MRS-Polderbaan-Buitengebied. Polderbaan is the most used runway. We want Schiphol to shrink for a liveable environment.",
+    website: 'twitter.com/orspolderbaan',
+    favicon: "MRS Polderbaan favicon.jpg",
+    altText: "MRS Polderbaan X Channel"
+  },
+  {   
+    id: 241,
+    position: [52.31219, 4.74023],
+    category: Category.CAT1,
+    title: "Zetschipholopstil",
+    information: "For every Dutch person flying, 12 foreigners are pumped around Schiphol, and 1.4 million people are exposed to aircraft noise every day. This has to stop. Will you help?",
+    website: 'twitter.com/schipholopstil',
+    favicon: "Zetschipholopstil favicon.jpg",
+    altText: "Zetschipholopstil X Channel"
+  },
+  {   
+    id: 242,
+    position: [-41.29178, 174.77318],
+    category: Category.CAT1,
+    title: "GotB - Guardians of the Bays",
+    information: "Local volunteers trying to stop Wellington Airports plan to expand and double passenger number in a climate emergency. We are a non-profit that needs donations.",
+    website: 'guardiansofthebays.org.nz',
+    favicon: "GotB favicon.jpg",
+    altText: "GotB website"
+  },
+  {   
+    id: 243,
+    position: [45.46205, -73.75075],
+    category: Category.CAT1,
+    title: "Les Pollués de Montréal-Trudeau",
+    information: "Les Pollués de Montréal-Trudeau is a non-partisan citizens' committee concerned about air pollution in the Montreal region since 2012.",
+    website: 'www.lpdmt.org',
+    favicon: "Les Pollues Montreal Trudeau favicon.png",
+    altText: "Les Pollues Montreal Trudeau website"
+  },
+  {   
+    id: 244,
+    position: [-37.66316, 144.83685],
+    category: Category.CAT1,
+    title: "3rd Runway Climate Impact",
+    information: "Melbourne Airport expands emissions capacity when we face Climate Code Red.",
+    website: 'twitter.com/Climate4Runway3',
+    favicon: "3rd Runway Climate Impact favicon.jpg",
+    altText: "3rd Runway Climate Impact X Channel"
+  },
+  {   
+    id: 245,
+    position: [51.50403, 0.05567],
+    category: Category.CAT1,
+    title: "Stop LCY",
+    information: "Local community against the expansion of London City Airport. No politics except when it concerns London City Airport. Why are their aircraft exempt from ULEZ.",
+    website: 'twitter.com/StopLCY',
+    favicon: "Stop LCY favicon.jpeg",
+    altText: "Stop LCY X Channel"
+  },
+  {   
+    id: 246,
+    position: [51.38294, -2.71772],
+    category: Category.CAT1,
+    title: "SOFAX. Attention: OTPP",
+    information: "International coalition ramping up pressure to STOP OTPP FUNDING AIRPORT EXPANSION.",
+    website: 'twitter.com/SOFAX911',
+    favicon: "SOFAX favicon.jpg",
+    altText: "SOFAX Attention OTPP X Channel"
+  },
+  {   
+    id: 247,
+    position: [52.44803, 5.51099],
+    category: Category.CAT2,
+    title: "Lelystad Airport",
+    information: "The biggest general aviation airport in the Netherlands, with an outlook to become a commercial hub to offer relief to Schiphol.",
+    website: 'www.weareblueskies.com/posts/lelystad-airport',
+    favicon: "Lelystad Airport favicon.png",
+    altText: "Lelystad Airport"
+  },
+  {   
+    id: 248,
+    position: [39.90673, -105.11452],
+    category: Category.CAT2,
+    title: "Rocky Mountain Municipal Airport",
+    information: "Originally established to serve general aviation, it has grown over time to become one of the busiest non-commercial airports in Colorado.",
+    website: 'www.weareblueskies.com/posts/rocky-mountain-municipal-airport',
+    favicon: "RMMA airport favicon.png",
+    altText: "Rocky Mountain Municipal Airport"
   },
 ]
 

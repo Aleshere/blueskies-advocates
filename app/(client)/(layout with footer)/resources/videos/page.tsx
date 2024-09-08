@@ -133,6 +133,15 @@ const page = async () => {
                       />
                       
                       <VideoCard 
+                        favicon='James Hingham Air NZ Not Sustainable.png'
+                        altText='James Hingham Air NZ Not Sustainable Podcast Link'
+                        href='https://jameshigham.com/air-new-zealand-no-longer-a-sustainability-leader/'
+                        title='Air New Zealand - no longer a sustainability leader. '
+                        description='In this second episode of Checking In, I reflect on Air New Zealand&apos;s recent abandonment of its science-based targets. This has been an embarrassing and uncomfortable announcement for the country&apos;s flagship carrier to make, after putting a lot of emphasis on the importance of climate leadership and action in recent years.'
+                        source='podcast'
+                      />
+                      
+                      <VideoCard 
                         favicon='Jenny Jones favicon.jpg'
                         altText='Jenny Jones Facebook Video Link'
                         href='https://fb.watch/t54nr6TVZ9/'
