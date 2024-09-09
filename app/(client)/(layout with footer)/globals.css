@@ -180,3 +180,10 @@ body {
   margin-bottom: 0 !important;
   font-size: 1rem !important;
 }
+
+/*-------------------------------------------
+        On Blog Posts ul needs extra margin at the bottom
+-------------------------------------------*/
+.post-page ul {
+  margin-bottom: 20px !important;
+}

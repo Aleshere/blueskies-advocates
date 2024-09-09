@@ -2496,6 +2496,16 @@ export const Places: PlacesType = [
     favicon: "Long Beach Airport favicon.png",
     altText: "Long Beach Airport"
   },
+  {   
+    id: 250,
+    position: [42.460270, -71.290750],
+    category: Category.CAT2,
+    title: "Hanscom Field Airport",
+    information: "General aviation and private jets hub in Beford MA, at the centre of highly contested expansion plans.",
+    website: 'www.weareblueskies.com/posts/hanscom-field-airport',
+    favicon: "Hanscom favicon.png",
+    altText: "Hanscom Field Airport"
+  },
 ]
 
 
