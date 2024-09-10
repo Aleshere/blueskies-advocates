@@ -2506,6 +2506,16 @@ export const Places: PlacesType = [
     favicon: "Hanscom favicon.png",
     altText: "Hanscom Field Airport"
   },
+  {   
+    id: 251,
+    position: [41.25870, -72.88708],
+    category: Category.CAT2,
+    title: "Tweed New Haven Airport",
+    information: "Regional airport at the centre of highly contested expansion plans.",
+    website: 'www.weareblueskies.com/posts/tweed-new-haven-airport',
+    favicon: "Tweed NH favicon.jpg",
+    altText: "Tweed New Haven Airport"
+  },
 ]
 
 
