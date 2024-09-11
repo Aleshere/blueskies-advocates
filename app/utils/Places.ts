@@ -2516,6 +2516,26 @@ export const Places: PlacesType = [
     favicon: "Tweed NH favicon.jpg",
     altText: "Tweed New Haven Airport"
   },
+  {   
+    id: 252,
+    position: [34.72848, -112.03481],
+    category: Category.CAT2,
+    title: "Cottonwood Airport",
+    information: "General aviation airport encroached by residential zoning. Noise and leaded fuel concerns, amongst other.",
+    website: 'www.weareblueskies.com/posts/cottonwood-airport',
+    favicon: "Cottonwood favicon.png",
+    altText: "Cottonwood Airport"
+  },
+  {   
+    id: 253,
+    position: [42.58279, -70.91142],
+    category: Category.CAT2,
+    title: "Beverly Regional Airport",
+    information: "Beverly Airport intertwines with broader themes such as aviation innovation, military usage and environmental and community concerns.",
+    website: 'www.weareblueskies.com/posts/beverly-airport',
+    favicon: "Beverly favicon.jpg",
+    altText: "Beverly Regional Airport"
+  },
 ]
 
 

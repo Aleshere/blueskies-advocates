@@ -190,7 +190,7 @@ const myPortableTextComponents = {
 const richTextStyles = `
 post-page
 mt-14
-text-justify
+text-center
 max-w-2xl
 m-auto
 prose-headings:my-5
