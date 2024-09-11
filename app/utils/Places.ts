@@ -2536,6 +2536,26 @@ export const Places: PlacesType = [
     favicon: "Beverly favicon.jpg",
     altText: "Beverly Regional Airport"
   },
+  {   
+    id: 254,
+    position: [37.72980, -122.22660],
+    category: Category.CAT2,
+    title: "Oakland International Airport",
+    information: "Oakland Airport's history is one of growth and transformation, but also of environmental degradation and community conflict.",
+    website: 'www.weareblueskies.com/posts/oakland-airport',
+    favicon: "Oakland favicon.png",
+    altText: "Oakland International Airport"
+  },
+  {   
+    id: 255,
+    position: [34.20677, -118.48905],
+    category: Category.CAT2,
+    title: "Van Nuys Aiport",
+    information: "One of the largest, encroached, General Aviation and private jets hub in the Country. With all the negative consequences for the environment and communities this entails.",
+    website: 'www.weareblueskies.com/posts/van-nuys-airport',
+    favicon: "VNY favicon.jpg",
+    altText: "Van Nuys Aiport"
+  },
 ]
 
 
