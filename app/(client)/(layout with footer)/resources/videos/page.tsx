@@ -106,6 +106,15 @@ const page = async () => {
                       />
                       
                       <VideoCard 
+                        favicon='Peaceful Chiricahua Skies favicon.jpg'
+                        altText='Deborah Gordon on the environmental effects YouTube Video Link'
+                        href='https://www.youtube.com/watch?v=Pnu779ZCrLA'
+                        title='Deborah Gordon on the effects of Military Jets on wildlife'
+                        description='Deborah Gordon, ecologist and a professor at Stanford University, talks about the effects of the USAF&apos;s proposal actions on unique environment in the Chiricahuas.'
+                        source='youtube'
+                      />
+                      
+                      <VideoCard 
                         favicon='Eleanor Holmes Norton favicon.jpg'
                         altText='Eleanor Holmes Norton Facebook Video Link'
                         href='https://fb.watch/t54vCinAmj/'
@@ -174,6 +183,15 @@ const page = async () => {
                         href='https://www.youtube.com/watch?v=i7JHi3WqRn8'
                         title='Scientific Panel from "Aviation Noise, Pollution, and Health": Connecting the Dots'
                         description='Presentations from leading international researchers describe the scientific rationale for the adverse impacts being experienced by communities affected by excessive aviation operations.'
+                        source='youtube'
+                      />
+                      
+                      <VideoCard 
+                        favicon='SeaTac YT favicon.jpg'
+                        altText='STNI: Sea-Tac Airport Noise and Pollution YouTube Video Channel'
+                        href='https://www.youtube.com/watch?v=n8Q1UYbypqI&t=31s'
+                        title='Performance Based Navigation'
+                        description='Explanation of NextGen: the reasoning behind it, the implementation of a national strategy, the priorities pursued. Communities are secondary, not as important as fuel efficiency and expanding capacity in a safe manner.'
                         source='youtube'
                       />
                       

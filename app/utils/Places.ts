@@ -2556,7 +2556,29 @@ export const Places: PlacesType = [
     favicon: "VNY favicon.jpg",
     altText: "Van Nuys Aiport"
   },
+  {   
+    id: 256,
+    position: [47.44534, -122.30118],
+    category: Category.CAT2,
+    title: "Seattle Tacoma Aiport",
+    information: "Large commercial hub in the West Coast of the USA. As SeaTac Airport continues to grow, the environmental and health impacts on surrounding communities will only intensify unless meaningful action is taken.",
+    website: 'www.weareblueskies.com/posts/seattle-tacoma-airport',
+    favicon: "SeaTac favicon.png",
+    altText: "Seattle Tacoma Aiport"
+  },
+  {   
+    id: 257,
+    position: [26.15206, -81.77573],
+    category: Category.CAT2,
+    title: "Naples Municipal Aiport",
+    information: "Accidents and noise complaints have underscored the challenges that come with operating an airport in a growing, urbanized area. The incidents have prompted discussions about safety, environmental impact, and the future of the airport.",
+    website: 'www.weareblueskies.com/posts/naples-municipal-airport',
+    favicon: "Naples Airport favicon.png",
+    altText: "Naples Municipal Aiport"
+  },
 ]
+
+
 
 
 

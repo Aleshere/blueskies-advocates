@@ -436,6 +436,23 @@ const page = async () => {
                         
                         <a
                         className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="www.youtube.com/@mdotclownpatrol"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='MDOT favicon.jpg' alt='MDOT Clown Patrol YouTube Channel' />
+                            </span>
+
+                            <h2 className="mt-2 font-bold">MDOT Clown Patrol</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                YouTube Channel of Michigan Department of Transportation (MDOT) Clown Patrol | Largest Waste of Taxpayer Money in Michigan History.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
                         href="https://www.mocoquietskies.org/"
                         target="_blank"
                         rel="noreferrer noopener"
@@ -950,6 +967,23 @@ const page = async () => {
 
                             <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
                                 SPON has fought for our community for 40 years to ensure it&apo;s not destroyed by John Wayne Airport airport&apo;s environmental impacts by defending the landmark 1985 Settlement Agreement which limits JWA growth, noise, and operations.
+                            </p>
+                        </a>
+                        
+                        <a
+                        className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                        href="https://www.youtube.com/@seatacnoiseinfo"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        >
+                            <span className="inline-block rounded-lg">
+                                <Favicon id='SeaTac YT favicon.jpg' alt='SeaTac STNI YouTube Channel' />
+                            </span>
+
+                            <h2 className="mt-2 font-bold">STNI: Sea-Tac Airport Noise and Pollution</h2>
+
+                            <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                                A nice collection of informative videos from the YouTube channel of this Seattle based group fighting SeaTac airport noise and pollution. Videos about NextGen airport expansion meetings, environment, health impacts. Highly recommended.
                             </p>
                         </a>
                         

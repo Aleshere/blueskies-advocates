@@ -471,7 +471,7 @@ const page = async () => {
                         </p>
                         
                         <ul className='list-disc' >
-                          <li><strong>Sydney Kingsford Smith Airport (SYD)</strong>: Curfew from 11:00 pm to 6:00 am. Exceptions are allowed for emergency flights, certain low-noise operations, and a limited number of landings between 5:00 am and 6:00 am under strict conditions.</li>
+                          <li><strong>Sydney Kingsford Smith Airport (SYD)</strong>: Curfew from 11:00 pm to 6:00 am. Exceptions are allowed for emergency flights, certain low-noise operations, and a limited number of landings between 5:00 am and 6:00 am under strict conditions. Check <a href="/assets/files/Sydney_Airport_Curfew_Factsheet.pdf" target="_blank" rel="noopener" >this factsheet</a> to learn more about the curfew.</li>
                           <li><strong>Adelaide Airport (ADL)</strong>: Curfew from 11:00 pm to 6:00 am. Exceptions include emergency services, medical evacuations, and certain low-noise aircraft.</li>
                           <li><strong>Gold Coast Airport (OOL)</strong>: Curfew from 11:00 pm to 6:00 am. There are exceptions for certain small aircraft and emergency flights.</li>
                           <li><strong>Brisbane Airport (BNE)</strong>: No formal curfew.</li>
