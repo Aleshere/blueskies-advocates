@@ -156,7 +156,7 @@ const page = async () => {
                           The FAA, aware of the growing dissatisfaction and pressure from both local governments and Congress, aimed to create a structured mechanism for engagement. The roundtables were designed as a way to rebuild trust with affected communities by providing an official forum where concerns could be aired, and information could be shared.
                         </p>
                         <p>
-                          By creating these forums, the FAA hoped to demonstrate that it was taking the community's concerns seriously, while also educating the public about the complexities of air traffic management, regulations, and the limits of noise mitigation efforts.
+                          By creating these forums, the FAA hoped to demonstrate that it was taking the community&apos;s concerns seriously, while also educating the public about the complexities of air traffic management, regulations, and the limits of noise mitigation efforts.
                         </p>
                         <p>
                           In some cases, roundtables were formed as part of legal settlements or mandates following lawsuits filed by community groups or local governments against the FAA. Many communities had taken legal action against the FAA, arguing that the agency had failed to properly assess the environmental and health impacts of new flight paths under NextGen. As a result, in some regions, the establishment of roundtables was a condition of settlements to ensure that community voices were heard in future decisions.
