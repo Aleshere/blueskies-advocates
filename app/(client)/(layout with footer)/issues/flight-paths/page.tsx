@@ -167,7 +167,7 @@ const page = async () => {
                         <caption className="italic text-sm font-light" >Chicago O&apos;Hare Airport Has 8 Runways</caption>
                                                
                         <p>
-                          Despite its good intentions, the alternating runway program at O'Hare faced several challenges, ultimately leading to its <a href="https://www.dailyherald.com/20230508/news/absolutely-disheartening-faa-rejects-nighttime-ohare-runway-rotation-to-spread-out-jet-noise/" target="_blank" rel="noopener" >failure</a> in providing adequate noise relief for many communities.
+                          Despite its good intentions, the alternating runway program at O&apos;Hare faced several challenges, ultimately leading to its <a href="https://www.dailyherald.com/20230508/news/absolutely-disheartening-faa-rejects-nighttime-ohare-runway-rotation-to-spread-out-jet-noise/" target="_blank" rel="noopener" >failure</a> in providing adequate noise relief for many communities.
                         </p>
                         
                         <ul className='list-disc'>
@@ -178,7 +178,7 @@ const page = async () => {
                         </ul>
                         
                         <p>
-                          Residents in the areas most affected by O'Hare's operations voiced strong opposition to the alternating runway program. Many complained that the initiative simply shifted the noise problem rather than resolving it. The consolidation of flight paths over specific neighborhoods during peak hours created a continuous noise burden, leading to widespread dissatisfaction and legal challenges from local community groups and advocacy organizations.
+                          Residents in the areas most affected by O&apos;Hare&apos;s operations voiced strong opposition to the alternating runway program. Many complained that the initiative simply shifted the noise problem rather than resolving it. The consolidation of flight paths over specific neighborhoods during peak hours created a continuous noise burden, leading to widespread dissatisfaction and legal challenges from local community groups and advocacy organizations.
                         </p>
                         <p>
                           Local leaders and residents pushed for more significant changes, such as restricting night flights or implementing stronger noise abatement measures. The noise pollution also fueled broader discussions about the environmental and health impacts of airports on nearby communities, leading to calls for more comprehensive solutions.
