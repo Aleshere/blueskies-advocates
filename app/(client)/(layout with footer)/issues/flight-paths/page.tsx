@@ -59,8 +59,33 @@ const page = async () => {
                           Air traffic controllers (ATCs) use waypoints to manage the flow of air traffic, ensuring that aircraft maintain a distance from one another and avoid collisions. For pilots, waypoints act as checkpoints along their journey, guiding them from departure to arrival. A typical flight path is comprised of several waypoints that together create a structured, predictable route for an aircraft.
                         </p>
                         <p>
-                          Historically, flight paths were primarily dictated by ground-based navigational aids, such as VOR (Very High Frequency Omnidirectional Range) stations and NDB (Non-Directional Beacons), which limited the flexibility of flight routing. Aircraft had to follow specific airways that connected these ground-based stations. However, the introduction of GPS-based navigation has dramatically changed how flight paths are constructed and managed.
+                          Historically, flight paths were primarily dictated by ground-based navigational aids, such as VOR stations (Very High Frequency Omnidirectional Range) and NDB (Non-Directional Beacons), which limited the flexibility of flight routing. Aircraft had to follow specific airways that connected these ground-based stations. However, the introduction of GPS-based navigation has dramatically changed how flight paths are constructed and managed.
                         </p>
+                        <p>
+                          RNAV (Area Navigation) is a modern aviation system that allows aircraft to fly on any desired flight path within the coverage of ground- or space-based navigation aids, rather than directly between specific ground-based beacons. Unlike traditional navigation methods, which rely on fixed routes between radio beacons (like VORs or NDBs), RNAV uses GPS and onboard avionics to define waypoints in space, making routes more flexible, efficient, and direct.
+                        </p>
+                        
+                        <p className='mb-5'>
+                          To begin, here below you can find two informative videos about waypoints and RNAV systems used in modern aviation:
+                        </p>
+                        <div className="flex w-full md:w-3/4 flex-col lg:flex-row justify-center lg:justify-evenly lg:w-full aspect-w-16 aspect-h-9 lg:aspect-none">
+                          <iframe
+                            className="mb-5 lg:mb-0"
+                            src={"https://www.youtube.com/embed/lM2NPAm4aoc?si=FwdnZ17WfM4jaLl3"}
+                            title="Understanding How RNAV and Aircraft Navigation Systems work"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen>
+                          </iframe>
+                          <iframe
+                            src={"https://www.youtube.com/embed/UF7BGKl1Xz0?si=8xYQD4wWzTp29Wbj"}
+                            title="AREA NAVIGATION [RNAV/PBN]"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen>
+                          </iframe>
+                        </div>
+                        
                         
                         <hr className="my-4 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
                         
@@ -97,6 +122,11 @@ const page = async () => {
                           The health impacts of this consolidated noise are well-documented. Studies have shown that chronic exposure to aircraft noise can lead to a range of negative health outcomes, including increased stress levels, sleep disturbances, cardiovascular problems, and even cognitive impairment in children. In addition to the noise, these communities are exposed to higher levels of air pollution, as aircraft emit significant quantities of particulate matter and other pollutants during takeoff and landing.
                         </p>
                         
+                        <div className="flex justify-center pt-4" >
+                          <Image src="/assets/images/images/Badgerys_Creek_RNAV.jpg" width={500} height={500} alt="Badgerys Creek RNAV"/>
+                        </div>
+                        <caption className="italic text-sm font-light" >RNAV and GPS Navigation in Badgerys Creek, Australia</caption>
+                        
                         <hr className="my-4 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
                         
                         <h2 className='text-lg font-bold'>Legal Challenges Against Consolidated Flight Paths</h2>               
@@ -115,10 +145,55 @@ const page = async () => {
                         
                         <hr className="my-4 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
                         
+                        <h2 className='text-lg font-bold'>The Failed Case of Chicago O&apos;Hare Runway Rotation</h2>               
+                        <p>
+                          Chicago O&apos;Hare International Airport attempted to implement an <a href="https://abc7chicago.com/fly-quiet-commission-approves-jet-noise-aviation-department/5666567/" target="_blank" rel="noopener" >alternating runway</a> usage plan to reduce noise exposure for communities around the airport. This program was designed to spread the noise burden more equitably across various neighborhoods, giving certain areas periods of relief from constant overhead air traffic. The idea was that by rotating the use of different runways, no single community would bear the brunt of the noise pollution all the time, especially during night hours when noise is more disruptive. The program ran for 28 weeks between November 2019 and May 2020 and for 20 weeks between September 2020 and January 2021.
+                        </p>
+                        <p>
+                          The alternating runway system was part of O&apos;Hare&apos;s larger modernization effort, driven by the increasing traffic volume at the airport. The aim was to optimize runway operations while balancing the needs of the surrounding communities. Specifically, the plan sought to:
+                        </p>
+                        
+                        <ul className='list-disc'>
+                          <li>Rotate the active runways to prevent communities from consistently being impacted by flight paths, especially during peak traffic hours.</li><br />
+                          <li>Give certain neighborhoods reprieves from noise pollution during nighttime operations by alternating runways for takeoffs and landings.</li><br />
+                          <li>Maintain high standards of air traffic safety and operational efficiency while considering noise abatement goals.</li>
+                        </ul>
+                        
+                        <hr className="my-4 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
+                        
+                        <div className="flex justify-center pt-4" >
+                          <Image src="/assets/images/images/Chicago_O_Hare_Runways.jpg" width={500} height={500} alt="Chicago O'Hare Runways"/>
+                        </div>
+                        <caption className="italic text-sm font-light" >Chicago O&apos;Hare Airport Has 8 Runways</caption>
+                                               
+                        <p>
+                          Despite its good intentions, the alternating runway program at O'Hare faced several challenges, ultimately leading to its <a href="https://www.dailyherald.com/20230508/news/absolutely-disheartening-faa-rejects-nighttime-ohare-runway-rotation-to-spread-out-jet-noise/" target="_blank" rel="noopener" >failure</a> in providing adequate noise relief for many communities.
+                        </p>
+                        
+                        <ul className='list-disc'>
+                          <li>Concentration of Noise: While the alternating runway approach aimed to distribute noise, in practice, the communities under the most frequently used flight paths still experienced significant noise pollution. Although the noise was spread across multiple areas, it did not necessarily reduce the overall exposure for any one community, especially during busy times of day.</li><br />
+                          <li>Operational Complexities: The implementation of the alternating runway system was constrained by several factors, including weather conditions, flight volume, and air traffic control needs. As a result, the airport was often forced to rely on certain runways more than others, undermining the intended noise relief for some communities.</li><br />
+                          <li>Increased Complaints: Many residents became frustrated with the program because it didn&apos;t offer the promised relief. Communities that previously experienced little noise from the airport found themselves dealing with new disruptions. Inconsistent scheduling and a lack of predictability made it difficult for residents to adjust to the changes, leading to increased noise complaints.</li>
+                          <li>FAA Limitations: The Federal Aviation Administration (FAA) imposed restrictions on the use of alternating runways for safety and air traffic management purposes. This meant that certain runways had to be used more frequently, particularly during high-traffic periods, which made it difficult to consistently alternate runways as planned.</li>
+                        </ul>
+                        
+                        <p>
+                          Residents in the areas most affected by O'Hare's operations voiced strong opposition to the alternating runway program. Many complained that the initiative simply shifted the noise problem rather than resolving it. The consolidation of flight paths over specific neighborhoods during peak hours created a continuous noise burden, leading to widespread dissatisfaction and legal challenges from local community groups and advocacy organizations.
+                        </p>
+                        <p>
+                          Local leaders and residents pushed for more significant changes, such as restricting night flights or implementing stronger noise abatement measures. The noise pollution also fueled broader discussions about the environmental and health impacts of airports on nearby communities, leading to calls for more comprehensive solutions.
+                        </p>
+
+                        <hr className="my-4 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
+                        
                         <h2 className='text-lg font-bold'>Europe and the UK: Challenges Against Aircraft Noise</h2>               
                         <p>
                           Similar legal battles have unfolded in Europe and the UK, where communities near major airports have fought against the noise and environmental impacts of concentrated flight paths. In the United Kingdom, for example, residents living near Heathrow Airport have long campaigned against the airport&apos;s expansion and the associated increase in air traffic. In 2020, the UK Court of Appeal ruled that the government&apos;s plans to build a third runway at Heathrow were unlawful because they did not adequately take into account the country&apos;s commitments to combat climate change. Although the ruling was later overturned by the Supreme Court, it highlighted the growing legal and environmental challenges facing airport expansions and concentrated flight paths.
                         </p>
+                        <p>
+                          That said, the UK in <a href="https://www.unmannedairspace.info/civilmilitary-integration/uk-caa-releases-quick-read-guide-to-its-airspace-modernisation-strategy/" target="_blank" rel="noopener" >currently undergoing</a> its own modernization of the airspace, following the same textbook that happened in the US a decade ago.
+                        </p>
+                        
                         <p>
                           In Germany, residents living near Frankfurt Airport have also launched legal actions against the airport&apos;s expansion and the associated increase in noise pollution. In 2012, a German court ruled that nighttime flights at Frankfurt Airport should be banned due to the negative health impacts of aircraft noise on local residents. This decision set an important precedent for other communities affected by aircraft noise across Europe.
                         </p>
@@ -130,7 +205,7 @@ const page = async () => {
                           In Australia, residents living near Sydney and Melbourne airports have voiced similar concerns about the concentration of flight paths and the resulting noise pollution. As the aviation industry continues to grow, there is increasing pressure on local and national governments to balance the economic benefits of air travel with the environmental and social costs imposed on nearby communities.
                         </p>
                         <p>
-                          Globally, communities are becoming more aware of the environmental and health impacts of flight paths, and legal challenges are becoming a common tool for residents to push back against aviation authorities. In many cases, these lawsuits highlight the need for greater transparency and community involvement in decisions regarding flight paths and airspace management.
+                          Globally, communities are becoming more aware of the <a href="https://www.weareblueskies.com/tag/health-impacts" target="_blank" rel="noopener" >environmental and health impacts</a> of flight paths, and legal challenges are becoming a common tool for residents to push back against aviation authorities. In many cases, these lawsuits highlight the need for greater transparency and community involvement in decisions regarding flight paths and airspace management.
                         </p>
                         
                         <hr className="my-4 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
@@ -145,6 +220,11 @@ const page = async () => {
                         <p>
                           In addition to the direct health impacts on nearby communities, the environmental consequences of aviation extend to global climate change. As air travel continues to grow, the aviation industry is under increasing pressure to reduce its carbon footprint. However, progress has been slow, and the consolidation of flight paths, while improving efficiency, does little to address the broader environmental challenges posed by the industry.
                         </p>
+                        
+                        <div className="flex justify-center pt-4" >
+                          <Image src="/assets/images/images/Hidden_Costs_Aviation_Emissions.png" width={500} height={500} alt="Hidden Costs of Aviation Emissions"/>
+                        </div>
+                        <caption className="italic text-sm font-light" >Hidden Costs of Aviation Emissions (<a href="https://eu.boell.org/en/2016/06/17/air-travel-versus" target="_blank" rel="noopener" >source)</a></caption>
                         
                         <hr className="my-4 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
                         
@@ -161,9 +241,16 @@ const page = async () => {
                         <p>
                           In some cases, roundtables were formed as part of legal settlements or mandates following lawsuits filed by community groups or local governments against the FAA. Many communities had taken legal action against the FAA, arguing that the agency had failed to properly assess the environmental and health impacts of new flight paths under NextGen. As a result, in some regions, the establishment of roundtables was a condition of settlements to ensure that community voices were heard in future decisions.
                         </p>
+                        
+                        <div className="flex justify-center pt-4" >
+                          <Image src="/assets/images/images/FAA_Engagement.jpg" width={500} height={500} alt="FAA Community Engagement Strategy"/>
+                        </div>
+                        <caption className="italic text-sm font-light" >FAA Community Engagement Strategy</caption>
+                        
                         <p>
-                          Originally designed as platforms for dialogue between the FAA, local airport authorities, and affected communities, are considered a failure by many communities for several reasons.
+                          Originally designed as platforms for dialogue between the FAA, local airport authorities, and affected communities, are considered a <a href="https://aviationimpactedcommunities.org/wp-content/uploads/2023/05/ANES-2023_CommunityEngagement_FAACES__DarleneYaplee_AICA.pdf" target="_blank" rel="noopener" >failure</a> by many communities for several reasons.
                         </p>
+                        
                         <ul className='list-disc' >
                           <li>Lack of Real Influence or Decision-Making Power.<br />
                             While FAA roundtables are intended to give communities a voice, many participants feel that the roundtables do not result in meaningful change. The FAA maintains ultimate authority over flight path decisions, and roundtables are often seen as consultative at best, without binding influence on policies. Community members often express frustration that their concerns are heard but rarely acted upon.</li><br />
@@ -198,12 +285,29 @@ const page = async () => {
                           The lack of transparency in communicating flight paths and their environmental consequences create a situation where many people unknowingly move into high-noise zones. This ignorance often becomes apparent only after living there for a while, by which time they face difficulties in advocating for changes or mitigating the impacts.
                         </p>
                         
+                        <div className="flex justify-center pt-4" >
+                          <Image src="/assets/images/images/Flight_Path_Issue_1.png" width={500} height={500} alt="Flight Path Anxiety Post from Reddit"/>
+                        </div>
+                        
+                        <div className="flex justify-center pt-4" >
+                          <Image src="/assets/images/images/Flight_Path_Issue_2.png" width={500} height={500} alt="Flight Path Issue Post from Reddit"/>
+                        </div>
+                        
+                        <div className="flex justify-center pt-4" >
+                          <Image src="/assets/images/images/Flight_Path_Issue_3.png" width={500} height={500} alt="Flight Path How To Check Where Post from Reddit"/>
+                        </div>
+                        
                         <hr className="my-4 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
                         
                         <h2 className='text-lg font-bold'>It is also difficult to find quiet, un-polluted space anymore</h2>               
                         <p>
                           The rapid expansion of the aviation industry has contributed to a growing web of flight paths that crisscross many regions, particularly in industrialized nations. As air traffic has increased in response to greater demand for air travel and cargo transport, the available &quot;quiet&quot; airspace has shrunk. Today, in many densely populated or developed countries, there is little to no unpolluted or quiet space left untouched by flight routes.
                         </p>
+                        
+                        <div className="flex justify-center pt-4" >
+                          <Image src="/assets/images/images/Flight_Saturation_USA.jpg" width={500} height={500} alt="Flight Saturation in United States"/>
+                        </div>
+                        <caption className="italic text-sm font-light" >Flight Saturation in United States</caption>
                         
                         <hr className="my-4 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
                         
@@ -217,17 +321,7 @@ const page = async () => {
                         <p>
                           One potential solution is to revert to a more dispersed system of flight paths, where air traffic is spread out over a wider area rather than concentrated in narrow corridors. This would help to reduce the frequency of noise events experienced by any one community, although it may result in more people being exposed to lower levels of noise.
                         </p>
-                        
-                        <hr className="my-4 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
-                        
-                        <div className="flex justify-center pt-4" >
-                          <Image src="/assets/images/images/DNL-metric-issues.png" width={500} height={500} alt="DNL metric FAA"/>
-                        </div>
-                        <caption className="italic text-sm font-light" >Image by <a href="https://aviationimpactedcommunities.org/wp-content/uploads/2023/05/ANE-2023-Dr.-Cindy-Christiansen-Presentation-5-15-23.pdf" target="_blank" rel="noopener" >Cindy Christiansen</a></caption>
-                        
-                        
-                        
-                        <a href="https://www.weareblueskies.com/tag/noise"target="_blank" rel="noopener" >tag section</a>
+
                 </div>
             </div>
         </section>

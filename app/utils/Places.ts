@@ -2576,6 +2576,26 @@ export const Places: PlacesType = [
     favicon: "Naples Airport favicon.png",
     altText: "Naples Municipal Aiport"
   },
+  {   
+    id: 258,
+    position: [49.00770, 2.55276],
+    category: Category.CAT2,
+    title: "Charles de Gaulle Aiport",
+    information: "The growth of Charles de Gaulle Airport has been a double-edged sword: it has transformed CDG into a world-class aviation hub, but it has deepened environmental and social issues.",
+    website: 'www.weareblueskies.com/posts/charles-de-gaulle-airport',
+    favicon: "Paris CDG favicon.png",
+    altText: "Charles de Gaulle Aiport"
+  },
+  {   
+    id: 259,
+    position: [48.72262, 2.36471],
+    category: Category.CAT2,
+    title: "Paris Orly Aiport",
+    information: "Noise pollution, air quality, and urbanization have been persistent issues for decades, leading to legal challenges, community protests, and ongoing efforts to mitigate the airport's impact.",
+    website: 'www.weareblueskies.com/posts/paris-orly-airport',
+    favicon: "Paris CDG favicon.png",
+    altText: "Paris Orly Aiport"
+  },
 ]
 
 
