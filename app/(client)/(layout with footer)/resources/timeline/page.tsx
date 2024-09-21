@@ -21,11 +21,24 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://www.weareblueskies.com/resources/timeline",
     siteName: "BlueSkies Advocates",
-      images: [
-        {
+    images: [
+      {
+      url: "https://www.weareblueskies.com/api/og?title=NEXTGEN TIMELINE",
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@weAreBlueskies',
+    title: 'NextGen Timeline',
+    description: "Timeline of the events that led to the current noise and pollution problems for communities around the USA: nextgen from its inception to today.",
+    creator: '@weAreBlueskies',
+          images: [
+      {
         url: "https://www.weareblueskies.com/api/og?title=NEXTGEN TIMELINE",
-        },
-      ],
+        alt: 'Preview image for NextGen Timeline',
+      },
+    ],
   },
 }
 

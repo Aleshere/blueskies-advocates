@@ -41,6 +41,20 @@ export async function generateMetadata({ params }: Params) {
       images: [
         {
           url: "https://www.weareblueskies.com/api/og?title=BLOG TAGS",
+          alt: 'Preview image for blog tags',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary',
+      site: '@weAreBlueskies',
+      title: `#${params.slug}`,
+      description: `Posts with the tag ${params.slug}`,
+      creator: '@weAreBlueskies',
+            images: [
+        {
+          url: "https://www.weareblueskies.com/api/og?title=BLOG TAGS",
+          alt: 'Preview image for blog tags',
         },
       ],
     },

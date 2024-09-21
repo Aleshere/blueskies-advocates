@@ -22,11 +22,39 @@ async function getAllTags() {
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  title: "Tags",
-  // title: {
-  //   absolute: "TAGS",
-  // },
-  description: "Search for posts by tags on the blog"
+  metadataBase: new URL("http://www.weareblueskies.com"),
+  title: {
+    default: "BlueSkies Advocates",
+    template: '%s | BlueSkies Advocates'
+  },
+  description: "Search for posts by tags on the blog. A large, free, database of aviation health impacts academic studies, noise, pollution, greenwashing, emissions, and much more.",
+  openGraph: {
+    title: "BlueSkies Blog Tags",
+    description: "Search for posts by tags on the blog. A large, free, database of aviation health impacts academic studies, noise, pollution, greenwashing, emissions, and much more.",
+    type: "website",
+    locale: "en_US",
+    url: "https://www.weareblueskies.com/tag",
+    siteName: "BlueSkies Advocates",
+    images: [
+      {
+        url: "https://www.weareblueskies.com/api/og?title=BLOG TAGS",
+        alt: 'Preview image for BlueSkies Blog Tags',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    site: '@weAreBlueskies',
+    title: "BlueSkies Blog Tags",
+    description: "Search for posts by tags on the blog. A large, free, database of aviation health impacts academic studies, noise, pollution, greenwashing, emissions, and much more.",
+    creator: '@weAreBlueskies',
+      images: [
+      {
+        url: "https://www.weareblueskies.com/api/og?title=BLOG TAGS",
+        alt: 'Preview image for BlueSkies Blog Tags',
+      },
+    ],
+  },
 }
 
 const page = async () => {

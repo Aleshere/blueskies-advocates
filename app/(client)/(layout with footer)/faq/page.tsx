@@ -29,6 +29,19 @@ export const metadata: Metadata = {
         },
       ],
   },
+  twitter: {
+    card: 'summary',
+    site: '@weAreBlueskies',
+    title: 'FAQ',
+    description: 'Find answers to the most frequently asked questions on our comprehensive FAQ page. Get help with common issues, learn more about aviation myths, and find quick solutions to your doubts.',
+    creator: '@weAreBlueskies',
+          images: [
+      {
+        url: "https://www.weareblueskies.com/api/og?title=FAQ",
+        alt: 'Preview image for FAQ',
+      },
+    ],
+  },
 }
 
 const page = async () => {

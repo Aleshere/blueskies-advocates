@@ -26,6 +26,19 @@ export const metadata: Metadata = {
         },
       ],
   },
+  twitter: {
+    card: 'summary',
+    site: '@weAreBlueskies',
+    title: 'Military Jets',
+    description: 'Military Jets achieve extreme noise levels. To the detriment of communities placed in one of their training grounds around the Country.',
+    creator: '@weAreBlueskies',
+          images: [
+      {
+        url: "https://www.weareblueskies.com/api/og?title=MILITARY JETS",
+        alt: 'Preview image for Military Jets',
+      },
+    ],
+  },
 }
 
 const page = async () => {

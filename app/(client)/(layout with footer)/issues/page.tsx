@@ -14,17 +14,30 @@ export const metadata: Metadata = {
   },
   description: "A webpage discusses current issues in aviation, including pollution, noise, the use of leaded fuel and the impacts on human health of mismanaged capacity growth.",
   openGraph: {
-    title: "Issues",
+    title: "Aviation Issues",
     description: "A webpage discusses current issues in aviation, including pollution, noise, the use of leaded fuel and the impacts on human health of mismanaged capacity growth.",
     type: "website",
     locale: "en_US",
     url: "https://www.weareblueskies.com/issues",
     siteName: "BlueSkies Advocates",
-      images: [
-        {
-          url: "https://www.weareblueskies.com/api/og?title=Current Issues",
-        },
-      ],
+    images: [
+    {
+        url: "https://www.weareblueskies.com/api/og?title=AVIATION ISSUES",
+    },
+    ],
+  },
+    twitter: {
+    card: 'summary',
+    site: '@weAreBlueskies',
+    title: 'Aviation Issues',
+    description: "A webpage discusses current issues in aviation, including pollution, noise, the use of leaded fuel and the impacts on human health of mismanaged capacity growth.",
+    creator: '@weAreBlueskies',
+          images: [
+      {
+        url: "https://www.weareblueskies.com/api/og?title=AVIATION ISSUES",
+        alt: 'Preview image for Aviation Issues',
+      },
+    ],
   },
 }
 

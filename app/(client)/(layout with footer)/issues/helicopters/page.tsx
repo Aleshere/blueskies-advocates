@@ -21,11 +21,24 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://www.weareblueskies.com/issues/helicopters",
     siteName: "BlueSkies Advocates",
-      images: [
-        {
-          url: "https://www.weareblueskies.com/api/og?title=HELICOPTERS",
-        },
-      ],
+    images: [
+      {
+        url: "https://www.weareblueskies.com/api/og?title=HELICOPTERS",
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    site: '@weAreBlueskies',
+    title: 'Helicopters',
+    description: 'Police departments, news outlets, sightseeing tours. In certain cities, all add up creating non-stop disturbance to many citizens.',
+    creator: '@weAreBlueskies',
+          images: [
+      {
+        url: "https://www.weareblueskies.com/api/og?title=HELICOPTERS",
+        alt: 'Preview image for Helicopters',
+      },
+    ],
   },
 }
 

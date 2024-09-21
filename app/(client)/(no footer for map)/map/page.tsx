@@ -14,17 +14,31 @@ export const metadata: Metadata = {
   },
   description: "A webpage featuring a map lists all groups fighting aviation pollution and noise.",
   openGraph: {
-    title: "Informational Map",
+    title: "BlueSkies Informational Map",
     description: "A webpage featuring a map lists all groups fighting aviation pollution and noise.",
     type: "website",
     locale: "en_US",
     url: "https://www.weareblueskies.com/map",
     siteName: "BlueSkies Advocates",
+    images: [
+      {
+        url: "https://www.weareblueskies.com/api/og?title=INFO MAP",
+        alt: 'Preview image for BlueSkies Map of Groups',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    site: '@weAreBlueskies',
+    title: "BlueSkies Informational Map",
+    description: "A webpage featuring a map lists all groups fighting aviation pollution and noise.",
+    creator: '@weAreBlueskies',
       images: [
-        {
-          url: "https://www.weareblueskies.com/api/og?title=INFO MAP",
-        },
-      ],
+      {
+        url: "https://www.weareblueskies.com/api/og?title=INFO MAP",
+        alt: 'Preview image for BlueSkies Map of Groups',
+      },
+    ],
   },
 }
 

@@ -20,11 +20,24 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://www.weareblueskies.com/issues/pollution",
     siteName: "BlueSkies Advocates",
-      images: [
-        {
-          url: "https://www.weareblueskies.com/api/og?title=POLLUTION",
-        },
-      ],
+    images: [
+      {
+        url: "https://www.weareblueskies.com/api/og?title=POLLUTION",
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    site: '@weAreBlueskies',
+    title: 'Pollution',
+    description: "Aviation is one of the fastest growing polluters out there. Let's find out why and how. CO2 and GHG. Greenhouse gases. Climate impacts and targets.",
+    creator: '@weAreBlueskies',
+          images: [
+      {
+        url: "https://www.weareblueskies.com/api/og?title=POLLUTION",
+        alt: 'Preview image for Pollution',
+      },
+    ],
   },
 }
 

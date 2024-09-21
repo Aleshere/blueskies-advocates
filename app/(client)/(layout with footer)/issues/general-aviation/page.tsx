@@ -26,6 +26,19 @@ export const metadata: Metadata = {
         },
       ],
   },
+  twitter: {
+    card: 'summary',
+    site: '@weAreBlueskies',
+    title: 'General Aviation',
+    description: 'How and why turboprops and piston engine planes are disrupting the lives of citizens. Flight schools noise. Leaded fuel.',
+    creator: '@weAreBlueskies',
+          images: [
+      {
+        url: "https://www.weareblueskies.com/api/og?title=GENERAL AVIATION",
+        alt: 'Preview image for General Aviation',
+      },
+    ],
+  },
 }
 
 const page = async () => {

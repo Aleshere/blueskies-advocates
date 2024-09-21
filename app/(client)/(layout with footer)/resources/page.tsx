@@ -21,11 +21,24 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://www.weareblueskies.com/resources",
     siteName: "BlueSkies Advocates",
-      images: [
-        {
-          url: "https://www.weareblueskies.com/api/og?title=RESOURCES",
-        },
-      ],
+    images: [
+      {
+        url: "https://www.weareblueskies.com/api/og?title=RESOURCES",
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@weAreBlueskies',
+    title: 'Resource Center',
+    description: "The comprehensive guide for individuals and communities affected by the environmental impacts of aviation.",
+    creator: '@weAreBlueskies',
+          images: [
+      {
+        url: "https://www.weareblueskies.com/api/og?title=RESOURCES",
+        alt: 'Preview image for Resource Center',
+      },
+    ],
   },
 }
 

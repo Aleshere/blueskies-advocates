@@ -27,6 +27,19 @@ export const metadata: Metadata = {
         },
       ],
   },
+  twitter: {
+    card: 'summary',
+    site: '@weAreBlueskies',
+    title: 'Flight Paths',
+    description: 'A review of how consolidated flight paths impact those who have the misfortune to be placed under or near them.',
+    creator: '@weAreBlueskies',
+          images: [
+      {
+        url: "https://www.weareblueskies.com/api/og?title=FLIGHT PATHS",
+        alt: 'Preview image for FLIGHT PATHS',
+      },
+    ],
+  },
 }
 
 const page = async () => {

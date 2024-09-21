@@ -43,11 +43,25 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://www.weareblueskies.com",
     siteName: "BlueSkies Advocates",
+    images: [
+      {
+        url: "https://www.weareblueskies.com/api/og?title=PEOPLE BEFORE PLANES",
+        alt: 'Preview image for Homepage',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    site: '@weAreBlueskies',
+    title: "Homepage",
+    description: "People before planes. Aviation growth, pollution and noise impact communities around the world. We share information and resources to help citizens impacted by those issues.",
+    creator: '@weAreBlueskies',
       images: [
-        {
-          url: "https://www.weareblueskies.com/api/og?title=PEOPLE BEFORE PLANES",
-        },
-      ],
+      {
+        url: "https://www.weareblueskies.com/api/og?title=PEOPLE BEFORE PLANES",
+        alt: 'Preview image for Homepage',
+      },
+    ],
   },
 }
 

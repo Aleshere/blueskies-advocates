@@ -20,11 +20,24 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://www.weareblueskies.com/issues/private-jets",
     siteName: "BlueSkies Advocates",
-      images: [
-        {
-          url: "https://www.weareblueskies.com/api/og?title=PRIVATE JETS",
-        },
-      ],
+    images: [
+      {
+        url: "https://www.weareblueskies.com/api/og?title=PRIVATE JETS",
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    site: '@weAreBlueskies',
+    title: 'Private Jets',
+    description: "How the wealthy manage to have such a gigantic carbon footprint. Private flying is the worst means of transportation out there.",
+    creator: '@weAreBlueskies',
+          images: [
+      {
+        url: "https://www.weareblueskies.com/api/og?title=PRIVATE JETS",
+        alt: 'Preview image for Private Jets',
+      },
+    ],
   },
 }
 

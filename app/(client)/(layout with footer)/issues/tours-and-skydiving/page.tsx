@@ -20,11 +20,24 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://www.weareblueskies.com/issues/tours-and-skydiving",
     siteName: "BlueSkies Advocates",
-      images: [
-        {
-          url: "https://www.weareblueskies.com/api/og?title=TOURS & SKYDIVING",
-        },
-      ],
+    images: [
+      {
+        url: "https://www.weareblueskies.com/api/og?title=TOURS & SKYDIVING",
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    site: '@weAreBlueskies',
+    title: 'Tours and Skydiving',
+    description: "Sightseeing tours and skydiving operations contribute to noise and pollution through frequent use of aircraft, which produce significant engine noise and emit greenhouse gases.",
+    creator: '@weAreBlueskies',
+          images: [
+      {
+        url: "https://www.weareblueskies.com/api/og?title=TOURS & SKYDIVING",
+        alt: 'Preview image for Tours and Skydiving',
+      },
+    ],
   },
 }
 

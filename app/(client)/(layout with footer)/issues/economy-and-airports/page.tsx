@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   },
   description: "Airports do not always provide economic benefits to communities as they can impose significant costs in terms of pollution, lost tourism, infrastructure and maintenance.",
   openGraph: {
-    title: "Economic Impacts",
+    title: "Aviation Economic Impacts",
     description: "Airports do not always provide economic benefits to communities as they can impose significant costs in terms of pollution, lost tourism, infrastructure and maintenance.",
     type: "website",
     locale: "en_US",
@@ -26,6 +26,19 @@ export const metadata: Metadata = {
           url: "https://www.weareblueskies.com/api/og?title=AIRPORTS AND ECONOMY",
         },
       ],
+  },
+  twitter: {
+    card: 'summary',
+    site: '@weAreBlueskies',
+    title: 'Aviation Economic Impacts',
+    description: 'Airports do not always provide economic benefits to communities as they can impose significant costs in terms of pollution, lost tourism, infrastructure and maintenance.',
+    creator: '@weAreBlueskies',
+          images: [
+      {
+        url: "https://www.weareblueskies.com/api/og?title=AIRPORTS AND ECONOMY",
+        alt: 'Preview image for AIRPORTS AND ECONOMY',
+      },
+    ],
   },
 }
 
