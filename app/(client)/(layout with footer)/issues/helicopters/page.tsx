@@ -8,22 +8,22 @@ import Image from 'next/image'
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://www.weareblueskies.com/issues/helicopters"),
+  metadataBase: new URL('http://www.weareblueskies.com/issues/helicopters'),
   title: {
-    default: "BlueSkies Advocates | Helicopters",
-    template: '%s | BlueSkies Advocates'
+    default: 'BlueSkies Advocates | Helicopters',
+    template: '%s | BlueSkies Advocates',
   },
-  description: "Police departments, news outlets, sightseeing tours. In certain cities, all add up creating non-stop disturbance to many citizens.",
+  description: 'Police departments, news outlets, sightseeing tours. In certain cities, all add up creating non-stop disturbance to many citizens.',
   openGraph: {
-    title: "Helicopters",
-    description: "Police departments, news outlets, sightseeing tours. In certain cities, all add up creating non-stop disturbance to many citizens.",
-    type: "website",
-    locale: "en_US",
-    url: "https://www.weareblueskies.com/issues/helicopters",
-    siteName: "BlueSkies Advocates",
+    title: 'Helicopters',
+    description: 'Police departments, news outlets, sightseeing tours. In certain cities, all add up creating non-stop disturbance to many citizens.',
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://www.weareblueskies.com/issues/helicopters',
+    siteName: 'BlueSkies Advocates',
     images: [
       {
-        url: "https://www.weareblueskies.com/api/og?title=HELICOPTERS",
+        url: 'https://www.weareblueskies.com/api/og?title=HELICOPTERS',
       },
     ],
   },
@@ -33,14 +33,14 @@ export const metadata: Metadata = {
     title: 'Helicopters',
     description: 'Police departments, news outlets, sightseeing tours. In certain cities, all add up creating non-stop disturbance to many citizens.',
     creator: '@weAreBlueskies',
-          images: [
+    images: [
       {
-        url: "https://www.weareblueskies.com/api/og?title=HELICOPTERS",
+        url: 'https://www.weareblueskies.com/twitter-image.png',
         alt: 'Preview image for Helicopters',
       },
     ],
   },
-}
+};
 
 const page = async () => {
     

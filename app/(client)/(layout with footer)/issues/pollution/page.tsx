@@ -7,22 +7,22 @@ import BackButton from '@/app/utils/BackButton';
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://www.weareblueskies.com/issues/pollution"),
+  metadataBase: new URL('http://www.weareblueskies.com/issues/pollution'),
   title: {
-    default: "BlueSkies Advocates | Pollution",
-    template: '%s | BlueSkies Advocates'
+    default: 'BlueSkies Advocates | Pollution',
+    template: '%s | BlueSkies Advocates',
   },
   description: "Aviation is one of the fastest growing polluters out there. Let's find out why and how. CO2 and GHG. Greenhouse gases. Climate impacts and targets.",
   openGraph: {
-    title: "Pollution",
+    title: 'Pollution',
     description: "Aviation is one of the fastest growing polluters out there. Let's find out why and how. CO2 and GHG. Greenhouse gases. Climate impacts and targets.",
-    type: "website",
-    locale: "en_US",
-    url: "https://www.weareblueskies.com/issues/pollution",
-    siteName: "BlueSkies Advocates",
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://www.weareblueskies.com/issues/pollution',
+    siteName: 'BlueSkies Advocates',
     images: [
       {
-        url: "https://www.weareblueskies.com/api/og?title=POLLUTION",
+        url: 'https://www.weareblueskies.com/api/og?title=POLLUTION',
       },
     ],
   },
@@ -32,14 +32,14 @@ export const metadata: Metadata = {
     title: 'Pollution',
     description: "Aviation is one of the fastest growing polluters out there. Let's find out why and how. CO2 and GHG. Greenhouse gases. Climate impacts and targets.",
     creator: '@weAreBlueskies',
-          images: [
+    images: [
       {
-        url: "https://www.weareblueskies.com/api/og?title=POLLUTION",
+        url: 'https://www.weareblueskies.com/twitter-image.png',
         alt: 'Preview image for Pollution',
       },
     ],
   },
-}
+};
 
 const page = async () => {
     

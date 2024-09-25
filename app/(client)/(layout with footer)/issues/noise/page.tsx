@@ -8,22 +8,22 @@ import Image from 'next/image'
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://www.weareblueskies.com/issues/noise"),
+  metadataBase: new URL('http://www.weareblueskies.com/issues/noise'),
   title: {
-    default: "BlueSkies Advocates | Noise",
-    template: '%s | BlueSkies Advocates'
+    default: 'BlueSkies Advocates | Noise',
+    template: '%s | BlueSkies Advocates',
   },
-  description: "What is noise? How is aviation treating the topic? And what can be done to offer relief to citizens impacted by aviation noise? DNL policy. FAA.",
+  description: 'What is noise? How is aviation treating the topic? And what can be done to offer relief to citizens impacted by aviation noise? DNL policy. FAA.',
   openGraph: {
-    title: "Aviation Noise",
-    description: "What is noise? How is aviation treating the topic? And what can be done to offer relief to citizens impacted by aviation noise? DNL policy. FAA.",
-    type: "website",
-    locale: "en_US",
-    url: "https://www.weareblueskies.com/issues/noise",
-    siteName: "BlueSkies Advocates",
+    title: 'Aviation Noise',
+    description: 'What is noise? How is aviation treating the topic? And what can be done to offer relief to citizens impacted by aviation noise? DNL policy. FAA.',
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://www.weareblueskies.com/issues/noise',
+    siteName: 'BlueSkies Advocates',
     images: [
       {
-        url: "https://www.weareblueskies.com/api/og?title=AVIATION NOISE",
+        url: 'https://www.weareblueskies.com/api/og?title=AVIATION NOISE',
       },
     ],
   },
@@ -33,14 +33,14 @@ export const metadata: Metadata = {
     title: 'Aviation Noise',
     description: 'What is noise? How is aviation treating the topic? And what can be done to offer relief to citizens impacted by aviation noise? DNL policy. FAA.',
     creator: '@weAreBlueskies',
-          images: [
+    images: [
       {
-        url: "https://www.weareblueskies.com/api/og?title=AVIATION NOISE",
+        url: 'https://www.weareblueskies.com/twitter-image.png',
         alt: 'Preview image for Aviation Noise',
       },
     ],
   },
-}
+};
 
 const page = async () => {
     

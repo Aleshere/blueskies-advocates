@@ -7,24 +7,24 @@ import BackButton from '@/app/utils/BackButton';
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://www.weareblueskies.com/issues/general-aviation"),
+  metadataBase: new URL('http://www.weareblueskies.com/issues/general-aviation'),
   title: {
-    default: "BlueSkies Advocates | General Aviation",
-    template: '%s | BlueSkies Advocates'
+    default: 'BlueSkies Advocates | General Aviation',
+    template: '%s | BlueSkies Advocates',
   },
-  description: "How and why turboprops and piston engine planes are disrupting the lives of citizens. Flight schools noise. Leaded fuel.",
+  description: 'How and why turboprops and piston engine planes are disrupting the lives of citizens. Flight schools noise. Leaded fuel.',
   openGraph: {
-    title: "General Aviation",
-    description: "How and why turboprops and piston engine planes are disrupting the lives of citizens. Flight schools noise. Leaded fuel.",
-    type: "website",
-    locale: "en_US",
-    url: "https://www.weareblueskies.com/issues/general-aviation",
-    siteName: "BlueSkies Advocates",
-      images: [
-        {
-          url: "https://www.weareblueskies.com/api/og?title=GENERAL AVIATION",
-        },
-      ],
+    title: 'General Aviation',
+    description: 'How and why turboprops and piston engine planes are disrupting the lives of citizens. Flight schools noise. Leaded fuel.',
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://www.weareblueskies.com/issues/general-aviation',
+    siteName: 'BlueSkies Advocates',
+    images: [
+      {
+        url: 'https://www.weareblueskies.com/api/og?title=GENERAL AVIATION',
+      },
+    ],
   },
   twitter: {
     card: 'summary',
@@ -32,14 +32,14 @@ export const metadata: Metadata = {
     title: 'General Aviation',
     description: 'How and why turboprops and piston engine planes are disrupting the lives of citizens. Flight schools noise. Leaded fuel.',
     creator: '@weAreBlueskies',
-          images: [
+    images: [
       {
-        url: "https://www.weareblueskies.com/api/og?title=GENERAL AVIATION",
+        url: 'https://www.weareblueskies.com/twitter-image.png',
         alt: 'Preview image for General Aviation',
       },
     ],
   },
-}
+};
 
 const page = async () => {
     

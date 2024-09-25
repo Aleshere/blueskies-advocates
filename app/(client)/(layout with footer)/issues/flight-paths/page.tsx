@@ -8,24 +8,24 @@ import Image from 'next/image'
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://www.weareblueskies.com/issues/flight-paths"),
+  metadataBase: new URL('http://www.weareblueskies.com/issues/flight-paths'),
   title: {
-    default: "BlueSkies Advocates | Flight Paths",
-    template: '%s | BlueSkies Advocates'
+    default: 'BlueSkies Advocates | Flight Paths',
+    template: '%s | BlueSkies Advocates',
   },
-  description: "A review of how consolidated flight paths impact those who have the misfortune to be placed under or near them.",
+  description: 'A review of how consolidated flight paths impact those who have the misfortune to be placed under or near them.',
   openGraph: {
-    title: "Flight Paths",
-    description: "A review of how consolidated flight paths impact those who have the misfortune to be placed under or near them.",
-    type: "website",
-    locale: "en_US",
-    url: "https://www.weareblueskies.com/issues/flight-paths",
-    siteName: "BlueSkies Advocates",
-      images: [
-        {
-          url: "https://www.weareblueskies.com/api/og?title=FLIGHT PATHS",
-        },
-      ],
+    title: 'Flight Paths',
+    description: 'A review of how consolidated flight paths impact those who have the misfortune to be placed under or near them.',
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://www.weareblueskies.com/issues/flight-paths',
+    siteName: 'BlueSkies Advocates',
+    images: [
+      {
+        url: 'https://www.weareblueskies.com/api/og?title=FLIGHT PATHS',
+      },
+    ],
   },
   twitter: {
     card: 'summary',
@@ -33,14 +33,14 @@ export const metadata: Metadata = {
     title: 'Flight Paths',
     description: 'A review of how consolidated flight paths impact those who have the misfortune to be placed under or near them.',
     creator: '@weAreBlueskies',
-          images: [
+    images: [
       {
-        url: "https://www.weareblueskies.com/api/og?title=FLIGHT PATHS",
+        url: 'https://www.weareblueskies.com/twitter-image.png',
         alt: 'Preview image for FLIGHT PATHS',
       },
     ],
   },
-}
+};
 
 const page = async () => {
     

@@ -22,22 +22,22 @@ async function getAllTags() {
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://www.weareblueskies.com"),
+  metadataBase: new URL('http://www.weareblueskies.com'),
   title: {
-    default: "BlueSkies Advocates",
-    template: '%s | BlueSkies Advocates'
+    default: 'BlueSkies Advocates',
+    template: '%s | BlueSkies Advocates',
   },
-  description: "Search for posts by tags on the blog. A large, free, database of aviation health impacts academic studies, noise, pollution, greenwashing, emissions, and much more.",
+  description: 'Search for posts by tags on the blog. A large, free, database of aviation health impacts academic studies, noise, pollution, greenwashing, emissions, and much more.',
   openGraph: {
-    title: "BlueSkies Blog Tags",
-    description: "Search for posts by tags on the blog. A large, free, database of aviation health impacts academic studies, noise, pollution, greenwashing, emissions, and much more.",
-    type: "website",
-    locale: "en_US",
-    url: "https://www.weareblueskies.com/tag",
-    siteName: "BlueSkies Advocates",
+    title: 'BlueSkies Blog Tags',
+    description: 'Search for posts by tags on the blog. A large, free, database of aviation health impacts academic studies, noise, pollution, greenwashing, emissions, and much more.',
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://www.weareblueskies.com/tag',
+    siteName: 'BlueSkies Advocates',
     images: [
       {
-        url: "https://www.weareblueskies.com/api/og?title=BLOG TAGS",
+        url: 'https://www.weareblueskies.com/api/og?title=BLOG TAGS',
         alt: 'Preview image for BlueSkies Blog Tags',
       },
     ],
@@ -45,17 +45,17 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary',
     site: '@weAreBlueskies',
-    title: "BlueSkies Blog Tags",
-    description: "Search for posts by tags on the blog. A large, free, database of aviation health impacts academic studies, noise, pollution, greenwashing, emissions, and much more.",
+    title: 'BlueSkies Blog Tags',
+    description: 'Search for posts by tags on the blog. A large, free, database of aviation health impacts academic studies, noise, pollution, greenwashing, emissions, and much more.',
     creator: '@weAreBlueskies',
-      images: [
+    images: [
       {
-        url: "https://www.weareblueskies.com/api/og?title=BLOG TAGS",
+        url: 'https://www.weareblueskies.com/twitter-image.png',
         alt: 'Preview image for BlueSkies Blog Tags',
       },
     ],
   },
-}
+};
 
 const page = async () => {
   const tags: Tag[] = await getAllTags();

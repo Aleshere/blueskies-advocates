@@ -1,20 +1,20 @@
-import React from "react";
-import Header from "@/app/components/Header";
-import SocialShare from "@/app/components/SocialShare";
-import { slugify } from "@/app/utils/helpers";
-import { Post } from "@/app/utils/interface";
-import { client } from "@/sanity/lib/client";
-import { urlForImage } from "@/sanity/lib/image";
-import { PortableText } from "@portabletext/react";
-import { Metadata } from "next";
-import { VT323 } from "next/font/google";
-import Image from "next/image";
-import Link from "next/link";
-import { notFound } from "next/navigation";
-import { LanguageSwitcher } from "@/app/components/LanguageSwitcher";
-import { ScrollToTop } from "@/app/utils/ScrollToTop";
+import React from 'react';
+import Header from '@/app/components/Header';
+import SocialShare from '@/app/components/SocialShare';
+import { slugify } from '@/app/utils/helpers';
+import { Post } from '@/app/utils/interface';
+import { client } from '@/sanity/lib/client';
+import { urlForImage } from '@/sanity/lib/image';
+import { PortableText } from '@portabletext/react';
+import { Metadata } from 'next';
+import { VT323 } from 'next/font/google';
+import Image from 'next/image';
+import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import { LanguageSwitcher } from '@/app/components/LanguageSwitcher';
+import { ScrollToTop } from '@/app/utils/ScrollToTop';
 
-const dateFont = VT323({ weight: "400", subsets: ["latin"] });
+const dateFont = VT323({ weight: '400', subsets: ['latin'] });
 
 interface Params {
   params: {
@@ -26,7 +26,7 @@ interface Params {
 }
 
 async function getPost(slug: string) {
-    const query = `
+  const query = `
   *[_type == "post" && slug.current == "${slug}"][0] {
     title,
     slug,
@@ -43,18 +43,16 @@ async function getPost(slug: string) {
     },
   }
   `;
-    const post = await client.fetch(query)
-    console.log(urlForImage(post.avatar).width(1000).height(1000).url())
-    return post;
+  const post = await client.fetch(query);
+  console.log(urlForImage(post.avatar).width(1000).height(1000).url());
+  return post;
 }
 
 export const revalidate = 60;
 
-export async function generateMetadata({
-  params,
-}: Params): Promise<Metadata | undefined> {
+export async function generateMetadata({ params }: Params): Promise<Metadata | undefined> {
   const post: Post = await getPost(params?.slug);
-  
+
   if (!post) {
     return;
   }
@@ -65,16 +63,16 @@ export async function generateMetadata({
     openGraph: {
       title: post.title,
       description: post.excerpt,
-      type: "article",
-      locale: "en_US",
+      type: 'article',
+      locale: 'en_US',
       url: `https://weareblueskies.com/posts/${params.slug}`,
-      siteName: "BlueSkies Advocates",
+      siteName: 'BlueSkies Advocates',
       images: [
         {
           url: urlForImage(post.avatar).width(1000).height(1000).url(),
           alt: `Preview image for ${post.title}`,
         },
-       ],
+      ],
     },
     twitter: {
       card: 'summary',
@@ -82,116 +80,86 @@ export async function generateMetadata({
       title: post.title,
       description: post.excerpt,
       creator: '@weAreBlueskies',
-            images: [
+      images: [
         {
           url: urlForImage(post.avatar).width(1000).height(1000).url(),
           alt: `Preview image for ${post.title}`,
         },
-       ],
+      ],
     },
   };
 }
 
-const page = async ({params}: Params) => {
-    const post: Post = await getPost(params?.slug);
-    
-    if (!post) {
-      notFound();
-    }
-    
-    return (
-        <div>
-            <Header title={post?.title} />
-            <ScrollToTop />
-            
-            <div className="text-center">  
-                <div className="mb-6">
-                  <LanguageSwitcher />
-                </div>       
-                <span className={`${dateFont?.className} text-blue-500`}>
-                    {new Date(post?.publishedAt).toDateString()}
-                </span>
-                <div className="mt-5">
-                {post?.tags?.map((tag) => (
-                    <Link key={tag?._id} href={`/tag/${tag.slug.current}`}>
-                        <span className="mr-2 p-1 rounded-sm text-sm lowercase dark:bg-gray-950 border dark:border-gray-900">
-                            #{tag.name}
-                        </span>
-                    </Link>
-                ))}
-                </div>
-                
-                <div className={richTextStyles} >
-                    <PortableText 
-                        value={post.body}
-                        components={myPortableTextComponents}
-                    />
-                </div>
-                
-                <div className='flex align-middle justify-center mt-10 mb-16' >
-                  <SocialShare url={`https://weareblueskies.com/posts/${params.slug}`} title={post?.excerpt} />
-                </div>
-                
-                <div className='text-center mt-10 mb-6' >
-                  <Link href='/' >- Back to All Articles -</Link>
-                </div>
-                
-            </div>
-        </div>
-    )
-}
+const page = async ({ params }: Params) => {
+  const post: Post = await getPost(params?.slug);
 
-export default page
+  if (!post) {
+    notFound();
+  }
+
+  return (
+    <div>
+      <Header title={post?.title} />
+      <ScrollToTop />
+
+      <div className="text-center">
+        <div className="mb-6">
+          <LanguageSwitcher />
+        </div>
+        <span className={`${dateFont?.className} text-blue-500`}>{new Date(post?.publishedAt).toDateString()}</span>
+        <div className="mt-5">
+          {post?.tags?.map(tag => (
+            <Link key={tag?._id} href={`/tag/${tag.slug.current}`}>
+              <span className="mr-2 p-1 rounded-sm text-sm lowercase dark:bg-gray-950 border dark:border-gray-900">#{tag.name}</span>
+            </Link>
+          ))}
+        </div>
+
+        <div className={richTextStyles}>
+          <PortableText value={post.body} components={myPortableTextComponents} />
+        </div>
+
+        <div className="flex align-middle justify-center mt-10 mb-16">
+          <SocialShare url={`https://weareblueskies.com/posts/${params.slug}`} title={post?.excerpt} />
+        </div>
+
+        <div className="text-center mt-10 mb-6">
+          <Link href="/">- Back to All Articles -</Link>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default page;
 
 const myPortableTextComponents = {
   types: {
-    image: ({ value }: any) => (
-      <Image
-        src={urlForImage(value).url()}
-        alt="Post"
-        width={700}
-        height={700}
-      />
-    ),
+    image: ({ value }: any) => <Image src={urlForImage(value).url()} alt="Post" width={700} height={700} />,
   },
   block: {
     h2: ({ value }: any) => (
-      <h2
-        id={slugify(value.children[0].text)}
-        className="text-3xl font-bold mb-3"
-      >
+      <h2 id={slugify(value.children[0].text)} className="text-3xl font-bold mb-3">
         {value.children[0].text}
       </h2>
     ),
     h3: ({ value }: any) => (
-      <h3
-        id={slugify(value.children[0].text)}
-        className="text-2xl font-bold mb-3"
-      >
+      <h3 id={slugify(value.children[0].text)} className="text-2xl font-bold mb-3">
         {value.children[0].text}
       </h3>
     ),
     h4: ({ value }: any) => (
-      <h4
-        id={slugify(value.children[0].text)}
-        className="text-2xl font-bold mb-3"
-      >
+      <h4 id={slugify(value.children[0].text)} className="text-2xl font-bold mb-3">
         {value.children[0].text}
       </h4>
     ),
     h5: ({ value }: any) => (
-      <h5
-        id={slugify(value.children[0].text)}
-        className="text-2xl font-bold mb-3"
-      >
+      <h5 id={slugify(value.children[0].text)} className="text-2xl font-bold mb-3">
         {value.children[0].text}
       </h5>
     ),
     h6: ({ value }: any) => (
-      <h6
-        id={slugify(value.children[0].text)}
-        className="text-xl font-bold mb-3"
-      >
+      <h6 id={slugify(value.children[0].text)} className="text-xl font-bold mb-3">
         {value.children[0].text}
       </h6>
     ),
