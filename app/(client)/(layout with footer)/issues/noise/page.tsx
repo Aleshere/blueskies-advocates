@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://www.weareblueskies.com/api/og?title=AVIATION NOISE',
+        alt: 'Preview image for Aviation Noise',
       },
     ],
   },

@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://www.weareblueskies.com/api/og?title=AIRPORTS AND ECONOMY',
+        alt: 'Preview image for AIRPORTS AND ECONOMY',
       },
     ],
   },

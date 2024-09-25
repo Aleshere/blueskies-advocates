@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://www.weareblueskies.com/api/og?title=GREENWASHING',
+        alt: 'Preview image for Greenwashing',
       },
     ],
   },

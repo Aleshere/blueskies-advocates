@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://www.weareblueskies.com/api/og?title=HELICOPTERS',
+        alt: 'Preview image for Helicopters',
       },
     ],
   },

@@ -29,6 +29,20 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: 'summary',
+    site: '@weAreBlueskies',
+    title: 'Videos',
+    description:
+      'Explore our collection of informative videos addressing the impacts of aviation pollution and noise. This page features expert talks, community stories, scientific explanations, and practical solutions to help you understand and combat the challenges of aircraft noise and emissions.',
+    creator: '@weAreBlueskies',
+    images: [
+      {
+        url: 'https://www.weareblueskies.com/twitter-image.png',
+        alt: 'Preview image for Videos',
+      },
+    ],
+  },
 };
 
 const page = async () => {

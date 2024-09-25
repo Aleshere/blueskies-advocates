@@ -23,11 +23,12 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://www.weareblueskies.com/api/og?title=RESOURCES',
+        alt: 'Preview image for Resource Center',
       },
     ],
   },
   twitter: {
-    card: 'summary_large_image',
+    card: 'summary',
     site: '@weAreBlueskies',
     title: 'Resource Center',
     description: 'The comprehensive guide for individuals and communities affected by the environmental impacts of aviation.',

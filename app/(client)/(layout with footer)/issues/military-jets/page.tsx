@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://www.weareblueskies.com/api/og?title=MILITARY JETS',
+        alt: 'Preview image for Military Jets',
       },
     ],
   },

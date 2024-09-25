@@ -22,6 +22,19 @@ export const metadata: Metadata = {
     siteName: 'BlueSkies Advocates',
     images: [
       {
+        url: 'https://www.weareblueskies.com/api/og?title=USEFUL WEBSITES',
+        alt: 'Preview image for Useful Websites',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    site: '@weAreBlueskies',
+    title: 'Useful Websites',
+    description: 'Connect with organizations and local groups actively working to mitigate the effects of aviation noise and advocate for better policies.',
+    creator: '@weAreBlueskies',
+    images: [
+      {
         url: 'https://www.weareblueskies.com/twitter-image.png',
         alt: 'Preview image for Useful Websites',
       },

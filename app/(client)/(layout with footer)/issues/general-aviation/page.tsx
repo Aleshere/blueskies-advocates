@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://www.weareblueskies.com/api/og?title=GENERAL AVIATION',
+        alt: 'Preview image for General Aviation',
       },
     ],
   },

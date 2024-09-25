@@ -23,11 +23,12 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://www.weareblueskies.com/api/og?title=NEXTGEN TIMELINE',
+        alt: 'Preview image for NextGen Timeline',
       },
     ],
   },
   twitter: {
-    card: 'summary_large_image',
+    card: 'summary',
     site: '@weAreBlueskies',
     title: 'NextGen Timeline',
     description: 'Timeline of the events that led to the current noise and pollution problems for communities around the USA: nextgen from its inception to today.',

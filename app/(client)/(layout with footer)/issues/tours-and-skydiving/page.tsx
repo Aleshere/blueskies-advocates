@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://www.weareblueskies.com/api/og?title=TOURS & SKYDIVING',
+        alt: 'Preview image for Tours and Skydiving',
       },
     ],
   },

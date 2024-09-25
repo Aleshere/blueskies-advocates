@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://www.weareblueskies.com/api/og?title=FAQ',
+        alt: 'Preview image for FAQ',
       },
     ],
   },
