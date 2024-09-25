@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('http://www.weareblueskies.com/issues'),
   title: {
     default: 'BlueSkies Advocates | Issues',
-    template: '%s | BlueSkies Advocates',,
+    template: '%s | BlueSkies Advocates',
   },
   description: 'A webpage discusses current issues in aviation, including pollution, noise, the use of leaded fuel and the impacts on human health of mismanaged capacity growth.',
   openGraph: {
@@ -21,25 +21,25 @@ export const metadata: Metadata = {
     url: 'https://www.weareblueskies.com/issues',
     siteName: 'BlueSkies Advocates',
     images: [
-        {
+      {
         url: 'https://www.weareblueskies.com/api/og?title=AVIATION ISSUES',
-        },
+      },
     ],
   },
-twitter: {
+  twitter: {
     card: 'summary',
     site: '@weAreBlueskies',
     title: 'Aviation Issues',
     description: 'A webpage discusses current issues in aviation, including pollution, noise, the use of leaded fuel and the impacts on human health of mismanaged capacity growth.',
     creator: '@weAreBlueskies',
-ages: [
+    images: [
       {
         url: 'https://www.weareblueskies.com/twitter-image.png',
         alt: 'Preview image for Aviation Issues',
       },
     ],
   },
-};;
+};
 
 interface Props {
   id: string;
