@@ -1,9 +1,9 @@
-import Header from "@/app/components/Header";
-import PostComponent from "@/app/components/PostComponent";
-import { Post } from "@/app/utils/interface";
-import { ScrollToTop } from "@/app/utils/ScrollToTop";
-import { client } from "@/sanity/lib/client";
-import React from "react";
+import Header from '@/app/components/Header';
+import PostComponent from '@/app/components/PostComponent';
+import { Post } from '@/app/utils/interface';
+import { ScrollToTop } from '@/app/utils/ScrollToTop';
+import { client } from '@/sanity/lib/client';
+import React from 'react';
 
 async function getPostsByTag(tag: string) {
   const query = `
@@ -34,14 +34,14 @@ export async function generateMetadata({ params }: Params) {
     openGraph: {
       title: `#${params.slug}`,
       description: `Posts with the tag ${params.slug}`,
-      type: "website",
-      locale: "en_US",
-      url: `http://www.weareblueskies.com/${params.slug}`,
-      siteName: "BlueSkies Advocates",
+      type: 'website',
+      locale: 'en_US',
+      url: `http://www.weareblueskies.com/tag/${params.slug}`,
+      siteName: 'BlueSkies Advocates',
       images: [
         {
-          url: "https://www.weareblueskies.com/api/og?title=BLOG TAGS",
-          alt: 'Preview image for blog tags',
+          url: 'https://www.weareblueskies.com/opengraph-image.png',
+          alt: 'Preview image for our blog',
         },
       ],
     },
@@ -51,16 +51,15 @@ export async function generateMetadata({ params }: Params) {
       title: `#${params.slug}`,
       description: `Posts with the tag ${params.slug}`,
       creator: '@weAreBlueskies',
-            images: [
+      images: [
         {
-          url: "https://www.weareblueskies.com/api/og?title=BLOG TAGS",
-          alt: 'Preview image for blog tags',
+          url: 'https://www.weareblueskies.com/twitter-image.png',
+          alt: 'Preview image for our blog',
         },
       ],
     },
   };
 }
-
 
 interface Params {
   params: {
@@ -70,15 +69,13 @@ interface Params {
 
 const page = async ({ params }: Params) => {
   const posts: Array<Post> = await getPostsByTag(params.slug);
-  
+
   return (
     <div>
       <Header title={`#${params?.slug}`} tags />
       <ScrollToTop />
-      
-      <div>
-        {posts?.length > 0 && posts?.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()).map((post) => <PostComponent key={post?._id} post={post} />)}
-      </div>
+
+      <div>{posts?.length > 0 && posts?.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()).map(post => <PostComponent key={post?._id} post={post} />)}</div>
     </div>
   );
 };

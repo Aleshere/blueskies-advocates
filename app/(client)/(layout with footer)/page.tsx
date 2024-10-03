@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     siteName: 'BlueSkies Advocates',
     images: [
       {
-        url: 'https://www.weareblueskies.com/api/og?title=PEOPLE BEFORE PLANES',
+        url: 'https://www.weareblueskies.com/opengraph-image.png',
         alt: 'Preview image for Homepage',
       },
     ],

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: 'BlueSkies Advocates',
     images: [
       {
-        url: 'https://www.weareblueskies.com/api/og?title=letter-templates',
+        url: 'https://www.weareblueskies.com/opengraph-image.png',
         alt: 'Preview image for Letter Templates',
       },
     ],

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: 'BlueSkies Advocates',
     images: [
       {
-        url: 'https://www.weareblueskies.com/twitter-image.png',
+        url: 'https://www.weareblueskies.com/opengraph-image.png',
         alt: 'Preview image for Videos',
       },
     ],
@@ -80,6 +80,15 @@ const page = async () => {
                 title="Speaking of Psychology: How noise pollution harms our health"
                 description="Arline Bronzaft, PhD, talks about how noise affects health and well-being, how it can harm kids' learning and why it's not just a problem in big cities in her 5 decades of advocacy combating noise pollution."
                 source="podcast"
+              />
+
+              <VideoCard
+                favicon="BEUC favicon.jpg"
+                altText="BEUC YouTube Video Link"
+                href="https://www.youtube.com/watch?v=csNeHf7e7zE"
+                title="Flying away from greenwashing"
+                description='"Compensate your flights", "travel more sustainably", "offset your carbon emissions", "towards more climate neutral aviation". These are a few examples of claims that many consumers see nowadays when booking a flight. Airlines argue that flying can be sustainable. Is that really the case?'
+                source="youtube"
               />
 
               <VideoCard

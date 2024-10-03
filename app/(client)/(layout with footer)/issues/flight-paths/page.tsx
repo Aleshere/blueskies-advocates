@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'BlueSkies Advocates',
     images: [
       {
-        url: 'https://www.weareblueskies.com/api/og?title=FLIGHT PATHS',
+        url: 'https://www.weareblueskies.com/opengraph-image.png',
         alt: 'Preview image for FLIGHT PATHS',
       },
     ],

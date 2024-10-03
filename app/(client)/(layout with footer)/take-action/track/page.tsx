@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: 'BlueSkies Advocates',
     images: [
       {
-        url: 'https://www.weareblueskies.com/api/og?title=track-aircrafts',
+        url: 'https://www.weareblueskies.com/opengraph-image.png',
         alt: 'Preview image for Track Aircrafts',
       },
     ],

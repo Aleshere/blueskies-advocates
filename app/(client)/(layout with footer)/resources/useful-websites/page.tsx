@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'BlueSkies Advocates',
     images: [
       {
-        url: 'https://www.weareblueskies.com/api/og?title=USEFUL WEBSITES',
+        url: 'https://www.weareblueskies.com/opengraph-image.png',
         alt: 'Preview image for Useful Websites',
       },
     ],
