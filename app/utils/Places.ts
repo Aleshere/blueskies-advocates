@@ -2788,4 +2788,14 @@ export const Places: PlacesType = [
     favicon: 'Chailloux favicon.jpg',
     altText: 'Alexis Chailloux X Channel',
   },
+  {
+    id: 278,
+    position: [40.79981, -74.42251],
+    category: Category.CAT2,
+    title: 'Morristown Municipal Airport ',
+    information: 'Corporate, GA and Relieving airport in New Jersey. Surrounding communities have been fighting its noise and pollution since the early 2000s.',
+    website: 'www.weareblueskies.com/posts/morristown-municipal-airport',
+    favicon: 'MMU Airport favicon.png',
+    altText: 'MMU Airport',
+  },
 ];
