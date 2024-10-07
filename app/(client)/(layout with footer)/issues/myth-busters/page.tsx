@@ -377,7 +377,7 @@ const page = async () => {
               </p>
               <br />
               <p>
-                <strong>Error</strong>: The aviation promoter attacks the personal actions of the activists rather than addressing the arguments they&apos;re making. Just because activists may sometimes fly doesn&apos;t invalidate their critiques of aviation's environmental impact.
+                <strong>Error</strong>: The aviation promoter attacks the personal actions of the activists rather than addressing the arguments they&apos;re making. Just because activists may sometimes fly doesn&apos;t invalidate their critiques of aviation&apos;s environmental impact.
               </p>
             </ul>
 
