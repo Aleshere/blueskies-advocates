@@ -9,7 +9,7 @@ export const revalidate = 60;
 export const metadata: Metadata = {
   metadataBase: new URL('http://www.weareblueskies.com/map'),
   title: {
-    default: 'BlueSkies Advocates | Map',
+    default: 'Informational Map',
     template: '%s | BlueSkies Advocates',
   },
   description: 'A webpage featuring a map lists all groups fighting aviation pollution and noise.',

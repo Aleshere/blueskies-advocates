@@ -121,6 +121,16 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">To falsely promote aviation services or policies as environmentally friendly to gain a positive public image.</p>
               </a>
 
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="/issues/myth-busters">
+                <span className="inline-block rounded-lg">
+                  <Favicon id="Myths.png" alt="Myth-busters page icon" />
+                </span>
+
+                <h2 className="mt-2 font-bold">Myth-Busters</h2>
+
+                <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Debunking common myths in aviation debates, exposing fallacies and providing fact-based explanations to clarify misconceptions surrounding aviation's environmental, economic, and operational impacts.</p>
+              </a>
+
               <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="/issues/helicopters">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Helicopters.png" alt="Helicopters page icon" />

@@ -8,7 +8,7 @@ export const revalidate = 60;
 export const metadata: Metadata = {
   metadataBase: new URL('http://www.weareblueskies.com/issues/military-jets'),
   title: {
-    default: 'BlueSkies Advocates | Military Jets',
+    default: 'Military Jets',
     template: '%s | BlueSkies Advocates',
   },
   description: 'Military Jets achieve extreme noise levels. To the detriment of communities placed in one of their training grounds around the Country.',

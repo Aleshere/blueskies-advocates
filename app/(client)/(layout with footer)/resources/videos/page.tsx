@@ -9,7 +9,7 @@ export const revalidate = 60;
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.weareblueskies.com/resources/videos'),
   title: {
-    default: 'BlueSkies Advocates | Videos',
+    default: 'Video Section',
     template: '%s | BlueSkies Advocates',
   },
   description:
@@ -135,6 +135,15 @@ const page = async () => {
                 href="https://www.youtube.com/watch?v=Pnu779ZCrLA"
                 title="Deborah Gordon on the effects of Military Jets on wildlife"
                 description="Deborah Gordon, ecologist and a professor at Stanford University, talks about the effects of the USAF's proposal actions on unique environment in the Chiricahuas."
+                source="youtube"
+              />
+
+              <VideoCard
+                favicon="CityNerd favicon.jpg"
+                altText="CityNerd YouTube Video Link"
+                href="https://www.youtube.com/watch?v=bpbGMJc0r_k"
+                title="A DC to Boston Maglev Would Be Awesome"
+                description="t is embarrassing that we have not been able to build an efficient high speed rail connection to link one of the most populated and economically sound corridors in the world. But it does not have to be this way..."
                 source="youtube"
               />
 

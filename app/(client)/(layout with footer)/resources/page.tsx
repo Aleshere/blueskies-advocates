@@ -9,7 +9,7 @@ export const revalidate = 60;
 export const metadata: Metadata = {
   metadataBase: new URL('http://www.weareblueskies.com/resources'),
   title: {
-    default: 'BlueSkies Advocates | Resource Center',
+    default: 'Resource Center',
     template: '%s | BlueSkies Advocates',
   },
   description: 'The comprehensive guide for individuals and communities affected by the environmental impacts of aviation.',
@@ -66,7 +66,7 @@ const page = async () => {
                   <Favicon id="Websites.png" alt="Useful websites page icon" />
                 </span>
 
-                <h2 className="mt-2 font-bold">Organizations</h2>
+                <h2 className="mt-2 font-bold">Useful Websites</h2>
 
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Connect with organizations and local groups actively working to mitigate the effects of aviation noise and advocate for better policies.</p>
               </a>

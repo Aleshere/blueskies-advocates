@@ -9,7 +9,7 @@ export const revalidate = 60;
 export const metadata: Metadata = {
   metadataBase: new URL('http://www.weareblueskies.com/resources/timeline'),
   title: {
-    default: 'BlueSkies Advocates | NextGen Timeline',
+    default: 'NextGen Timeline',
     template: '%s | BlueSkies Advocates',
   },
   description: 'Timeline of the events that led to the current noise and pollution problems for communities around the USA: nextgen from its inception to today.',

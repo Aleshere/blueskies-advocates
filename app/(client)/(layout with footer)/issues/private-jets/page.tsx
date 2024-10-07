@@ -8,7 +8,7 @@ export const revalidate = 60;
 export const metadata: Metadata = {
   metadataBase: new URL('http://www.weareblueskies.com/issues/private-jets'),
   title: {
-    default: 'BlueSkies Advocates | Private Jets',
+    default: 'Private Jets',
     template: '%s | BlueSkies Advocates',
   },
   description: 'How the wealthy manage to have such a gigantic carbon footprint. Private flying is the worst means of transportation out there.',

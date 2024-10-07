@@ -9,7 +9,7 @@ export const revalidate = 60;
 export const metadata: Metadata = {
   metadataBase: new URL('http://www.weareblueskies.com/issues/noise'),
   title: {
-    default: 'BlueSkies Advocates | Noise',
+    default: 'Noise',
     template: '%s | BlueSkies Advocates',
   },
   description: 'What is noise? How is aviation treating the topic? And what can be done to offer relief to citizens impacted by aviation noise? DNL policy. FAA.',

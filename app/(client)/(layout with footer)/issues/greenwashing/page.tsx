@@ -9,7 +9,7 @@ export const revalidate = 60;
 export const metadata: Metadata = {
   metadataBase: new URL('http://www.weareblueskies.com/issues/greenwashing'),
   title: {
-    default: 'BlueSkies Advocates | Greenwashing',
+    default: 'Greenwashing',
     template: '%s | BlueSkies Advocates',
   },
   description: 'To falsely promote aviation services or policies as environmentally friendly to gain a positive public image. Aviation false advertising. Carbon offsets.',

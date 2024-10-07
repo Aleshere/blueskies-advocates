@@ -8,7 +8,7 @@ export const revalidate = 60;
 export const metadata: Metadata = {
   metadataBase: new URL('http://www.weareblueskies.com/issues/pollution'),
   title: {
-    default: 'BlueSkies Advocates | Pollution',
+    default: 'Pollution',
     template: '%s | BlueSkies Advocates',
   },
   description: "Aviation is one of the fastest growing polluters out there. Let's find out why and how. CO2 and GHG. Greenhouse gases. Climate impacts and targets.",

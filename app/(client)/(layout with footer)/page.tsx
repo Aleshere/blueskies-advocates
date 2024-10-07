@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   description: 'People before planes. Aviation growth, pollution and noise impact communities around the world. We share information and resources to help citizens impacted by those issues.',
   openGraph: {
-    title: 'Homepage',
+    title: 'BlueSkies Advocates',
     description: 'People before planes. Aviation growth, pollution and noise impact communities around the world. We share information and resources to help citizens impacted by those issues.',
     type: 'website',
     locale: 'en_US',
@@ -44,20 +44,20 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://www.weareblueskies.com/opengraph-image.png',
-        alt: 'Preview image for Homepage',
+        alt: 'Preview image for BlueSkies Homepage',
       },
     ],
   },
   twitter: {
     card: 'summary',
     site: '@weAreBlueskies',
-    title: 'Homepage',
+    title: 'BlueSkies Advocates',
     description: 'People before planes. Aviation growth, pollution and noise impact communities around the world. We share information and resources to help citizens impacted by those issues.',
     creator: '@weAreBlueskies',
     images: [
       {
         url: 'https://www.weareblueskies.com/twitter-image.png',
-        alt: 'Preview image for Homepage',
+        alt: 'Preview image for BlueSkies Homepage',
       },
     ],
   },

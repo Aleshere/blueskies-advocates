@@ -190,6 +190,18 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">We strive to provide information to our community about the effects of aircraft noise, air pollution, and airport growth.</p>
               </a>
 
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.youtube.com/@CityNerd" target="_blank" rel="noreferrer noopener">
+                <span className="inline-block rounded-lg">
+                  <Favicon id="CityNerd favicon.jpg" alt="CityNerd YouTube Channel" />
+                </span>
+
+                <h2 className="mt-2 font-bold">CityNerd</h2>
+
+                <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">
+                  YouTube Channel that embraces all things cities and transportation, approaching things with a profound love for urban environments and an analytical bent. Interesting videos about high speed rail opportunities.
+                </p>
+              </a>
+
               <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.fairchicago.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="FAIR Chicago favicon.jpg" alt="FAIR Allocation in Runways website" />

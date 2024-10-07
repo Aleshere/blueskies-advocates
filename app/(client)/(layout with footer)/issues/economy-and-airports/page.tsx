@@ -9,7 +9,7 @@ export const revalidate = 60;
 export const metadata: Metadata = {
   metadataBase: new URL('http://www.weareblueskies.com/issues/economy-and-airports'),
   title: {
-    default: 'BlueSkies Advocates | Airports and Economy',
+    default: 'Airports and Economy',
     template: '%s | BlueSkies Advocates',
   },
   description: 'Airports do not always provide economic benefits to communities as they can impose significant costs in terms of pollution, lost tourism, infrastructure and maintenance.',

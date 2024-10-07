@@ -9,7 +9,7 @@ export const revalidate = 60;
 export const metadata: Metadata = {
   metadataBase: new URL('http://www.weareblueskies.com/issues/flight-paths'),
   title: {
-    default: 'BlueSkies Advocates | Flight Paths',
+    default: 'Flight Paths',
     template: '%s | BlueSkies Advocates',
   },
   description: 'A review of how consolidated flight paths impact those who have the misfortune to be placed under or near them.',

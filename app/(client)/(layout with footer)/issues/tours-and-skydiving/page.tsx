@@ -8,7 +8,7 @@ export const revalidate = 60;
 export const metadata: Metadata = {
   metadataBase: new URL('http://www.weareblueskies.com/issues/tours-and-skydiving'),
   title: {
-    default: 'BlueSkies Advocates | Tours and Skydiving',
+    default: 'Tours and Skydiving',
     template: '%s | BlueSkies Advocates',
   },
   description: 'Sightseeing tours and skydiving operations contribute to noise and pollution through frequent use of aircraft, which produce significant engine noise and emit greenhouse gases.',

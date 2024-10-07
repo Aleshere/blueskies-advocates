@@ -9,7 +9,7 @@ export const revalidate = 60;
 export const metadata: Metadata = {
   metadataBase: new URL('http://www.weareblueskies.com/issues/helicopters'),
   title: {
-    default: 'BlueSkies Advocates | Helicopters',
+    default: 'Helicopters',
     template: '%s | BlueSkies Advocates',
   },
   description: 'Police departments, news outlets, sightseeing tours. In certain cities, all add up creating non-stop disturbance to many citizens.',

@@ -14,6 +14,7 @@ p a,
 #noise a,
 #airports-and-economy ul li a,
 #greenwashing ul li a,
+#mythbusters ul li a,
 caption a,
 .link {
   text-decoration: none;
@@ -30,6 +31,7 @@ p a:hover,
 #noise a:hover,
 #airports-and-economy ul li a:hover,
 #greenwashing ul li a:hover,
+#mythbusters ul li a:hover,
 caption a:hover,
 .link:hover {
   box-shadow:
