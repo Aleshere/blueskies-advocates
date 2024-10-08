@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/third-parties": "^14.0.5-canary.38",
     "@portabletext/react": "^3.1.0",
     "@react-leaflet/core": "^2.1.0",
     "@sanity/image-url": "^1.0.2",
@@ -18,7 +19,7 @@
     "leaflet": "^1.9.4",
     "leaflet.markercluster": "^1.5.3",
     "lucide-react": "^0.408.0",
-    "next": "14.2.4",
+    "next": "^14.2.14",
     "next-sanity": "^9.4.2",
     "next-themes": "^0.2.1",
     "nookies": "^2.5.2",

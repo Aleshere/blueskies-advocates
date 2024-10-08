@@ -60,7 +60,7 @@ const page = async () => {
         <div className="max-w-screen-xl px-4 pb-12 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-y-8">
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://350seattle.org/aviation-team/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://350seattle.org/aviation-team/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="350 Seattle favicon.png" alt="350 Seattle" />
                 </span>
@@ -70,7 +70,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Working to halt the growth of aviation pollution and support justice for communities near airports.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.aef.org.uk/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.aef.org.uk/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="AEF favicon.png" alt="Aviation Environment Federation website" />
                 </span>
@@ -80,7 +80,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">The principal UK NGO campaigning on aviation&apos;s impacts for people and the environment.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://aviationimpactedcommunities.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://aviationimpactedcommunities.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="AICA favicon.png" alt="AICA" />
                 </span>
@@ -90,7 +90,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">We produce position papers, advocacy letters and presentations aimed for both the general public and key-decision makers.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://airportimpactreliefinc.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://airportimpactreliefinc.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="AIR Inc favicon.jpg" alt="Airport Impact Relief website" />
                 </span>
@@ -100,7 +100,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">East Boston environmental group working on mitigating the noise, air quality and traffic impacts of Boston Logan Airport.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.airspaceforall.net/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.airspaceforall.net/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg bg-blue-500 p-4"></span>
 
                 <h2 className="mt-2 font-bold">Airspace for All</h2>
@@ -108,7 +108,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Tell City Council that we do not need a 179-acre hobbyist airport on public land for private planes bringing noise and pollution to Boulder CO.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.aireform.com/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.aireform.com/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg bg-blue-500 p-4"></span>
 
                 <h2 className="mt-2 font-bold">AiReform</h2>
@@ -116,7 +116,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Valuable blog and information about the need to reform the FAA and aviation.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.airportwatch.org.uk/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.airportwatch.org.uk/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Airport Watch favicon.png" alt="Airport Watch website" />
                 </span>
@@ -128,7 +128,7 @@ const page = async () => {
                 </p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://anima-project.eu/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://anima-project.eu/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Anima favicon.jpg" alt="Aviation Noise Impact Management through novel Approaches website" />
                 </span>
@@ -138,7 +138,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">ANIMA is a constantly evolving EU-funded project, which deals with a global issue affecting thousands of people living around airports - aviation noise.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://banprivatejets.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://banprivatejets.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Ban Private Jets favicon.png" alt="Ban Private Jets website" />
                 </span>
@@ -148,7 +148,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">BanPrivateJets.org is an initiative aiming at discussing realistic policies to massively reduce flying.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://bfpca.org.au/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://bfpca.org.au/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="BFPCA favicon.png" alt="Brisbane Flight Path Community Alliance website" />
                 </span>
@@ -158,7 +158,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">BFPCA brings together Brisbane communities adversely affected by Brisbane Airport&apos;s flight paths - including noise pollution and human health impacts.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://bristolairportactionnetwork.wordpress.com/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://bristolairportactionnetwork.wordpress.com/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="BAAN favicon.jpg" alt="Bristol Airport Action Network website" />
                 </span>
@@ -170,7 +170,7 @@ const page = async () => {
                 </p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://cagne.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://cagne.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="CAGNE favicon.png" alt="CAGNE website" />
                 </span>
@@ -182,7 +182,7 @@ const page = async () => {
                 </p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://quietskiesgoodyear.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://quietskiesgoodyear.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg bg-blue-500 p-4"></span>
 
                 <h2 className="mt-2 font-bold">Citizens 4 Quiet Skies Goodyear Arizona</h2>
@@ -190,7 +190,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">We strive to provide information to our community about the effects of aircraft noise, air pollution, and airport growth.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.youtube.com/@CityNerd" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.youtube.com/@CityNerd" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="CityNerd favicon.jpg" alt="CityNerd YouTube Channel" />
                 </span>
@@ -202,7 +202,7 @@ const page = async () => {
                 </p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.fairchicago.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.fairchicago.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="FAIR Chicago favicon.jpg" alt="FAIR Allocation in Runways website" />
                 </span>
@@ -212,7 +212,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">A non-profit organization whose vision is to improve the quality of life in Chicagoland and NW Indiana neighborhoods negatively impacted by aviation changes.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.farnboroughnoise.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.farnboroughnoise.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Farnborough Noise favicon.png" alt="Farnborough Noise website" />
                 </span>
@@ -224,7 +224,7 @@ const page = async () => {
                 </p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://flightfree.net.au/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://flightfree.net.au/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Flight Free AUS favicon.png" alt="Flight Free Australia website" />
                 </span>
@@ -234,7 +234,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">We are in a climate emergency and the timescale of the government&apos;s aviation emissions reduction pathway is too long.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://flightfree.co.uk/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://flightfree.co.uk/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Flight Free UK favicon.png" alt="Flight Free UK website" />
                 </span>
@@ -244,7 +244,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Our mission is to inform people of the climate impact of aviation and inspire people to travel by other means.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://antiaero.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://antiaero.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="GAAM favicon.jpg" alt="Global Anti Aerotropolis Movement website" />
                 </span>
@@ -254,7 +254,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">GAAM aims to support local struggles and strengthen the international &apos;campaign community&apos; against harmful aerotropolis projects.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.galba.uk/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.galba.uk/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="GALBA favicon.png" alt="Group for Action on Leeds Bradford Airport website" />
                 </span>
@@ -264,7 +264,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">We say no to more planes, more noise and more climate chaos. We say YES to a clean, green, sustainable future.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.justplanewrong.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.justplanewrong.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Just Plane Wrong favicon.png" alt="Just Plane Wrong website" />
                 </span>
@@ -276,7 +276,7 @@ const page = async () => {
                 </p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.hacaneast.org.uk/home" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.hacaneast.org.uk/home" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="HE favicon.jpg" alt="Hacan East website" />
                 </span>
@@ -286,7 +286,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">We are a campaign group made up of concerned residents from east and south-east London, campaigning primarily against the expansion of London City Airport.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://helppalpine.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://helppalpine.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="HELPP Over Alpine favicon.png" alt="HELPP Over Alpine website" />
                 </span>
@@ -296,7 +296,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">HELPP Over Alpine is steadfast in its mission to proactively halt the targeted practice of small planes over the Greater Alpine area.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://ladacan.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://ladacan.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Ladacan favicon.jpg" alt="Ladacan website" />
                 </span>
@@ -306,7 +306,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">LADACAN - the Luton And District Association for the Control of Aircraft Noise - is a constituted community group pursuing noise and environmental impact mitigation of Luton Airport.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="www.youtube.com/@mdotclownpatrol" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="www.youtube.com/@mdotclownpatrol" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="MDOT favicon.jpg" alt="MDOT Clown Patrol YouTube Channel" />
                 </span>
@@ -316,7 +316,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">YouTube Channel of Michigan Department of Transportation (MDOT) Clown Patrol | Largest Waste of Taxpayer Money in Michigan History.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.mocoquietskies.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.mocoquietskies.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Montgomery County Quiet Skies favicon.png" alt="Montgomery County Quiet Skies Coalition website" />
                 </span>
@@ -326,7 +326,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">A dedicated group of community members who were spurred to action by illegitimate FAA actions in shifting and concentrating air traffic over our communities with no notice or environmental review.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.nextgennoise.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.nextgennoise.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="NextGen Noise favicon.png" alt="NextGen Noise website" />
                 </span>
@@ -336,7 +336,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Real life stories from citizens and articles about health impacts of NextGen.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://nextgenrelief.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://nextgenrelief.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="NextGen Relief favicon.png" alt="NextGen Relief website" />
                 </span>
@@ -346,7 +346,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Check the history of NextGen, myths about it, community responses, State letters sent to the FAA.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="http://www.no3rdtullarunway.net.au/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="http://www.no3rdtullarunway.net.au/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="No 3rd Tulla favicon.png" alt="No 3rd Tulla Runway website" />
                 </span>
@@ -356,7 +356,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">The No 3rd Tulla Runway coalition is a grassroots campaign of community volunteers. The coalition respects the diversity of reasons members may have for opposing a third runway at Melbourne Airport.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://oharenoise.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://oharenoise.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="O Hare Noise favicon.png" alt="O Hare Noise Compatibility Commissions website" />
                 </span>
@@ -366,7 +366,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">42 communities and 19 school districts dedicated to reducing aircraft noise in the communities around O&apos;Hare International Airport since 1996.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://oregonaviationwatch.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://oregonaviationwatch.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg bg-blue-500 p-4"></span>
 
                 <h2 className="mt-2 font-bold">Oregon Aviation Watch</h2>
@@ -375,7 +375,7 @@ const page = async () => {
               </a>
 
               <a
-                className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring"
                 href="https://www.pacoimabeautiful.org/programs/shutdown-whiteman-airport"
                 target="_blank"
                 rel="noreferrer noopener"
@@ -389,7 +389,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Calling on the Los Angeles County Board of Supervisors to Shutdown Whiteman Airport and prioritize the public safety of Pacoima residents living under the flightpath.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://peskyplanes.weebly.com/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://peskyplanes.weebly.com/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Pesky Planes favicon.jpg" alt="Pesky Planes website" />
                 </span>
@@ -399,7 +399,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Flying Schools are taking over regional airports in Australia, and destroying the amenity of the local residents.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://planesoverlondon.com" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://planesoverlondon.com" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Planes Over London favicon.png" alt="Planes Over London website" />
                 </span>
@@ -412,7 +412,7 @@ const page = async () => {
                 </p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.quietcommunities.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.quietcommunities.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Quiet Communities favicon.png" alt="Quiet Communities website" />
                 </span>
@@ -425,7 +425,7 @@ const page = async () => {
               </a>
 
               <a
-                className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring"
                 href="https://sites.google.com/view/quietskiesoverarapahoecountyco/"
                 target="_blank"
                 rel="noreferrer noopener"
@@ -437,7 +437,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Grassroots organization formed by residents due to the 78% increase of flight training over our community.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="http://quietskiesovergoldcanyon.com/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="http://quietskiesovergoldcanyon.com/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg bg-blue-500 p-4"></span>
 
                 <h2 className="mt-2 font-bold">Quiet Skies over Gold Canyon</h2>
@@ -445,7 +445,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">That aircraft should enjoy an absolutely unfettered right to make as much noise as they want, anytime they want, anywhere they want, is a right unparalleled in history.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.socalsfv.com/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.socalsfv.com/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="QSWH favicon.jpg" alt="Quiet Skies WH website" />
                 </span>
@@ -455,7 +455,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Action to Preserve Quality of Life, Health and our Ecosystems on both a Local and National level.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.quietparks.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.quietparks.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Quiet Parks favicon.png" alt="Quiet Parks website" />
                 </span>
@@ -465,7 +465,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Quiet Parks International is a non-profit committed to saving quiet for the benefit of all life. Formerly known as the One Square Inch of Silence Foundation.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.birdsnotboeings.com/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.birdsnotboeings.com/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="RAWSA favicon.jpg" alt="Residents Against Western Sydney Airport website" />
                 </span>
@@ -475,7 +475,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Our mission is to create awareness of the community and environmental impacts from the construction of a 24 hour Airport in Western Sydney.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://safe-landing.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://safe-landing.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Safe Landing favicon.png" alt="Safe Landing website" />
                 </span>
@@ -485,7 +485,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">We are a global community of aviation workers who act from within the sector to rapidly reduce the climate impact of aviation.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://safeskiesutah.com/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://safeskiesutah.com/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Safe Skies Utah favicon.png" alt="Safe Skies Utah website" />
                 </span>
@@ -497,7 +497,7 @@ const page = async () => {
                 </p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://lbsaner.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://lbsaner.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="SANER favicon.jpg" alt="Long Beach Small Plane Noise Reduction Group website" />
                 </span>
@@ -509,7 +509,7 @@ const page = async () => {
                 </p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.saveourskiesalliance.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.saveourskiesalliance.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="SOS Alliance CO favicon.png" alt="Save Our Skies Alliance CO website" />
                 </span>
@@ -519,7 +519,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Alliance of grassroots groups fighting general aviation noise and lead pollution.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://saveourskiescamarillo.com/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://saveourskiescamarillo.com/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="SOS Camarillo favicon.png" alt="Save Our Skies Camarillo website" />
                 </span>
@@ -529,7 +529,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">A group of citizens that are concerned over the negative effects expansion and increased jet traffic at Camarillo Airport will have on the quality of life for Camarillo residents.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://soseastbay.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://soseastbay.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="SOS East Bay CA favicon.png" alt="Save Our Skies East Bay website" />
                 </span>
@@ -539,7 +539,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">A volunteer group formed in 2016 by residents of the East Bay, who noticed that the frequency and volume of airplane traffic over their tranquil homes had seemingly exploded overnight.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://saveourskiesvt.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://saveourskiesvt.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="SOS Vermont favicon.jpg" alt="Save Our Skies from the F-35 website" />
                 </span>
@@ -549,7 +549,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Our mission is to cancel the basing of the F-35A Joint Strike Fighter at the Vermont Air National Guard Station located at the Burlington, Vermont International Airport.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://sosla.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://sosla.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="SOS LA favicon.png" alt="Save Our Skies LA website" />
                 </span>
@@ -559,7 +559,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">A coalition of LA residents that fight for their homes, parks, and the environment by suing the FAA in federal court.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.airplanenoise.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.airplanenoise.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Scana favicon.jpg" alt="SCANA website" />
                 </span>
@@ -569,7 +569,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Citizens working to restore the quiet and peaceful skies that existed in Scottsdale before the FAA arbitrarily moved flight paths over heavily populated communities.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://schipholwatch.nl/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://schipholwatch.nl/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Schiphol Watch favicon.png" alt="Schiphol Watch website" />
                 </span>
@@ -579,7 +579,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">SchipholWatch is a foundation that fights for a better living environment and therefore against the further growth of Schiphol at its current location.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.quietskiesnow.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.quietskiesnow.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Sherman Oaks Encino favicon.png" alt="Sherman Oaks and Encino for Quiet Skies website" />
                 </span>
@@ -591,7 +591,7 @@ const page = async () => {
                 </p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.skypossepaloalto.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.skypossepaloalto.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg bg-blue-500 p-4"></span>
 
                 <h2 className="mt-2 font-bold">Sky Posse Palo Alto</h2>
@@ -599,7 +599,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Advocacy group the the California mid peninsula. Informative archive of information and history of letters sent to representatives.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.sounddefensealliance.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.sounddefensealliance.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Sound Defense Alliance favicon.png" alt="Sound Defense Alliance website" />
                 </span>
@@ -609,7 +609,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Sound Defense Alliance works to protect communities and the natural environment from harmful Navy Growler jet activity around the Salish Sea, Puget Sound, and Olympic Peninsula.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://stanstedairportwatch.com/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://stanstedairportwatch.com/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Stansted Airport Watch favicon.png" alt="Stansted Airport Watch website" />
                 </span>
@@ -621,7 +621,7 @@ const page = async () => {
                 </p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://stay-grounded.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://stay-grounded.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Stay Grounded favicon.png" alt="Stay Grounded website" />
                 </span>
@@ -631,7 +631,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Stay Grounded aims to exchange experiences, support each other, and campaign together for a reduction of aviation and its negative impacts on climate and health.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://spon-newportbeach.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://spon-newportbeach.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="SPON favicon.png" alt="Still Protecting Our Newport website" />
                 </span>
@@ -643,7 +643,7 @@ const page = async () => {
                 </p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.youtube.com/@seatacnoiseinfo" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.youtube.com/@seatacnoiseinfo" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="SeaTac YT favicon.jpg" alt="SeaTac STNI YouTube Channel" />
                 </span>
@@ -655,7 +655,7 @@ const page = async () => {
                 </p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.flightpathgc.com/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.flightpathgc.com/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Stop the ILS favicon.png" alt="Stop Flight Path Impacts website" />
                 </span>
@@ -668,7 +668,7 @@ const page = async () => {
                 </p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.stopoakexpansion.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.stopoakexpansion.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Stop Oak Expansion favicon.jpg" alt="Stop Oakland Expansion Coalition website" />
                 </span>
@@ -680,7 +680,7 @@ const page = async () => {
                 </p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.stopprivatejetexpansion.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.stopprivatejetexpansion.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Stop Private Jet Expansion favicon.jpg" alt="Stop Private Jet Expansion website" />
                 </span>
@@ -690,7 +690,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">We are a coalition of state and local organizations. The name of the coalition reflects our objective: Stop Private Jet Expansion at Hanscom or Anywhere.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="http://www.stopairport.com/info/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="http://www.stopairport.com/info/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Stop Saratoga Airport favicon.png" alt="Stop Saratoga Airport Expansion website" />
                 </span>
@@ -701,7 +701,7 @@ const page = async () => {
               </a>
 
               <a
-                className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring"
                 href="https://stoptheairport53702.wixsite.com/stoptheairport"
                 target="_blank"
                 rel="noreferrer noopener"
@@ -715,7 +715,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Concerned citizens from Thurston County (WA) who say no to airport noise, traffic and pollution.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://stopthechopnynj.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://stopthechopnynj.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Stop The Chop favicon.jpg" alt="Stop The Chop website" />
                 </span>
@@ -725,7 +725,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">A grassroots organization formed to reduce helicopter noise and ban nonessential flights over the NYC Metropolitan Area.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.studiocityforquietskies.com/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.studiocityforquietskies.com/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Studio City for Quiet Skies favicon.jpg" alt="Studio City for Quiet Skies website" />
                 </span>
@@ -737,7 +737,7 @@ const page = async () => {
                 </p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://trentonthreatenedskies.com/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://trentonthreatenedskies.com/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Trenton favicon.png" alt="Vliegerplein website" />
                 </span>
@@ -747,7 +747,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Trenton-Mercer Airport&apos;s expanded flight schedule, using larger planes and altered flight paths, has suddenly disrupted our quality of life and threatened our health.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.uecna.eu/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.uecna.eu/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="UECNA favicon.jpg" alt="UECNA website" />
                 </span>
@@ -757,7 +757,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">We help people who experience nuisances from aviation and worry about the impact of noise and emissions on their health.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.uknoiseassociation.com/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.uknoiseassociation.com/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="UK Noise Association favicon.jpg" alt="UK Noise Association website" />
                 </span>
@@ -767,7 +767,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Our focus is on solutions. Generally noise is a problem with solutions. We set out measures governments and local authorities can implement.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://vifs.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://vifs.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Vashon Island Fair Skies favicon.png" alt="Vashon Island Fair Skies website" />
                 </span>
@@ -779,7 +779,7 @@ const page = async () => {
                 </p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://vliegerplein.be/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://vliegerplein.be/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Vliegerplein favicon.jpg" alt="Vliegerplein website" />
                 </span>
@@ -789,7 +789,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Through dialogue and substantiated study we advocate for socially, economically, ecologically and socially responsible alternatives for Deurne airport.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="https://www.uproarla.org/" target="_blank" rel="noreferrer noopener">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="https://www.uproarla.org/" target="_blank" rel="noreferrer noopener">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Uproar LA favicon.png" alt="Uproar LA website" />
                 </span>
@@ -800,7 +800,7 @@ const page = async () => {
               </a>
 
               <a
-                className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring"
+                className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring"
                 href="https://www.worldwildlife.org/initiatives/cutting-aviation-pollution"
                 target="_blank"
                 rel="noreferrer noopener"

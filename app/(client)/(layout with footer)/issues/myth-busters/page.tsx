@@ -51,6 +51,13 @@ const page = async () => {
       <section id="mythbusters">
         <div className="max-w-screen-xl px-4 pb-12 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-y-4">
+            <p>
+              The following content addresses aviation as an industry, with special focus on commercial operations. If you are looking for information about deductive reasoning myths in <strong>general aviation</strong>, you should check out{' '}
+              <a href="https://www.weareblueskies.com/issues/myth-busters/general-aviation" target="_blank" rel="noopener">
+                this page
+              </a>{' '}
+              instead.
+            </p>
             <h2 className="text-lg font-bold">The Problem of Erroneous Deductive Reasoning in Aviation Debates</h2>
             <p>The debate over aviation&apos;s role in climate change, pollution, and noise disturbances has become increasingly charged, with significant stakes for both the industry and environmental advocates.</p>
             <p>On one side, environmental and community activists raise concerns about the environmental toll of air travel, particularly its contributions to greenhouse gas emissions and noise pollution in urban and rural communities alike.</p>
@@ -392,17 +399,17 @@ const page = async () => {
               </li>
               <br />
               <p>
-                <em>Premise 1:</em> Pro aviation promoters say that sustainable aviation initiatives promote the use of biofuels and electric planes.
+                <em>Premise 1:</em> Aviation promoters say that sustainable aviation initiatives promote the use of biofuels and electric planes.
               </p>
               <p>
                 <em>Premise 2:</em> Activists say aviation cannot be sustainable because, as of today, it still relies on fossil fuels.
               </p>
               <p>
-                <em>Conclusion:</em> Pro aviation promoters conclude that true sustainable aviation would rely entirely on alternative energy, so critics are wrong to call today&apos;s initiatives unsustainable.
+                <em>Conclusion:</em> Aviation promoters conclude that true sustainable aviation would rely entirely on alternative energy, so critics are wrong to call today&apos;s initiatives unsustainable.
               </p>
               <br />
               <p>
-                <strong>Error</strong>: The advocate shifts the definition of &quot;sustainable aviation&quot; to exclude any current initiatives that still involve some fossil fuel use, instead of addressing the valid concerns raised by critics about the current state of the industry.
+                <strong>Error</strong>: The aviation promoter shifts the definition of &quot;sustainable aviation&quot; to exclude any current initiatives that still involve some fossil fuel use, instead of addressing the valid concerns raised by critics about the current state of the industry.
               </p>
             </ul>
 

@@ -20,13 +20,13 @@ const PostComponent = ({ post }: Props) => {
       <div className="ml-5 md:ml-0 col-span-4">
         <Link href={`/posts/${post?.slug?.current}`}>
           <h2 className="text-base md:text-2xl dark:text-gray-400 line-clamp-3 whitespace-pre-wrap">{post?.title}</h2>
-          <p className={`${dateFont.className} my-2 text-blue-800`}>{new Date(post?.publishedAt).toDateString()}</p>
+          <p className={`${dateFont.className} my-2 text-[#93a7c2]`}>{new Date(post?.publishedAt).toDateString()}</p>
           <p className="dark:text-gray-400 mb-4 line-clamp-2 hidden md:block">{post?.excerpt}</p>
         </Link>
 
         <div className="flex-col hidden md:flex-row md:flex">
           {post?.tags?.map(tag => (
-            <span key={tag?._id} className="mr-2 p-1 rounded-sm text-sm lowercase dark:bg-gray-950 border-0 md:border dark:border-gray-900 underline md:no-underline">
+            <span key={tag?._id} className="mr-2 p-1 rounded-sm text-sm lowercase dark:bg-[#1F2937] border-0 md:border dark:border-gray-900 underline md:no-underline">
               #{tag?.name}
             </span>
           ))}
@@ -48,7 +48,7 @@ border-gray-900
 rounded-md
 shadow-sm
 md:hover:shadow-md
-md:hover:bg-[#fff8dc]
-md:hover:dark:bg-gray-950
+md:hover:bg-[#f1f5f9]
+md:hover:dark:bg-[#314158]
 transition-colors
 `;

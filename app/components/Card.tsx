@@ -39,7 +39,7 @@ p-4
 rounded-md
 shadow-sm
 md:hover:shadow-md
-md:hover:bg-[#fff8dc]
+md:hover:bg-[#f1f5f9]
 md:hover:dark:bg-gray-950
 transition-colors
 focus:outline-none

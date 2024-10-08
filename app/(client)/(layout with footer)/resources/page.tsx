@@ -61,7 +61,7 @@ const page = async () => {
         <div className="max-w-screen-xl px-4 pb-12 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-y-8">
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="/resources/useful-websites">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="/resources/useful-websites">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Websites.png" alt="Useful websites page icon" />
                 </span>
@@ -71,7 +71,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Connect with organizations and local groups actively working to mitigate the effects of aviation noise and advocate for better policies.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="/resources/videos">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="/resources/videos">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Videos.png" alt="Videos page icon" />
                 </span>
@@ -81,7 +81,7 @@ const page = async () => {
                 <p className="sm:mt-1 sm:block sm:text-sm text-gray-600 dark:text-gray-400">Explore a curated collection of videos addressing the impacts of aviation pollution and noise.</p>
               </a>
 
-              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#fff8dc] md:hover:dark:bg-gray-950 transition-colors focus:outline-none focus:ring" href="/resources/timeline">
+              <a className="block border border-gray-900 p-4 rounded-md shadow-sm md:hover:shadow-md md:hover:bg-[#f1f5f9] md:hover:dark:bg-[#314158] transition-colors focus:outline-none focus:ring" href="/resources/timeline">
                 <span className="inline-block rounded-lg">
                   <Favicon id="Timeline.png" alt="Timeline page icon" />
                 </span>
