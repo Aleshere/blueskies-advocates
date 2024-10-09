@@ -11,7 +11,6 @@ const font = Lilita_One({ weight: '400', subsets: ['latin'] });
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
-  const [color, setColor] = useState('transparent');
   const [boxShadow, setBoxShadow] = useState('');
 
   const navHandler = () => {
@@ -20,20 +19,19 @@ const Navbar = () => {
 
   useEffect(() => {
     const changeColor = () => {
-      if (window.scrollY >= 90) {
-        setColor('rgb(31 41 55 / var(--tw-bg-opacity))');
-        setBoxShadow('0px 3px 12px rgb(0,0,0,0.24)');
-      } else {
-        setColor('transparent');
-        setBoxShadow('');
-      }
+        if (window.scrollY >= 90) {
+          setBoxShadow('0px 3px 12px rgb(0,0,0,0.24)');
+        } else {
+          setBoxShadow('');
+        }
     };
     window.addEventListener('scroll', changeColor);
   }, []);
 
+
   return (
-    <div style={{ backgroundColor: `${color}`, boxShadow: `${boxShadow}` }} className="fixed left-0 top-0 w-full z-[499]">
-      <div className="mx-auto max-w-5xl m-auto flex justify-between items-center py-2.5 px-6">
+    <div style={{ backgroundColor: 'inherit', boxShadow: `${boxShadow}` }} className="fixed left-0 top-0 w-full z-[499]">
+      <div className="mx-auto max-w-5xl m-auto flex justify-between items-center pt-2.5 px-6">
         {/* logo */}
         <Link href="/">
           <div className={`${font.className} text-3xl text-blue-500 dark:text-amber-50`}>
@@ -46,17 +44,17 @@ const Navbar = () => {
         <ul className="hidden sm:flex text-zinc-950">
           <div className="flex ">
             <li className="dropdown-link">
-              <Link className="text-gray-500 dark:text-gray-400 mr-8" href="/resources">
+              <Link className="text-gray-500 dark:text-gray-400" href="/resources">
                 Resources
               </Link>
             </li>
             <li className="dropdown-link">
-              <Link className="text-gray-500 dark:text-gray-400 mr-8" href="/map">
+              <Link className="text-gray-500 dark:text-gray-400" href="/map">
                 Map
               </Link>
             </li>
             <li className="dropdown-link">
-              <Link className="text-gray-500 dark:text-gray-400 mr-8" href="/issues">
+              <Link className="text-gray-500 dark:text-gray-400 " href="/issues">
                 Issues
               </Link>
             </li>
@@ -64,7 +62,7 @@ const Navbar = () => {
         </ul>
 
         {/* Mobile Button */}
-        <div className="flex">
+        <div className="flex ml-[70px]">
           <div onClick={navHandler} className="block z-10 mt-[7px] mr-2.5">
             {navbar ? <AiOutlineClose size={30} className="text-white cursor-pointer" /> : <TiThMenu size={30} fill="rgb(59 130 246 / var(--tw-text-opacity))" className="dark:text-gray-400 cursor-pointer" />}
           </div>
@@ -115,16 +113,48 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      <div className="mx-auto max-w-5xl m-auto md:flex hidden justify-center items-center">
-        <Link className="text-gray-500 dark:text-gray-400 mr-6" href="https://www.govtrack.us/congress/members/map">
-          Find Your Representative (USA)
-        </Link>
-        <Link className="text-gray-500 dark:text-gray-400 mr-6" href="https://members.parliament.uk/FindYourMP">
-          Find Your MP (UK)
-        </Link>
-        <Link className="text-gray-500 dark:text-gray-400" href="https://electorate.aec.gov.au/">
-          Find Your Electorate (AUS)
-        </Link>
+      <div className="mx-auto max-w-5xl mb-3 m-auto md:flex hidden justify-center items-center px-6">
+        <div>Find Your Representative:</div>
+        <li className="reps-link">
+          <Link className="text-gray-500 dark:text-gray-400 pl-2" href="https://www.govtrack.us/congress/members/map">
+            USA
+          </Link>
+        </li>
+        <li className="reps-link">
+          <Link className="text-gray-500 dark:text-gray-400 px-2" href="https://members.parliament.uk/FindYourMP">
+            UK
+          </Link>
+        </li>
+        <li className="reps-link">
+          <Link className="text-gray-500 dark:text-gray-400" href="https://electorate.aec.gov.au/">
+            AUS
+          </Link>
+        </li>
+        <li className="reps-link">
+          <Link className="text-gray-500 dark:text-gray-400 px-2" href="https://www.ourcommons.ca/Members/en">
+            CAN
+          </Link>
+        </li>
+        <li className="reps-link">
+          <Link className="text-gray-500 dark:text-gray-400 pr-2" href="https://www.assemblee-nationale.fr/dyn/vos-deputes">
+            FR
+          </Link>
+        </li>
+        <li className="reps-link">
+          <Link className="text-gray-500 dark:text-gray-400" href="https://www.dekamer.be/kvvcr/showpage.cfm?section=/depute&language=fr&cfm=cvlist54.cfm?sorttype=name&legis=56">
+            BE
+          </Link>
+        </li>
+        <li className="reps-link">
+          <Link className="text-gray-500 dark:text-gray-400 px-2" href="https://www.bundestag.de/en/members">
+            DE
+          </Link>
+        </li>
+        <li className="reps-link">
+          <Link className="text-gray-500 dark:text-gray-400" href="https://www.europarl.europa.eu/meps/en/home">
+            EU
+          </Link>
+        </li>
       </div>
     </div>
   );

@@ -8,6 +8,7 @@ import Script from 'next/script';
 import OriginTracker from '../../components/OriginTracker';
 import { GoogleAnalytics } from '@next/third-parties/google';
 
+
 const roboto = Roboto({
   weight: '400',
   subsets: ['latin'],
@@ -36,7 +37,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <meta property="fb:app_id" content={process.env.FACEBOOK_APP_ID} />
         <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID as string} />
@@ -44,7 +45,7 @@ export default function RootLayout({
         <Script src="/assets/scripts/translation.js" strategy="beforeInteractive" />
         <Script src="//translate.google.com/translate_a/element.js?cb=TranslateInit" strategy="afterInteractive" />
       </head>
-      <body className={`${roboto.className} h-full bg-neutral-50 text-indigo-950 dark:bg-[#1F2937] dark:text-[#ECEFF1] dark:selection:bg-purple-500`}>
+      <body className={`${roboto.className} h-full bg-neutral-50 text-indigo-950 dark:bg-[#1F2937] dark:text-[#ECEFF1] dark:selection:bg-blue-500`}>
         <OriginTracker>
           <Provider>
             <Navbar />

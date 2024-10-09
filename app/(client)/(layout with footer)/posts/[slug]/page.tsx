@@ -106,11 +106,11 @@ const page = async ({ params }: Params) => {
         <div className="mb-6">
           <LanguageSwitcher />
         </div>
-        <span className={`${dateFont?.className} text-blue-500`}>{new Date(post?.publishedAt).toDateString()}</span>
+        <span className={`${dateFont?.className} text-[#93a7c2]`}>{new Date(post?.publishedAt).toDateString()}</span>
         <div className="mt-5">
           {post?.tags?.map(tag => (
             <Link key={tag?._id} href={`/tag/${tag.slug.current}`}>
-              <span className="mr-2 p-1 rounded-sm text-sm lowercase dark:bg-gray-950 border dark:border-gray-900">#{tag.name}</span>
+              <span className="mr-2 p-1 rounded-sm text-sm lowercase dark:bg-[#1F2937] border dark:text-[#93a7c2]">#{tag.name}</span>
             </Link>
           ))}
         </div>

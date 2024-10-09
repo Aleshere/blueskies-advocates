@@ -56,6 +56,10 @@ caption a:hover,
   transition: 0.5s;
 }
 
+.reps-link {
+  list-style-type: none;
+}
+
 .dropdown ul {
   position: relative;
 }
@@ -64,13 +68,18 @@ caption a:hover,
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0 1rem;
   font-size: 1.2rem;
   font-weight: bold;
   transition: 0.3s;
 }
 
-.dropdown-link:hover > a {
+.reps-link > a {
+    transition: 0.3s;
+}
+
+.dropdown-link:hover > a,
+.reps-link:hover > a {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
 }
