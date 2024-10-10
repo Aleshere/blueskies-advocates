@@ -119,12 +119,13 @@ const page = async ({ params }: Params) => {
           <PortableText value={post.body} components={myPortableTextComponents} />
         </div>
 
-        <div className="flex align-middle justify-center mt-10 mb-16">
+        <div className="flex align-middle justify-center mb-6 mt-10">Share this Article</div>
+        <div className="flex align-middle justify-center mb-16">
           <SocialShare url={`https://weareblueskies.com/posts/${params.slug}`} title={post?.excerpt} />
         </div>
 
         <div className="text-center mt-10 mb-6">
-          <Link href="/">- Back to All Articles -</Link>
+          -<Link href="/" className='link' > Back to All Articles </Link>-
         </div>
       </div>
     </div>

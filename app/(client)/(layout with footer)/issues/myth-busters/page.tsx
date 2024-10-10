@@ -184,6 +184,14 @@ const page = async () => {
               <p>
                 <strong>Error</strong>: The aviation promoter assumes a chain of events that is not necessarily true or inevitable. It overlooks alternatives like virtual meetings or other sustainable travel options that could maintain business activity without economic collapse.
               </p>
+              <br />
+              <p>
+                For <strong>12 additional examples</strong> of slippery slope fallacies, be sure to check out our{' '}
+                <a href="https://www.weareblueskies.com/posts/12-examples-of-slippery-slope-fallacy-in-aviation-debates" target="_blank" rel="noopener" className='link' >
+                  latest blog post
+                </a>{' '}
+                on the topic.
+              </p>
             </ul>
 
             <hr className="my-4 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />

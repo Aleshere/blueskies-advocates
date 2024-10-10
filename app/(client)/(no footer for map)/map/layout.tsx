@@ -42,6 +42,18 @@ export default function RootLayout({
         <Script src="/assets/scripts/lang-config.js" strategy="beforeInteractive" />
         <Script src="/assets/scripts/translation.js" strategy="beforeInteractive" />
         <Script src="//translate.google.com/translate_a/element.js?cb=TranslateInit" strategy="afterInteractive" />
+        <link rel="apple-touch-icon-precomposed" href="/assets/favicons/favicon-180.png" />
+        <meta name="msapplication-TileColor" content="#3b82f6" />
+        <meta name="msapplication-TileImage" content="/assets/favicons/favicon-144.png" />
+        <link rel="icon" href="/assets/favicons/favicon-32.png" sizes="32x32" />
+        <link rel="icon" href="/assets/favicons/favicon-57.png" sizes="57x57" />
+        <link rel="icon" href="/assets/favicons/favicon-76.png" sizes="76x76" />
+        <link rel="icon" href="/assets/favicons/favicon-96.png" sizes="96x96" />
+        <link rel="icon" href="/assets/favicons/favicon-120.png" sizes="120x120" />
+        <link rel="icon" href="/assets/favicons/favicon-144.png" sizes="144x144" />
+        <link rel="icon" href="/assets/favicons/favicon-152.png" sizes="152x152" />
+        <link rel="icon" href="/assets/favicons/favicon-180.png" sizes="180x180" />
+        <link rel="shortcut icon" href="/assets/favicons/favicon-196.png" sizes="196x196" />
       </head>
       <body className={`${roboto.className} h-full bg-neutral-50 text-indigo-950 dark:bg-[#1F2937] dark:text-[#ECEFF1] dark:selection:bg-purple-500`}>
         <OriginTracker>

@@ -31,7 +31,7 @@ const Navbar = () => {
 
   return (
     <div style={{ backgroundColor: 'inherit', boxShadow: `${boxShadow}` }} className="fixed left-0 top-0 w-full z-[499]">
-      <div className="mx-auto max-w-5xl m-auto flex justify-between items-center pt-2.5 px-6">
+      <div className="mx-auto max-w-5xl m-auto flex justify-between items-center pt-2.5 pb-2.5 md:pb-0 px-6">
         {/* logo */}
         <Link href="/">
           <div className={`${font.className} text-3xl text-blue-500 dark:text-amber-50`}>
