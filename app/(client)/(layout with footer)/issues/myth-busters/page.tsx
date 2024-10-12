@@ -187,7 +187,7 @@ const page = async () => {
               <br />
               <p>
                 For <strong>12 additional examples</strong> of slippery slope fallacies, be sure to check out our{' '}
-                <a href="https://www.weareblueskies.com/posts/12-examples-of-slippery-slope-fallacy-in-aviation-debates" target="_blank" rel="noopener" className='link' >
+                <a href="https://www.weareblueskies.com/posts/12-examples-of-slippery-slope-fallacy-in-aviation-debates" target="_blank" rel="noopener" className="link">
                   latest blog post
                 </a>{' '}
                 on the topic.

@@ -51,4 +51,5 @@ md:hover:shadow-md
 md:hover:bg-[#f1f5f9]
 md:hover:dark:bg-[#314158]
 transition-colors
+duration-[400ms]
 `;

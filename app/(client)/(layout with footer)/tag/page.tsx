@@ -67,11 +67,11 @@ const page = async () => {
   return (
     <div>
       <Header title="Tags" />
-      <div>
+      <div className='mb-16' >
         {tags?.length > 0 &&
           tags?.map(tag => (
             <Link key={tag?._id} href={`/tag/${tag.slug.current}`}>
-              <div className="mb-2 p-2 text-sm lowercase dark:bg-[#1F2937] border dark:border-gray-900 hover:text-blue-500">
+              <div className="text-xl text-center mb-2 p-2 lowercase dark:bg-[#1F2937] border dark:border-gray-700 hover:text-blue-500">
                 #{tag.name} ({tag?.postCount})
               </div>
             </Link>
